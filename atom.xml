@@ -6,7 +6,7 @@
   <link href="/837852427.github.io/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-13T08:00:20.965Z</updated>
+  <updated>2019-02-13T14:25:44.607Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>加密文档测试，密码为6个66</title>
+    <link href="http://yoursite.com/2019/02/13/%E5%8A%A0%E5%AF%86%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%AF%86%E7%A0%81%E4%B8%BA6%E4%B8%AA66/"/>
+    <id>http://yoursite.com/2019/02/13/加密文档测试，密码为6个66/</id>
+    <published>2019-02-13T14:24:29.000Z</published>
+    <updated>2019-02-13T14:25:44.607Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=/837852427.github.io/js/crypto-js.js&gt;&lt;/script&gt;
+&lt;script&gt;
+function doDecrypt (pwd, onError) {
+	console.log(&#39;in doDecrypt&#39;);
+	const
+      
+    
+    </summary>
+    
+    
+      <category term="test something" scheme="http://yoursite.com/tags/test-something/"/>
+    
+  </entry>
   
   <entry>
     <title>三种语言样例测试</title>
