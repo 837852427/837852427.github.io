@@ -1907,7 +1907,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6783ff;
+  background: #ffe2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2892,10 +2892,14 @@ hr {
   border-bottom: none;
   border-bottom: 1px solid #fc6423;
 }
-body {
-  background: url("https://i0.hdslb.com/bfs/article/8d19a4ce1ccd04ed606cb8ce5bca0f270883fd2d.jpg@1320w_1718h.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url("https://i0.hdslb.com/bfs/article/8d19a4ce1ccd04ed606cb8ce5bca0f270883fd2d.jpg@1320w_1718h.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+  }
+  #footer a {
+    color: #eee;
+  }
 }
