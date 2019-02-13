@@ -523,7 +523,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19Gn2jvT8DeCQE4vQ9nNGW0NHp7GPlwSIdDGL3aXtV5yodYwhHn5+0vgT8ESuhZET/bh0i0f2b0B68fOh7xAJZap77PxYf0mwY9MTSq0BLrx7PQXutkB9SOx+eDCFWB/S5i0NgatP2Tgz5DOAwABI0Nn9lATtAQBka1um1Jl1ZOOR8lgrKCox9UFM4c1PUNUf7DUuTwYelz3QU/xbGRBEODbIfC/inBy6XMnZtbOuDYsXDeqHjhrn846qfmOQe0yDZYJMIxJVe+SBYO0et1Yzl9nsVF/aXmsseznYyELkJezHBX+Nf0N/wW5pjsnO6JHEBx0pwvJV/+OA==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX19TGP+oqbuKQB2I0sE1NitGZvrZIqigeIlZISDhlYpDUxoD0LgFoFTM0JCmsK8EGrpDDARAkh659ZpGtiBjYhFbAvfGifZd2UpoT2eOHyV8q68dy19LFReG+YfelDZWfYc+DAMI9S4a5HLDj68Fwkw/6ofZDiK3cp/Tpy9l8qs1Sdu2U8a1DPObhyfEc+yGV7VK7j3n9aDEV6m38MW6mGCCmwHRybp8XAMjYTgAm9jkimUHsTZap/S14B4vnQyV9I4CGo37eKia1hjyMU8+rw/uNhoUplObCXMTZhLitQTF+ZkBwREMFiE4REI8lbClyqoAokQ1TjRzkQ==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -754,8 +754,16 @@ doDecrypt(passwd, onError);
               </ul>
             </div>
           
+          <body>
+            <font face="Arial" color="white"><h3>来一首舒缓的音乐怎么样？</h3></font>
           <div id="music163player">
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=17234626&auto=1&height=66">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
+            </iframe>
+          </div>
+          <body>
+            <font face="Arial" color="white"><h3>或者一首比较热血的？</h3></font>
+          <div id="music163player">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=419238089&auto=1&height=66">
             </iframe>
           </div>
           
@@ -763,7 +771,7 @@ doDecrypt(passwd, onError);
           
           
 
-        </div>
+        </body></body></div>
       </div>
 
       
@@ -1394,5 +1402,6 @@ doDecrypt(passwd, onError);
 
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
+<script type="text/javascript" src="/js/src/bg.js"></script>
 <script src="/837852427.github.io/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/837852427.github.io/live2dw/assets/assets/miku.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"log":false,"tagMode":false});</script></body>
 </html>

@@ -2019,7 +2019,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9862ff;
+  background: #0e0a52;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2997,12 +2997,12 @@ hr {
 .post-body p a {
   color: #0593d3;
   border-bottom: none;
-  border-bottom: 1px solid #0593d3;
+  border-bottom: 3px solid #0593d3;
 }
 .post-body p a:hover {
   color: #fc6423;
   border-bottom: none;
-  border-bottom: 1px solid #fc6423;
+  border-bottom: 3px solid #fc6423;
 }
 @media screen and (min-width: 1600px) {
   body {
@@ -3020,7 +3020,4 @@ hr {
     color: #000;
     text-shadow: 0 1px 1px #fff;
   }
-}
-* {
-  cursor: url("/images/cursor.ico"), auto !important;
 }
