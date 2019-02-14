@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-14T16:21:12.045Z</updated>
+  <updated>2019-02-14T16:25:32.807Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,16 +18,17 @@
   
   <entry>
     <title>my goals</title>
-    <link href="http://yoursite.com/undefined0006/"/>
-    <id>http://yoursite.com/undefined0006/</id>
+    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950006/"/>
+    <id>http://yoursite.com/记录0006/</id>
     <published>2019-02-14T16:04:42.000Z</published>
-    <updated>2019-02-14T16:21:12.045Z</updated>
+    <updated>2019-02-14T16:25:32.807Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;马上就要开学了总结一下寒假里面的得与失&quot;&gt;&lt;a href=&quot;#马上就要开学了总结一下寒假里面的得与失&quot; class=&quot;headerlink&quot; title=&quot;马上就要开学了总结一下寒假里面的得与失&quot;&gt;&lt;/a&gt;马上就要开学了总结一下寒假里面的得与失&lt;/h1&gt;&lt;h2 i
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;马上就要开学了总结一下寒假里面的得与失&quot;&gt;&lt;a href=&quot;#马上就要开学了总结一下寒假里面的得与失&quot; class=&quot;headerlink&quot; title=&quot;马上就要开学了总结一下寒假里面的得与失&quot;&gt;&lt;/a&gt;马上就要开学了总结一下
       
     
     </summary>
@@ -41,8 +42,8 @@
   
   <entry>
     <title>Codeforces Round 538 (Div. 2) (补题)</title>
-    <link href="http://yoursite.com/undefined0005/"/>
-    <id>http://yoursite.com/undefined0005/</id>
+    <link href="http://yoursite.com/%E8%A1%A5%E9%A2%980005/"/>
+    <id>http://yoursite.com/补题0005/</id>
     <published>2019-02-14T09:17:46.000Z</published>
     <updated>2019-02-14T16:02:57.933Z</updated>
     
@@ -61,8 +62,8 @@
   
   <entry>
     <title>历时多天终于基本弄完了博客</title>
-    <link href="http://yoursite.com/undefined0004/"/>
-    <id>http://yoursite.com/undefined0004/</id>
+    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950004/"/>
+    <id>http://yoursite.com/记录0004/</id>
     <published>2019-02-14T05:22:54.000Z</published>
     <updated>2019-02-14T16:02:59.239Z</updated>
     
@@ -84,8 +85,8 @@
   
   <entry>
     <title>加密文档测试，密码为6个6</title>
-    <link href="http://yoursite.com/undefined0003/"/>
-    <id>http://yoursite.com/undefined0003/</id>
+    <link href="http://yoursite.com/%E6%B5%8B%E8%AF%950003/"/>
+    <id>http://yoursite.com/测试0003/</id>
     <published>2019-02-13T14:24:29.000Z</published>
     <updated>2019-02-14T16:03:00.629Z</updated>
     
@@ -111,8 +112,8 @@ function doDecrypt (pwd, onError) {
   
   <entry>
     <title>三种语言样例测试</title>
-    <link href="http://yoursite.com/undefined0002/"/>
-    <id>http://yoursite.com/undefined0002/</id>
+    <link href="http://yoursite.com/%E6%B5%8B%E8%AF%950002/"/>
+    <id>http://yoursite.com/测试0002/</id>
     <published>2019-02-13T07:41:01.000Z</published>
     <updated>2019-02-14T16:03:01.810Z</updated>
     
@@ -131,10 +132,10 @@ function doDecrypt (pwd, onError) {
   
   <entry>
     <title>Hello Anybody here?</title>
-    <link href="http://yoursite.com/undefined0001/"/>
-    <id>http://yoursite.com/undefined0001/</id>
+    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950001/"/>
+    <id>http://yoursite.com/记录0001/</id>
     <published>2019-02-12T13:06:17.225Z</published>
-    <updated>2019-02-14T16:03:03.526Z</updated>
+    <updated>2019-02-14T16:24:48.230Z</updated>
     
     <summary type="html">
     
