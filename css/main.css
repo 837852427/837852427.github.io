@@ -1179,9 +1179,9 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: normal;
-  font-family: 'military_font', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Comic Sans MS', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -2019,7 +2019,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d46bd9;
+  background: #fff74b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3023,4 +3023,8 @@ hr {
 }
 * {
   cursor: url("/images/cursor.ico"), auto !important;
+}
+.post {
+  -webkit-box-shadow: 0 0 12px rgba(255,255,255,0.5);
+  -moz-box-shadow: 0 0 5px rgba(255,255,255,0.5);
 }

@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[历时多天终于基本弄完了博客]]></title>
+    <url>%2F837852427.github.io%2F2019%2F02%2F14%2F0004%2F</url>
+    <content type="text"><![CDATA[虽然还有很多不尽人意的地方，以后会慢慢的修改目前就先这样了！！！]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[加密文档测试，密码为6个6]]></title>
-    <url>%2F837852427.github.io%2F2019%2F02%2F13%2F%E5%8A%A0%E5%AF%86%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%AF%86%E7%A0%81%E4%B8%BA6%E4%B8%AA66%2F</url>
-    <content type="text"><![CDATA[function doDecrypt (pwd, onError) { console.log('in doDecrypt'); const txt = document.getElementById('enc_content').innerHTML; let plantext; try { const bytes = CryptoJS.AES.decrypt(txt, pwd); var plaintext = bytes.toString(CryptoJS.enc.Utf8); } catch(err) { if(onError) { onError(err); } return; } document.getElementById('enc_content').innerHTML = plaintext; document.getElementById('enc_content').style.display = 'block'; document.getElementById('enc_passwd').style.display = 'none'; if(typeof MathJax !== 'undefined') { MathJax.Hub.Queue( ['resetEquationNumbers', MathJax.InputJax.TeX], ['PreProcess', MathJax.Hub], ['Reprocess', MathJax.Hub] ); } } U2FsdGVkX19vr0wyLH6vAeLXX5JpUYMlpKDa7VOyIHwsUJXjH+VViRWwZICi6HNfFY/yoMNEa/qJUXjrf4jndfKrA93/Hxe8UV4/GlEKgIwENZl7DBS/SEBE+X6oXhI4GhDQfecnunzxF501IbogQM92419BaZjivAkQ+Av3GiehUpsLKXzf2ksVAGd2gYgP7M3LNTd8bNS+teet1FIHbgNA75Z2eSnMvTDMbXxY9Bj/C1MtOGgosAMegefVNDNDo7uqhsgzm0PtNM/KmuLvcxCWmC7BeVrp4efCVjpnNX1Z2l72thwih107w+8AmsFZ/NQmZt4AgLJBbVm5P9Gk7Q== var onError = function(error) { document.getElementById("enc_error").innerHTML = "password error!" }; function decrypt() { var passwd = document.getElementById("enc_pwd_input").value; console.log(passwd); doDecrypt(passwd, onError); }]]></content>
+    <url>%2F837852427.github.io%2F2019%2F02%2F13%2F0003%2F</url>
+    <content type="text"><![CDATA[function doDecrypt (pwd, onError) { console.log('in doDecrypt'); const txt = document.getElementById('enc_content').innerHTML; let plantext; try { const bytes = CryptoJS.AES.decrypt(txt, pwd); var plaintext = bytes.toString(CryptoJS.enc.Utf8); } catch(err) { if(onError) { onError(err); } return; } document.getElementById('enc_content').innerHTML = plaintext; document.getElementById('enc_content').style.display = 'block'; document.getElementById('enc_passwd').style.display = 'none'; if(typeof MathJax !== 'undefined') { MathJax.Hub.Queue( ['resetEquationNumbers', MathJax.InputJax.TeX], ['PreProcess', MathJax.Hub], ['Reprocess', MathJax.Hub] ); } } U2FsdGVkX186z1KGVsnMjLTBw8Vw+l2Ck01Y4P3NZfgOX5sk5EQi42tK/VSfgkA+G/TLSDSMnibx2mAOrVOgrSYN8r4ebaAAOC19xGXqYB0rxN5+McPugz+fZXs1KygNiMWdxA4H5A6mo4WBDAXSSqfs1q1dPF7nAkLzYuXLMllUDErrW6NAtGRzfpY43/DXrcqNiXjqg1eKy/a9lZFM/OzNBe8sAF3M+U7DM+agJqXKR1lzQMtvZXPIChFV+tP3Wyir7q9GdBjyCgJS+oquAgb/JRK0NpwyTVcPvkhb8EqHHUfw6wXgKKLFSjXZBlSXf0GulDemm0U/BmUwZSoDBw== var onError = function(error) { document.getElementById("enc_error").innerHTML = "password error!" }; function decrypt() { var passwd = document.getElementById("enc_pwd_input").value; console.log(passwd); doDecrypt(passwd, onError); }]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
       <tags>
         <tag>test something</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[三种语言样例测试]]></title>
-    <url>%2F837852427.github.io%2F2019%2F02%2F13%2F%E4%B8%89%E7%A7%8D%E8%AF%AD%E8%A8%80%E6%A0%B7%E4%BE%8B%E6%B5%8B%E8%AF%95%2F</url>
+    <url>%2F837852427.github.io%2F2019%2F02%2F13%2F0002%2F</url>
     <content type="text"><![CDATA[测试一下三种语言的代码风格c语言版本1234567#include &lt;stdio.h&gt;int main()&#123; int a,b; scanf("%d%d",&amp;a,&amp;b); printf("%d",a+b);&#125; c++版本1234567891011#include &lt;bits/stdc++.h&gt;using namespace std;int main()&#123; ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); int a,b; cin&gt;&gt;a&gt;&gt;b; cout&lt;&lt;a+b;&#125; python 版本123from math import *for i in range(1,11): print(2**i)]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
       <tags>
         <tag>test something</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello Anybody here?]]></title>
-    <url>%2F837852427.github.io%2F2019%2F02%2F12%2Fhello-world%2F</url>
+    <url>%2F837852427.github.io%2F2019%2F02%2F12%2F0001%2F</url>
     <content type="text"><![CDATA[新博客正式启动！！！！多谢各位大佬的照顾与支持，新的一年里得更加的努力！！！老博客暂时不更新了SO FIGHTING!!!!]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
   </entry>
 </search>

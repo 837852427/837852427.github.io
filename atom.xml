@@ -6,7 +6,7 @@
   <link href="/837852427.github.io/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-14T02:52:20.211Z</updated>
+  <updated>2019-02-14T05:26:18.279Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>历时多天终于基本弄完了博客</title>
+    <link href="http://yoursite.com/2019/02/14/0004/"/>
+    <id>http://yoursite.com/2019/02/14/0004/</id>
+    <published>2019-02-14T05:22:54.000Z</published>
+    <updated>2019-02-14T05:26:18.279Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;虽然还有很多不尽人意的地方，以后会慢慢的修改目前就先这样了！！！&quot;&gt;&lt;a href=&quot;#虽然还有很多不尽人意的地方，以后会慢慢的修改目前就先这样了！！！&quot; class=&quot;headerlink&quot; title=&quot;虽然还有很多不尽人意的地方，以后会慢慢的修改目前就先这样
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>加密文档测试，密码为6个6</title>
-    <link href="http://yoursite.com/2019/02/13/%E5%8A%A0%E5%AF%86%E6%96%87%E6%A1%A3%E6%B5%8B%E8%AF%95%EF%BC%8C%E5%AF%86%E7%A0%81%E4%B8%BA6%E4%B8%AA66/"/>
-    <id>http://yoursite.com/2019/02/13/加密文档测试，密码为6个66/</id>
+    <link href="http://yoursite.com/2019/02/13/0003/"/>
+    <id>http://yoursite.com/2019/02/13/0003/</id>
     <published>2019-02-13T14:24:29.000Z</published>
-    <updated>2019-02-14T02:52:20.211Z</updated>
+    <updated>2019-02-14T05:26:19.843Z</updated>
     
     <summary type="html">
     
@@ -36,6 +59,8 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
     
       <category term="test something" scheme="http://yoursite.com/tags/test-something/"/>
     
@@ -43,16 +68,18 @@ function doDecrypt (pwd, onError) {
   
   <entry>
     <title>三种语言样例测试</title>
-    <link href="http://yoursite.com/2019/02/13/%E4%B8%89%E7%A7%8D%E8%AF%AD%E8%A8%80%E6%A0%B7%E4%BE%8B%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2019/02/13/三种语言样例测试/</id>
+    <link href="http://yoursite.com/2019/02/13/0002/"/>
+    <id>http://yoursite.com/2019/02/13/0002/</id>
     <published>2019-02-13T07:41:01.000Z</published>
-    <updated>2019-02-14T02:52:17.181Z</updated>
+    <updated>2019-02-14T05:26:21.126Z</updated>
     
     <summary type="html">
     
       没啥子卵用的水文
     
     </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
       <category term="test something" scheme="http://yoursite.com/tags/test-something/"/>
@@ -61,10 +88,10 @@ function doDecrypt (pwd, onError) {
   
   <entry>
     <title>Hello Anybody here?</title>
-    <link href="http://yoursite.com/2019/02/12/hello-world/"/>
-    <id>http://yoursite.com/2019/02/12/hello-world/</id>
+    <link href="http://yoursite.com/2019/02/12/0001/"/>
+    <id>http://yoursite.com/2019/02/12/0001/</id>
     <published>2019-02-12T13:06:17.225Z</published>
-    <updated>2019-02-14T02:52:35.774Z</updated>
+    <updated>2019-02-14T05:26:22.302Z</updated>
     
     <summary type="html">
     
@@ -75,6 +102,10 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
+      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
