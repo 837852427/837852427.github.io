@@ -6,7 +6,7 @@
   <link href="/837852427.github.io/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-14T05:26:18.279Z</updated>
+  <updated>2019-02-14T09:47:54.230Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Codeforces Round 538 (Div. 2) (补题)</title>
+    <link href="http://yoursite.com/2019/02/14/0005/"/>
+    <id>http://yoursite.com/2019/02/14/0005/</id>
+    <published>2019-02-14T09:17:46.000Z</published>
+    <updated>2019-02-14T09:47:54.230Z</updated>
+    
+    <summary type="html">
+    
+      目前补了三个题
+    
+    </summary>
+    
+      <category term="补题" scheme="http://yoursite.com/categories/%E8%A1%A5%E9%A2%98/"/>
+    
+    
+      <category term="Codeforces" scheme="http://yoursite.com/tags/Codeforces/"/>
+    
+  </entry>
   
   <entry>
     <title>历时多天终于基本弄完了博客</title>
