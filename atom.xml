@@ -3,7 +3,7 @@
   <title>Baccano</title>
   
   
-  <link href="/837852427.github.io/atom.xml" rel="self"/>
+  <link href="/837852427.github.io%20/m827852427.coding.me/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
   <updated>2019-02-14T10:37:33.135Z</updated>
@@ -70,11 +70,10 @@
     
       
       
-        &lt;script src=/837852427.github.io/js/crypto-js.js&gt;&lt;/script&gt;
+        &lt;script src=/837852427.github.io /m827852427.coding.me/js/crypto-js.js&gt;&lt;/script&gt;
 &lt;script&gt;
 function doDecrypt (pwd, onError) {
-	console.log(&#39;in doDecrypt&#39;);
-	const
+	console.log(&#39;
       
     
     </summary>

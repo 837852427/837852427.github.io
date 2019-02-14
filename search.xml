@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[Codeforces Round 538 (Div. 2) (补题)]]></title>
-    <url>%2F837852427.github.io%2Fundefined0005%2F</url>
+    <url>%2F837852427.github.io%20%2Fm827852427.coding.me%2Fundefined0005%2F</url>
     <content type="text"><![CDATA[感慨爬到青名的第一战，结果B题没有过system test又掉回到了1390+，这次越南出题组出的题还是比较有意思的 A Got Any Grapes?(模拟)分析根据题意我们可以进行模拟首先第一个人只吃绿色的，第二个人吃绿色和紫色的，第三个人通吃所以就可以得出我们先把绿色给第一个人吃，剩下的绿色和紫色给第二个人，最后剩下的给第三个人只要哪一步出现了问题，也就是说不够吃那么就是NO都可以就输出YES 代码1234567891011121314151617181920#include&lt;bits/stdc++.h&gt;using namespace std;int main()&#123; ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); int n,m,k,x,y,z; cin&gt;&gt;n&gt;&gt;m&gt;&gt;k&gt;&gt;x&gt;&gt;y&gt;&gt;z; x-=n; if(x&lt;0) return cout&lt;&lt;"NO",0; int t1=x+y-m; if(t1&lt;0) return cout&lt;&lt;"NO",0; int t2=t1+z-k; if(t2&lt;0) return cout&lt;&lt;"NO",0; cout&lt;&lt;"YES";&#125; B Yet Another Array Partitioning Task(贪心+模拟)分析这个题操作很感人啊，当时我一看不就是把前mk个数加起来求和么，结果发现还有第二步找断点断点的寻找也是比较的难想，这里我分享一个简单的实现首先就是要找单位区间内的最大的理想值，我们需要把所有的前km项都要用上所以说我们要看看区间内是否符合当前m个要找的数操作方法就是把每个数先记下原来的坐标然后降序排列，定义一个新的数组用降序排列的顺序把原来的坐标定位到当前坐标也就是说要1bk[pre[i].id]=i; 然后走一遍原先的坐标的顺序，就可以知道当前坐标是不是满足且合适的数了 代码123456789101112131415161718192021222324252627282930313233343536373839#include &lt;bits/stdc++.h&gt;using namespace std;struct node&#123; long long sum,id;&#125;num[666666];bool cmp(node a,node b)&#123; return a.sum&gt;b.sum;&#125;int bk[666666];int main()&#123; ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); long long n,m,k,te=0,cnt=0,ans=0; cin&gt;&gt;n&gt;&gt;m&gt;&gt;k; for(int i=1;i&lt;=n;i++) cin&gt;&gt;num[i].sum,num[i].id=i; sort(num+1,num+n+1,cmp); for(int i=1;i&lt;=m*k;i++) ans+=num[i].sum; for(int i=1;i&lt;=n;i++) bk[num[i].id]=i; cout&lt;&lt;ans&lt;&lt;"\n"; for(int i=1;i&lt;=n;i++) &#123; if(bk[i]&lt;=k*m) te++; if(te==m) &#123; cnt++; if(cnt&lt;k) cout&lt;&lt;i&lt;&lt;" "; te=0; &#125; &#125;&#125; C Trailing Loves (or L’oeufs?)(数论)目前不会 D Flood Fill(DP)分析有二维的解法但是我太蒟蒻了，只会三维的。这个上来还容易re实际上就是定义两个：dp[l][r][0]代表最少需要多少步能够使l,r区域内都是num[l]颜色dp[l][r][1]代表最少需要多少步能够使l,r区域内都是num[r]颜色那么转移方程就是：dp[l-1][r][0]=min(dp[l-1][r][0],dp[l][r][t(当前的开关)]+左边的颜色与当前的颜色一样?1:0)第二个同理还有就是要注意这种枚举区间的方式 代码12345678910111213141516171819202122232425262728#include &lt;bits/stdc++.h&gt;using namespace std;int num[5001];int dp[5001][5001][2];int main()&#123; ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); int n; cin&gt;&gt;n; for(int i=1;i&lt;=n;i++) cin&gt;&gt;num[i]; for(int i=1;i&lt;=n;i++) for(int j=1;j&lt;=n;j++) dp[i][j][0]=dp[i][j][1]=(i==j?0:999999); for(int r=1;r&lt;=n;r++) for(int l=r;l&gt;=1;l--) for(int t=0;t&lt;2;t++) &#123; int now=t==0?num[l]:num[r]; if(l&gt;1) dp[l-1][r][0]=min(dp[l-1][r][0],dp[l][r][t]+(now!=num[l-1])); if(r&lt;n) dp[l][r+1][1]=min(dp[l][r+1][1],dp[l][r][t]+(now!=num[r+1])); &#125; cout&lt;&lt;min(dp[1][n][0],dp[1][n][1]);&#125;]]></content>
       <categories>
         <category>补题</category>
@@ -13,7 +13,7 @@
   </entry>
   <entry>
     <title><![CDATA[历时多天终于基本弄完了博客]]></title>
-    <url>%2F837852427.github.io%2Fundefined0004%2F</url>
+    <url>%2F837852427.github.io%20%2Fm827852427.coding.me%2Fundefined0004%2F</url>
     <content type="text"><![CDATA[虽然还有很多不尽人意的地方，以后会慢慢的修改目前就先这样了！！！]]></content>
       <categories>
         <category>记录</category>
@@ -24,8 +24,8 @@
   </entry>
   <entry>
     <title><![CDATA[加密文档测试，密码为6个6]]></title>
-    <url>%2F837852427.github.io%2Fundefined0003%2F</url>
-    <content type="text"><![CDATA[function doDecrypt (pwd, onError) { console.log('in doDecrypt'); const txt = document.getElementById('enc_content').innerHTML; let plantext; try { const bytes = CryptoJS.AES.decrypt(txt, pwd); var plaintext = bytes.toString(CryptoJS.enc.Utf8); } catch(err) { if(onError) { onError(err); } return; } document.getElementById('enc_content').innerHTML = plaintext; document.getElementById('enc_content').style.display = 'block'; document.getElementById('enc_passwd').style.display = 'none'; if(typeof MathJax !== 'undefined') { MathJax.Hub.Queue( ['resetEquationNumbers', MathJax.InputJax.TeX], ['PreProcess', MathJax.Hub], ['Reprocess', MathJax.Hub] ); } } U2FsdGVkX1/TOVKgODcawyQtjR08+RVDWKnd1jH6QvLy/OyFpkFMj82dJNrO9kDAmjpKicbpXrOcs3XNHhly6e1dNkb8p6fZyKlz32Ig9nxd9NOGD1J3PvljOjgOwjG5OMAO58DfSVsY6WPa4ZVGCbkw3iUfqpyaQcJ4+qYeLt3NVxHfhG5+kYT/0aWrNqG/yNNBU8B4jTR4bLhq4QNOLiQHE5tSQqQghq3RoVz5Msmrdc9W1vDSbbaFpePoLqGIWdDhJS1SiYQKBMDOG2tmbAnNi+E0Zv5wnMLvCjjUhWaJAF7e1juogAE6NFTw1eXwJXjG5ywUbEzbtXCAnIwhJA== var onError = function(error) { document.getElementById("enc_error").innerHTML = "password error!" }; function decrypt() { var passwd = document.getElementById("enc_pwd_input").value; console.log(passwd); doDecrypt(passwd, onError); }]]></content>
+    <url>%2F837852427.github.io%20%2Fm827852427.coding.me%2Fundefined0003%2F</url>
+    <content type="text"><![CDATA[function doDecrypt (pwd, onError) { console.log('in doDecrypt'); const txt = document.getElementById('enc_content').innerHTML; let plantext; try { const bytes = CryptoJS.AES.decrypt(txt, pwd); var plaintext = bytes.toString(CryptoJS.enc.Utf8); } catch(err) { if(onError) { onError(err); } return; } document.getElementById('enc_content').innerHTML = plaintext; document.getElementById('enc_content').style.display = 'block'; document.getElementById('enc_passwd').style.display = 'none'; if(typeof MathJax !== 'undefined') { MathJax.Hub.Queue( ['resetEquationNumbers', MathJax.InputJax.TeX], ['PreProcess', MathJax.Hub], ['Reprocess', MathJax.Hub] ); } } U2FsdGVkX18vyMKDTN3PL3CE0w8fCYBC0tXWcOuXMlwG/JfkAnhxchc/UOJx0GfLZESc7brLF2SAZm2W1iQkabMsyKa/dQxBJAy3XADQBs64rBuvkVPEfENac/NJcI8SO4lXXdolTkm6MPzVEK7jExsl3NeAapOOMDQnirgdSGQE7QRQanbXsjtXoP+OUCIGpG7cWsf8mfr4R3cQZ9ATjfwMZR0MvrfWKteQD4A8xIPMmfD0R/59jbsZR6Tc65Xk09JZ7NsmgPzjov1+H4+CX9NK0SCwVbcwbXwOhWI8ucQp3FfrJImpXFnk1ofkc8OHbBMyNQfnY7LhSWXpNTjg5g== var onError = function(error) { document.getElementById("enc_error").innerHTML = "password error!" }; function decrypt() { var passwd = document.getElementById("enc_pwd_input").value; console.log(passwd); doDecrypt(passwd, onError); }]]></content>
       <categories>
         <category>测试</category>
       </categories>
@@ -35,7 +35,7 @@
   </entry>
   <entry>
     <title><![CDATA[三种语言样例测试]]></title>
-    <url>%2F837852427.github.io%2Fundefined0002%2F</url>
+    <url>%2F837852427.github.io%20%2Fm827852427.coding.me%2Fundefined0002%2F</url>
     <content type="text"><![CDATA[测试一下三种语言的代码风格c语言版本1234567#include &lt;stdio.h&gt;int main()&#123; int a,b; scanf("%d%d",&amp;a,&amp;b); printf("%d",a+b);&#125; c++版本1234567891011#include &lt;bits/stdc++.h&gt;using namespace std;int main()&#123; ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); int a,b; cin&gt;&gt;a&gt;&gt;b; cout&lt;&lt;a+b;&#125; python 版本123from math import *for i in range(1,11): print(2**i)]]></content>
       <categories>
         <category>测试</category>
@@ -46,7 +46,7 @@
   </entry>
   <entry>
     <title><![CDATA[Hello Anybody here?]]></title>
-    <url>%2F837852427.github.io%2Fundefined0001%2F</url>
+    <url>%2F837852427.github.io%20%2Fm827852427.coding.me%2Fundefined0001%2F</url>
     <content type="text"><![CDATA[新博客正式启动！！！！多谢各位大佬的照顾与支持，新的一年里得更加的努力！！！老博客暂时不更新了SO FIGHTING!!!!]]></content>
       <categories>
         <category>记录</category>
