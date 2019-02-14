@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-14T10:37:33.135Z</updated>
+  <updated>2019-02-14T16:21:12.045Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>my goals</title>
+    <link href="http://yoursite.com/undefined0006/"/>
+    <id>http://yoursite.com/undefined0006/</id>
+    <published>2019-02-14T16:04:42.000Z</published>
+    <updated>2019-02-14T16:21:12.045Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;马上就要开学了总结一下寒假里面的得与失&quot;&gt;&lt;a href=&quot;#马上就要开学了总结一下寒假里面的得与失&quot; class=&quot;headerlink&quot; title=&quot;马上就要开学了总结一下寒假里面的得与失&quot;&gt;&lt;/a&gt;马上就要开学了总结一下寒假里面的得与失&lt;/h1&gt;&lt;h2 i
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Codeforces Round 538 (Div. 2) (补题)</title>
     <link href="http://yoursite.com/undefined0005/"/>
     <id>http://yoursite.com/undefined0005/</id>
     <published>2019-02-14T09:17:46.000Z</published>
-    <updated>2019-02-14T10:37:33.135Z</updated>
+    <updated>2019-02-14T16:02:57.933Z</updated>
     
     <summary type="html">
     
@@ -41,7 +64,7 @@
     <link href="http://yoursite.com/undefined0004/"/>
     <id>http://yoursite.com/undefined0004/</id>
     <published>2019-02-14T05:22:54.000Z</published>
-    <updated>2019-02-14T05:26:18.279Z</updated>
+    <updated>2019-02-14T16:02:59.239Z</updated>
     
     <summary type="html">
     
@@ -64,7 +87,7 @@
     <link href="http://yoursite.com/undefined0003/"/>
     <id>http://yoursite.com/undefined0003/</id>
     <published>2019-02-13T14:24:29.000Z</published>
-    <updated>2019-02-14T05:26:19.843Z</updated>
+    <updated>2019-02-14T16:03:00.629Z</updated>
     
     <summary type="html">
     
@@ -91,7 +114,7 @@ function doDecrypt (pwd, onError) {
     <link href="http://yoursite.com/undefined0002/"/>
     <id>http://yoursite.com/undefined0002/</id>
     <published>2019-02-13T07:41:01.000Z</published>
-    <updated>2019-02-14T05:26:21.126Z</updated>
+    <updated>2019-02-14T16:03:01.810Z</updated>
     
     <summary type="html">
     
@@ -111,7 +134,7 @@ function doDecrypt (pwd, onError) {
     <link href="http://yoursite.com/undefined0001/"/>
     <id>http://yoursite.com/undefined0001/</id>
     <published>2019-02-12T13:06:17.225Z</published>
-    <updated>2019-02-14T05:26:22.302Z</updated>
+    <updated>2019-02-14T16:03:03.526Z</updated>
     
     <summary type="html">
     
