@@ -483,6 +483,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/测试0003/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/测试0003/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -541,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1+lf0k/lGeKfPPIyTi72ZJ/so7TxdiSZIbFLXh6XqT+5GkWI4eVz580FK2WUm3w8Y0grYmy641b3qxxEXpFSaOioN9ZRu/we/AnO993gLqu4EEdxCx4qAJ6HKdmKMroan0ENzbcR9kKNKRctN21vPokG4CRbKmGEaHsQbZbys1RIY12nZjYaOBZUzs0oIr1ZctZDf1ZJ4y+g9b11pOqd1vKSUUynnHUgb8NcavC0xMaYdMDtDYY+y6ogPnzDFbfB9NGaKmZSQew97m4wY9CB9aH/RLiH37g/dEm3aY8Q8m+H+WuPB0Ev73GF/fLiuJsjba+qhGkG8T9zA==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+WDRh4LXtUnki4M/GkBOFTzmNrq6HvKMfCXz1sCngG9fPomjghPxRx9jfY1waq1CZnUbUxo3XeRtZqguknm4L+NWmhFddDTCjR4ONqeVcvI3fYR1mMy8ygP8PPA06fsZuv0aL/RygLXIxNF/HLH3QpR4GkUwBddGJ/U0Mi3oxp483uGQGqqQRedx86O8/iuPqMmYD0p8lF/YXq8VczxWZAUX0uNb7Jcx43YPbeMjaTN0Wpu67R76RnKt/mFadZXG9OFrhhTcasw16GPU8BUk4wofKdjcbI0jBp5NkIt7le0wd3Xe9JfYAJwkx6vpO12NkdDAn4hU1B2A==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -668,7 +681,6 @@ doDecrypt(passwd, onError);
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjYyMy8xOTE3MA=="></div>
     </div>
 
   
@@ -992,22 +1004,36 @@ doDecrypt(passwd, onError);
 
 
   
-
-
   
-    <script>
-  window.livereOptions = {
-    refer: '测试0003/'
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'clkKVCLaqlqkuBod90h9sQx6-gzGzoHsz',
+    appKey: '8L1Jo0StK5AHzC987xjYNzSw',
+    placeholder: '请留下你宝贵的意见',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false
+  });
 </script>
+
+
+
 
   
 

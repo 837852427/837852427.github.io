@@ -485,6 +485,19 @@
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/测试0002/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/测试0002/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -520,7 +533,7 @@
           
           
             <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox" href="https://i.loli.net/2019/02/13/5c63cb99e62ed.jpg" rel="gallery_cjs4udc0q0001dkuwfbcm7ep3" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url">
+              <a class="post-gallery-img fancybox" href="https://i.loli.net/2019/02/13/5c63cb99e62ed.jpg" rel="gallery_cjs5i65b6000398uwnydyf2y1" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="https://i.loli.net/2019/02/13/5c63cb99e62ed.jpg" itemprop="contentUrl">
               </a>
             
@@ -651,7 +664,6 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80MjYyMy8xOTE3MA=="></div>
     </div>
 
   
@@ -1001,22 +1013,36 @@
 
 
   
-
-
   
-    <script>
-  window.livereOptions = {
-    refer: '测试0002/'
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'clkKVCLaqlqkuBod90h9sQx6-gzGzoHsz',
+    appKey: '8L1Jo0StK5AHzC987xjYNzSw',
+    placeholder: '请留下你宝贵的意见',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false
+  });
 </script>
+
+
+
 
   
 
