@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1+j/Le8PbFTa8i9cNc800Ts7y2zpsGf9qCRRxpEhvXF+cF10r9SS94JEew4gBhi/nD6hVCgfR5wmnpGQ1vAoybthxJtxo84az4d39+GltWxY0zYfZkNZdWR7bnDG1OE7BkxmPy1Y1RLMDXJCA7S4gdefq2AALpYHOS/lhEtYmOA/nejos+2pPVQ3TjmODaH8uovVtaqjm0mRd8j8cbslxP880dTeoS25hWFuf15IvaGpCXRAwaJ750BgYEn/xTk8nzQeYEx+eYliEXzkxHaW+n/hxiBb9Fnox9uJoaBXJrRJ9jWtaNZ86/ymTAs7nwKiRr+PhRHT0J7IA==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+nrXmZzSt/TGO3PaNXBAq5rft6ZS1ajyLI40MVj94/GJy7IORfEBjMiCZQBx/VkBVftOfzk3a5/5Kocue9DfdyoqAPWurjkTP14adBVonfE3XNtep3WS10kMpHL6Lftypn9D3qwZPIpxByuIE4J9P7BVt+RQu7GHtlu8pG/zcERF4g80WkdE3L69PUM0R4D7vQ2hLHvV4PntRASxE6ed3Ay+mLnVxnZNZta4ga2JgoPAe4bCgBcIyBwr1+UlScdfwZF5KDtgojqSRcIXpmQxmQrCvwj1+/G5/ILJDkOril05B1p4RZ3VW4c841ZAMIv/iQyiIzPYN3OA==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -592,11 +592,16 @@ doDecrypt(passwd, onError);
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="https://i.loli.net/2019/02/13/5c6410db93b9d.png" alt="baccano 微信支付">
+        <img id="wechat_qr" src="https://i.loli.net/2019/02/16/5c6778e69c9a0.png" alt="baccano 微信支付">
         <p>微信支付</p>
       </div>
     
 
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="https://i.loli.net/2019/02/16/5c677916a8306.png" alt="baccano 支付宝">
+        <p>支付宝</p>
+      </div>
     
 
     
@@ -1367,6 +1372,21 @@ doDecrypt(passwd, onError);
   
 
   
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js'; 
+      }
+      else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
 
   
 
