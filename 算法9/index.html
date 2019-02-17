@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值   #例1 P1877 [HAOI2012]音量调节 胡乱分析上来bfs得60分。。。dp的思路就是我看看我能最终到达的最大音量是多少，每一步都有两种可能性，也就是我要加音量或者我要减当前的音量所以我们思路就是:for i-&amp;gt;[1,n] (这里表示我们总共弹奏的歌曲数)  for">
+  <meta name="description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值">
 <meta name="keywords" content="dp">
 <meta property="og:type" content="article">
 <meta property="og:title" content="背包变形:过程型背包">
 <meta property="og:url" content="http://yoursite.com/算法9/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值   #例1 P1877 [HAOI2012]音量调节 胡乱分析上来bfs得60分。。。dp的思路就是我看看我能最终到达的最大音量是多少，每一步都有两种可能性，也就是我要加音量或者我要减当前的音量所以我们思路就是:for i-&amp;gt;[1,n] (这里表示我们总共弹奏的歌曲数)  for">
+<meta property="og:description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-17T07:59:31.027Z">
+<meta property="og:updated_time" content="2019-02-17T08:01:51.912Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="背包变形:过程型背包">
-<meta name="twitter:description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值   #例1 P1877 [HAOI2012]音量调节 胡乱分析上来bfs得60分。。。dp的思路就是我看看我能最终到达的最大音量是多少，每一步都有两种可能性，也就是我要加音量或者我要减当前的音量所以我们思路就是:for i-&amp;gt;[1,n] (这里表示我们总共弹奏的歌曲数)  for">
+<meta name="twitter:description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值">
 
 
 
@@ -438,7 +438,7 @@
                 
               
 
-              <time title="创建时间：2019-02-17 15:35:40 / 修改时间：15:59:31" itemprop="dateCreated datePublished" datetime="2019-02-17T15:35:40+08:00">2019-02-17</time>
+              <time title="创建时间：2019-02-17 15:35:40 / 修改时间：16:01:51" itemprop="dateCreated datePublished" datetime="2019-02-17T15:35:40+08:00">2019-02-17</time>
             
 
             
@@ -515,7 +515,7 @@
       
 
       
-        <p>过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值  </p>
+        <p>过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值<br><a id="more"></a></p>
 <p>#例1 P1877 [HAOI2012]音量调节</p>
 <h2 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>上来bfs得60分。。。<br>dp的思路就是我看看我能最终到达的最大音量是多少，每一步都有两种可能性，也就是我要加音量或者我要减当前的音量所以我们思路就是:<br>for i-&gt;[1,n] (这里表示我们总共弹奏的歌曲数)<br>  for j-&gt;[0,maxn] (这里表示我们j从0枚举到最大值)<br>    if dp[i-1][j]<br>      dp[i][j+num[i]]=dp[i][j-num[i]]=1 (这里表示我们如果上一个音量是合法的那么我们把他所能表示出来的音量也标记为合法的)</p>
 <h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> num[<span class="number">6666</span>],dp[<span class="number">6666</span>][<span class="number">6666</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,begin,maxn;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;begin&gt;&gt;maxn;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;num[i];</span><br><span class="line">  dp[<span class="number">0</span>][begin]=<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=maxn;j++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span>(dp[i<span class="number">-1</span>][j])</span><br><span class="line">    dp[i][j+num[i]]=dp[i][j-num[i]]=<span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=maxn;i&gt;=<span class="number">0</span>;i--)</span><br><span class="line">  <span class="keyword">if</span>(dp[n][i])</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">cout</span>&lt;&lt;i,<span class="number">0</span>;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>

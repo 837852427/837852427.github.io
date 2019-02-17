@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-17T07:59:31.027Z</updated>
+  <updated>2019-02-17T08:01:51.912Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,11 @@
     <link href="http://yoursite.com/%E7%AE%97%E6%B3%959/"/>
     <id>http://yoursite.com/算法9/</id>
     <published>2019-02-17T07:35:40.000Z</published>
-    <updated>2019-02-17T07:59:31.027Z</updated>
+    <updated>2019-02-17T08:01:51.912Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值  &lt;/p&gt;
-&lt;p&gt;#例1 P1877 [HAOI2012]音量调节&lt;/p&gt;
-&lt;h2 id=&quot;胡乱分析&quot;&gt;&lt;a href=&quot;#胡乱分析&quot; class=&quot;heade
-      
+      &lt;p&gt;过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值&lt;br&gt;
     
     </summary>
     
