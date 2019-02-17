@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-16T02:57:17.524Z</updated>
+  <updated>2019-02-17T07:59:31.027Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>背包变形:过程型背包</title>
+    <link href="http://yoursite.com/%E7%AE%97%E6%B3%959/"/>
+    <id>http://yoursite.com/算法9/</id>
+    <published>2019-02-17T07:35:40.000Z</published>
+    <updated>2019-02-17T07:59:31.027Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值  &lt;/p&gt;
+&lt;p&gt;#例1 P1877 [HAOI2012]音量调节&lt;/p&gt;
+&lt;h2 id=&quot;胡乱分析&quot;&gt;&lt;a href=&quot;#胡乱分析&quot; class=&quot;heade
+      
+    
+    </summary>
+    
+      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>完全背包变形(1) 取数问题</title>
+    <link href="http://yoursite.com/%E7%AE%97%E6%B3%958/"/>
+    <id>http://yoursite.com/算法8/</id>
+    <published>2019-02-17T07:35:04.000Z</published>
+    <updated>2019-02-17T07:59:34.493Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;朴素的完全背包就是总容量一定物品无限能放多少东西，这里记录一下最近遇到的变形取数问题&lt;br&gt;
+    
+    </summary>
+    
+      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+    
+  </entry>
   
   <entry>
     <title>站内更新日志</title>

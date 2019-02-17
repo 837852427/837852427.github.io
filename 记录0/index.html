@@ -542,7 +542,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1+wpn6bRCnWvVH/cOUgapr0ZTa5kST7me5XPSankb9G9RKgmJF9eBj11R/zljzxa3QGuRCou4cxIavtrzDFw63SnE+iAjw5Fc7nk/1endhCTzT4VCzZdlkWgUC7+Ii8lRoIp1oz688jUS5YZlhDGq0Jq7trdatDOc9LE0WzKAGysm7gOO3czSLnnwn2vgWT5DKPjiUO0S6zL7Pu/IPjiUb2HyQpAV0Bzp0HEA68uZhjNLxbGhrCQQnzlBJPEe/4YU73II4FiQqR8fRhz5ZazLgPl0j5gdkiLQGlLlo80viRsboqoAYn+9gz7/bZUEUwEaZngQpVuId5umAw1yn93AIoai3YqPZNHcUlu9/kgaoB6VnGDi21YF0+VX09KcWSOG7SwGzOpjevPYTBK6OX+kMTMEPrR4j403EfSDjCoeuXxeEXA4XCo0M/21Ur/lcswTYtRz7P5IJmRlWWwTelNTNg4m7VjuWb4sWiZxiw9PPMNjLUJ0/9K3b284G8WKu88rc44DwDPZw5DPT3ovQ5z9ujYKqULgmI9c8Lxwnx96/ASi/NJTdg93BcShNV7ZsuYT67c7GuCK1UIUwf7h38OhciNxMYlzolPo7nqUJD6ei8vv5pqdVEsRH7D354nKUtAD7QGxmXY80g+MWYkKjQGme+rojDZ7OBkPHxUQAeucor2spgca4r4+NWQU2goCKeiZLqKj1NVvVqr7ThhshTKxXb/gOiVUtk6fbaVC1q2JpyAWcDkCOj/a+kVGW+VruD5t9/YE9BOK0GkpPVpJuCmGmtKwtRFwJQ6uNP8fjjwobWaG5Lk/ZT7hiiV4ik5BO/Ycid9qiwYY6y/jYdoeQAibdq2p51wrEb08EwltUoN5MjO/82kKyWl5D/cQw0Uqs/3UFq+MwTJVproryTOrV8tVQErF+7pbe1cIDpGc3gYRKqkRzkPLNWwpED</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+lVUlTlT7glboMDzF8H1c/JQMTnsccqrJ1q/W/ia2w3bY19J/hxyVSQ4sTVkdygBulNz1+SbdjhGm/Fvpn85pjfX4olfmUKQLaQGYDdb/FynMdOqLWhOAaDZiaRFpRiaWXIKCpvo/mbDMBeGtDqauCu2U5OwlzaaAsl4gpwsu2S28h70meq25HNso+DVAPcYC+XLGODNlFdMlQnEyru5VlPIQiiMQDnqoP9FTKVZyFZqDb16IPuaHLeqSaJLCMddAS3C/uHUXvqgBfhrLbh7b2hoprT7n3UMlHZLLlYUL3z698zwDeHJFwGvf8UH+ajG2vdne53BYnR3kplp9QvNZXG/PVySrqBoumpbIy0wtD+9Lsbl+3QPRGDXhsSNqrkCTpDxiFP6DYzc/WD6JVWI96PzCcObjnUINBJPNuzGLxUZM2S80o0RFuoZWjdn+xwEdhh0I/cgdQe2gShWu4vQ8kDYyCdonyX6jNauIMNzqOUHR+yrilDqreggyYdZ14nN95jDPoPqoOWvByRyVUiGI3ketrihluzwxb7MND5eHNvjcBZSIg7kK/USBF+D6QmfRdJcFpfvdCjxzXk8mOcQRJ97DVthakoI3rZNOMTFiRa/Mq2cb5Fonjg2ujG39clH4P1nWN3BGgUYCS2xcd0fjWdghpkC9OIkZJTLCU7qTh0kbLX/sOgUFmIHDv6knfVasL5MWic/9NgQafix2aV0xhAcBWLjtUEWCP13wtzyCHbuUHS3Frp7cScSQbgLeB/CnqzUM9iZRqyryXaq8nr8gXJtmf94RsMK54pmCurtH/Tnme4suFWfp4STvh07SH2SVlKy0MpGrfyv0ALk++7qpP4fvMtExWJ1lhP4P7JCeMGXBeMoyZ5pNyUXxpTS5d+onTfkYcLX6AgoZ4Q/gpf3DVAnUUxmGT49RigYFvPuB4tHLWECZPpmV0</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -629,6 +629,10 @@ doDecrypt(passwd, onError);
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/算法8/" rel="prev" title="完全背包变形(1) 取数问题">
+                完全背包变形(1) 取数问题 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -712,7 +716,7 @@ doDecrypt(passwd, onError);
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-count">10</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -731,7 +735,9 @@ doDecrypt(passwd, onError);
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -750,7 +756,9 @@ doDecrypt(passwd, onError);
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
