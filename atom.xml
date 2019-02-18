@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-18T16:44:41.725Z</updated>
+  <updated>2019-02-18T16:54:47.509Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bfs判断转弯次数</title>
+    <link href="http://yoursite.com/%E7%AE%97%E6%B3%9511/"/>
+    <id>http://yoursite.com/算法11/</id>
+    <published>2019-02-18T16:46:50.000Z</published>
+    <updated>2019-02-18T16:54:47.509Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;bfs判断转弯次数也就是顾名思义我们如何来应对需要至少转弯多少次或者计算总共转弯多少次的题目&lt;br&gt;
+    
+    </summary>
+    
+      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="bfs" scheme="http://yoursite.com/tags/bfs/"/>
+    
+  </entry>
   
   <entry>
     <title>html学习(1)</title>
