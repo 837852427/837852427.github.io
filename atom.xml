@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-17T08:01:51.912Z</updated>
+  <updated>2019-02-18T16:44:41.725Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>html学习(1)</title>
+    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF10/"/>
+    <id>http://yoursite.com/前端10/</id>
+    <published>2019-02-18T16:41:27.000Z</published>
+    <updated>2019-02-18T16:44:41.725Z</updated>
+    
+    <summary type="html">
+    
+      第一次学习前端
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="html" scheme="http://yoursite.com/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
     <title>背包变形:过程型背包</title>
     <link href="http://yoursite.com/%E7%AE%97%E6%B3%959/"/>
     <id>http://yoursite.com/算法9/</id>
     <published>2019-02-17T07:35:40.000Z</published>
-    <updated>2019-02-17T08:01:51.912Z</updated>
+    <updated>2019-02-17T08:27:16.087Z</updated>
     
     <summary type="html">
     
@@ -61,7 +81,7 @@
     <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950/"/>
     <id>http://yoursite.com/记录0/</id>
     <published>2019-02-15T16:37:23.000Z</published>
-    <updated>2019-02-16T02:57:17.524Z</updated>
+    <updated>2019-02-17T09:15:41.341Z</updated>
     
     <summary type="html">
     
