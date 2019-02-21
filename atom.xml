@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-20T07:38:52.321Z</updated>
+  <updated>2019-02-21T16:32:18.321Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Codeforces Round 540 (Div. 3)(补题)</title>
+    <link href="http://yoursite.com/%E8%A1%A5%E9%A2%9814/"/>
+    <id>http://yoursite.com/补题14/</id>
+    <published>2019-02-21T16:10:41.000Z</published>
+    <updated>2019-02-21T16:32:18.321Z</updated>
+    
+    <summary type="html">
+    
+      这次又回到了青名，算是寒假的最后一战了
+    
+    </summary>
+    
+      <category term="补题" scheme="http://yoursite.com/categories/%E8%A1%A5%E9%A2%98/"/>
+    
+    
+      <category term="Codeforces" scheme="http://yoursite.com/tags/Codeforces/"/>
+    
+  </entry>
   
   <entry>
     <title>CSS3动画实验</title>
