@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="朴素的完全背包就是总容量一定物品无限能放多少东西，这里记录一下最近遇到的变形取数问题">
-<meta name="keywords" content="dp">
+  <meta name="description" content="一个小小的实验">
+<meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="完全背包变形(1) 取数问题">
-<meta property="og:url" content="http://yoursite.com/算法8/index.html">
+<meta property="og:title" content="JavaScript 事件监听器的一个小小的实验">
+<meta property="og:url" content="http://yoursite.com/前端15/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="朴素的完全背包就是总容量一定物品无限能放多少东西，这里记录一下最近遇到的变形取数问题">
+<meta property="og:description" content="一个小小的实验">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-17T07:59:34.493Z">
+<meta property="og:updated_time" content="2019-02-22T09:39:18.011Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="完全背包变形(1) 取数问题">
-<meta name="twitter:description" content="朴素的完全背包就是总容量一定物品无限能放多少东西，这里记录一下最近遇到的变形取数问题">
+<meta name="twitter:title" content="JavaScript 事件监听器的一个小小的实验">
+<meta name="twitter:description" content="一个小小的实验">
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/算法8/">
+  <link rel="canonical" href="http://yoursite.com/前端15/">
 
 
 
@@ -133,7 +133,7 @@
   };
 </script>
 
-  <title>完全背包变形(1) 取数问题 | Baccano</title>
+  <title>JavaScript 事件监听器的一个小小的实验 | Baccano</title>
   
 
 
@@ -395,7 +395,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/算法8/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/前端15/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -412,7 +412,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">完全背包变形(1) 取数问题
+          <h1 class="post-title" itemprop="name headline">JavaScript 事件监听器的一个小小的实验
 
               
             
@@ -438,7 +438,7 @@
                 
               
 
-              <time title="创建时间：2019-02-17 15:35:04 / 修改时间：15:59:34" itemprop="dateCreated datePublished" datetime="2019-02-17T15:35:04+08:00">2019-02-17</time>
+              <time title="创建时间：2019-02-22 17:34:18 / 修改时间：17:39:18" itemprop="dateCreated datePublished" datetime="2019-02-22T17:34:18+08:00">2019-02-22</time>
             
 
             
@@ -460,7 +460,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
 
                 
                 
@@ -479,8 +479,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/算法8/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/算法8/" itemprop="commentCount"></span>
+                <a href="/前端15/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/前端15/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -501,6 +501,8 @@
           
 
           
+            <div class="post-description">一个小小的实验</div>
+          
 
         </div>
       </header>
@@ -515,14 +517,11 @@
       
 
       
-        <p>朴素的完全背包就是总容量一定物品无限能放多少东西，这里记录一下最近遇到的变形取数问题<br><a id="more"></a><br>首先需要说明一下板子的基本情况:<br>一个数分解为几个数的和的形式有多少种方案数或者最多/最少能分解为多少位?  </p>
-<h1 id="例1-P1832-A-B-Problem（再升级）"><a href="#例1-P1832-A-B-Problem（再升级）" class="headerlink" title="例1 P1832 A+B Problem（再升级）"></a>例1 P1832 A+B Problem（再升级）</h1><h2 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>看着像是要搜索但是我感觉搜索应该得tle，这个就是比较朴素的取数问题变形了<br>首先我们定义v是背包容量,n是[2,n]内有多少个质数这样把质数放进背包的板子就成型了<br>注意初始值设定dp[0]=1表示什么都不装是有1个的(即这个数本身也算一种)</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">isp</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i*i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">if</span>(n%i==<span class="number">0</span>)</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> dp[<span class="number">6666</span>],bk[<span class="number">6666</span>],mk[<span class="number">6666</span>],v[<span class="number">6666</span>],p=<span class="number">1</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,sum=<span class="number">0</span>;</span><br><span class="line">  dp[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=<span class="number">1000</span>;i++)</span><br><span class="line">  <span class="keyword">if</span>(isp(i))</span><br><span class="line">  bk[i]=<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=<span class="number">1000</span>;i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span>(bk[i])</span><br><span class="line">    &#123;</span><br><span class="line">      v[p++]=i;</span><br><span class="line">      sum++;</span><br><span class="line">    &#125;</span><br><span class="line">    mk[i]=sum;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=mk[n];i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=v[i];j&lt;=n;j++)</span><br><span class="line">  dp[j]+=dp[j-v[i]];</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;dp[n];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="例2-P1679-神奇的四次方数"><a href="#例2-P1679-神奇的四次方数" class="headerlink" title="例2 P1679 神奇的四次方数"></a>例2 P1679 神奇的四次方数</h1><h2 id="胡乱分析-1"><a href="#胡乱分析-1" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>跟例一一模一样注意这里就是把素数换成了四方数把方案数换成了最少的个数同样套板子即可<br>v是这个数的大小，n是[1,n]内有几个四方数<br>这里dp[0]=0数本身不算分解的一部分</p>
-<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">double</span> num[<span class="number">66666</span>],mk[<span class="number">666666</span>];</span><br><span class="line"><span class="keyword">int</span> sum,p=<span class="number">1</span>,dp[<span class="number">666666</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">memset</span>(dp,<span class="number">0x7f</span>,<span class="keyword">sizeof</span>(dp));</span><br><span class="line">  dp[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">double</span> i=<span class="number">1</span>;;i++)</span><br><span class="line">  <span class="keyword">if</span>(<span class="built_in">pow</span>(i,<span class="number">4</span>)&lt;=<span class="number">1e5</span>)</span><br><span class="line">  num[p++]=<span class="built_in">pow</span>(i,<span class="number">4</span>);</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  <span class="keyword">break</span>;</span><br><span class="line">  p=<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="keyword">int</span>(<span class="number">1e5</span>);i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span>(i==num[p])</span><br><span class="line">    &#123;</span><br><span class="line">      p++;</span><br><span class="line">      sum++;</span><br><span class="line">    &#125;</span><br><span class="line">    mk[i]=sum;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">int</span> n;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=mk[n];i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=num[i];j&lt;=n;j++)</span><br><span class="line">  dp[j]=min(dp[j],dp[<span class="keyword">int</span>(j-num[i])]+<span class="number">1</span>);</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;dp[n];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="例3-自然数无序拆分"><a href="#例3-自然数无序拆分" class="headerlink" title="例3 自然数无序拆分"></a>例3 自然数无序拆分</h1><h2 id="题目描述-摘自中石油oj-10255"><a href="#题目描述-摘自中石油oj-10255" class="headerlink" title="题目描述(摘自中石油oj 10255)"></a>题目描述(摘自中石油oj 10255)</h2><p>美羊羊给喜羊羊和沸羊羊出了一道难题，说谁能先做出来，我就奖励给他我自己做的一样礼物。沸羊羊这下可乐了，于是马上答应立刻做出来，喜羊羊见状，当然也不甘示弱，向沸羊羊发起了挑战。<br>可是这道题目有一些难度，喜羊羊做了一会儿，见沸羊羊也十分头疼，于是就来请教你。<br>题目是这样的：<br>把自然数Ｎ（N&lt;＝100）分解为若干个自然数之和，求出有几种情况。<br>如N＝5时，有7种情况<br>5=1+1+1+1+1<br>5=1+1+1+2<br>5=1+1+3<br>5=1+2+2<br>5=1+4<br>5=2+3<br>5=5<br>怎么样？你要加油帮助喜羊羊哦！</p>
-<h2 id="胡乱分析-2"><a href="#胡乱分析-2" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>还是典型的问题，这个更简单了。。。实际上就是套板子即可v是n个数n是n个数<br>注意dp[0]=1代表数本身是算一个的</p>
-<h2 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> dp[<span class="number">666</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  dp[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=i;j&lt;=n;j++)</span><br><span class="line">  dp[j]+=dp[j-i];</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;dp[n];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <a id="more"></a>
+<p><a href="">这里是实例</a></p>
+<h2 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>JavaScript的代码还是和html有些区别的。。。首先html的id要用双引号””而JavaScript的里面我看到的都是单引号’’并且不管是textConten还是innerHTML后面都是跟的字符串直接写的话要加’’<br>还有就是如何看JavaScript的语法错误，实际上f12就可以查看了在浏览器中<br>事件监听器用addEventListener(‘时间类型’,函数名,false);  </p>
+<h2 id="html-部分"><a href="#html-部分" class="headerlink" title="html 部分"></a>html 部分</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span> <span class="attr">dir</span>=<span class="string">"ltr"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Javascript实验<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span> <span class="attr">id</span>=<span class="string">"test"</span>&gt;</span></span><br><span class="line">      测试标题1</span><br><span class="line">    <span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">id</span>=<span class="string">"one"</span>&gt;</span>点击我<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span> <span class="attr">id</span>=<span class="string">"hide"</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"js.js"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="JavaScript部分"><a href="#JavaScript部分" class="headerlink" title="JavaScript部分"></a>JavaScript部分</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'test'</span>).innerHTML=<span class="string">'&lt;h1&gt;TEST&lt;/h1&gt;'</span>;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">check</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> x;</span><br><span class="line">  <span class="keyword">var</span> y=confirm(<span class="string">'请点击'</span>);</span><br><span class="line">  <span class="keyword">if</span>(y==<span class="literal">true</span>)</span><br><span class="line">  x=<span class="string">'thats good'</span>;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  x=<span class="string">'thats bad'</span>;</span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">'hide'</span>).textContent=x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'one'</span>).addEventListener(<span class="string">'click'</span>,check,<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -575,7 +574,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/dp/" rel="tag"><i class="fa fa-tag"></i> dp</a>
+            <a href="/tags/JavaScript/" rel="tag"><i class="fa fa-tag"></i> JavaScript</a>
           
         </div>
       
@@ -588,8 +587,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/记录0/" rel="next" title="站内更新日志">
-                <i class="fa fa-chevron-left"></i> 站内更新日志
+              <a href="/补题14/" rel="next" title="Codeforces Round 540 (Div. 3)(补题)">
+                <i class="fa fa-chevron-left"></i> Codeforces Round 540 (Div. 3)(补题)
               </a>
             
           </div>
@@ -598,8 +597,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/算法9/" rel="prev" title="背包变形:过程型背包">
-                背包变形:过程型背包 <i class="fa fa-chevron-right"></i>
+              <a href="/uncategorizedjs/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -820,7 +819,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#例1-P1832-A-B-Problem（再升级）"><span class="nav-number">1.</span> <span class="nav-text">例1 P1832 A+B Problem（再升级）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">1.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#例2-P1679-神奇的四次方数"><span class="nav-number">2.</span> <span class="nav-text">例2 P1679 神奇的四次方数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析-1"><span class="nav-number">2.1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码-1"><span class="nav-number">2.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#例3-自然数无序拆分"><span class="nav-number">3.</span> <span class="nav-text">例3 自然数无序拆分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目描述-摘自中石油oj-10255"><span class="nav-number">3.1.</span> <span class="nav-text">题目描述(摘自中石油oj 10255)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析-2"><span class="nav-number">3.2.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码-2"><span class="nav-number">3.3.</span> <span class="nav-text">代码</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#html-部分"><span class="nav-number">2.</span> <span class="nav-text">html 部分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript部分"><span class="nav-number">3.</span> <span class="nav-text">JavaScript部分</span></a></li></ol></div>
             
 
           </div>
