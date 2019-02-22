@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19pSEWWoRAjOggAge2aKhp8zUB+95Vx1QwzLNM3rr+DdqS1rAYkPcEhb1+nNXvB4VoWkwj3myUvdItzhrXrZuu+o3RsJJF9ZeWPddrlM5ZZaf4UrVoBIaawwGoXEoz/qEq7FaDMUel+NaIum21SPgd+EUyeLn6KQNa/EwLkdEbaQPJ1QEhd5gOFCHWWS5uh+eoppBkUsfwrhUWMv8ZNorqZodYOIIMTPFrsYQgrM5L2KAWwmUxgjo0F+3PDQkKhdf4ZIUAnFuPlfwDaAyH0b4XPbDUWpO/hbmwHpscA79Nrw5l4wU7jkILkMSyWXNc9N4JB+6KcJNdZpS6FN6xMNVrbKiIfMr5xzp8zQizvUK9WvjQAzPHPD44voIU0bP4pJ6pyXPexq/26DkDctZp60AQWu3sFBuLMQr3ub+RN3OnenSc9eyV7/kLQ3W1y4eUfwlmOmshteDKI8OVmVY6e6dNzqxKEqDkPZo+2eGntfLfEwdYyxhOLvdbFZgH712j5aLwnNpjb7S3dc+FPda7AzBrELxfG4dJSXDlvB0+tvOsexgNizxT+UgXybUhL5UQgo4VHIhzVi8+BhvuZ/YVyLWWMVIWlVbxi13y6HFxdLEEWatrFh3/of9+wnmsHpA2RASZuaxY5W2+mG9xD2CvpMR1//yNwYnqcY4o7VeiOqxVXBg1FKg92AeSHCCsWW8Eie6e04HZzBmV/MYKOiS9ueLBcBYIm+JjPgxHbTGUDlSgqV50M7GRC41551+k4yrNupPMsChIWESMjwXgfrJdjnIgwDtP4NlKWWCZV9uQupURtls4xZceb4NPLONKwZYdJQkfRZ0ogAm+APz04oMM0jdg9wn73vDLT2aTefBobRm2zZVmnBmz6F4SJbY1+Zleao7Nhv5Rz0ID5XHQ8zMt1yDOsy9CenUcWlajgz6UbLRRLePp3A7YN7Dlp</div>
+<div id="enc_content" style="display:none">U2FsdGVkX19q7RowVSL9Ug/CdY4yk0WujzBMhH6PN/SZluQ6s4v8+vVLcfvEk6Lt/m0jMD7qPZ+BTSnBkaw+lekb1dKF2mUUN11KrI0pICJw02Xvjuo6EaH+gVkqQ9IjiWRxBya9X9eZ+0LT8rHEHblDq7niJ/X1Gcl6NKHIGi8jDWqVs9Q6OBXBtMVb89KAatgdhGT58UEKIF3xzckEhE3wynsN7r/cKDhzwG1U0gnHRuiWZoWxMOjOrMJqiNWUSyIcGSg7NFau6cWrFgom2CjA0AlzuQlBrnwy7Ka4a9jkUh6j6mAsVkTyuDUsW/FDkVUehvXR1pWenOlmk/vN66Dna84ib5E4tcuIY5AhsmZXjZgo6K/SMfQ8PhI+etF59eGaLFYI3kgrKFC8TRGPmh6dRb0pr6MUUpHSLBNt0Ymz1F/IBZ+TV/hdppZKWQ9CDYRURpuvNQHf8/N6+t/2ZeX80g9sLDKsaMkf0euKi7JzaD6dUffulncVOdbBW4DHcbK7nGGTLqpOB1cyLWy/IK/ON+e+LCD3m3vpxxm8revOFQO8OUzJrnIEkghU5CQPYV3nMxxYalffb2SfWUNc4bfoP+ZrtO/+93eotH+NDD9oQNNAUDqiG3uXM84BrjrrxpTXc5atd4L9l4cRRHI9HLp497wdbQlj8Uh2GNJSzVOXmGHSucsuG4La4RDiHitkxCSUKJyDBjngjaLg1kKyPOj1ZWz3PmjBrNZF0Wx08Wdb87gpwhByag+Sxy6TyEvURM2/3gBej+26fJ6oNiHkjdNbyNRcIIG7fD7LvAR8I/hMa7Kt/R1s5duWm8bLpCUiw/Zdka9AnJF2MvYmLwSu/uOK0wtIuct6U6CbU0sr4JaDFDxKgenoW+7Hmv0eUFIbnVHQbu5fywty2+8ydhmo2mN0+UUTaRD8BF8vIjpN5DPQ3qdo53XA8i2B1M7530YM</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -700,15 +700,19 @@ doDecrypt(passwd, onError);
         border-width: medium;
         border: orange;
       }
+      #text1
+      {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <div id="border">
-    <h1 id="text1">要不要来选择一下自己可能的老婆？</h1>
+    <h1 id="text1">---小游戏:要不要来选择一下自己可能的老婆？---</h1>
     <button type="button" id="one">开始</button>
-    </div>
     <script src="/js/src/game.js">
     </script>
+    </div>
   </body>
 </html>
 
