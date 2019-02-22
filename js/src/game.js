@@ -55,7 +55,11 @@ function changeImage()
     "https://i.loli.net/2019/02/22/5c6ff41dd07c7.jpg",
     "https://i.loli.net/2019/02/22/5c6ff41dd2797.jpg",
     "https://i.loli.net/2019/02/22/5c6ff41dce646.jpg",
-    "https://i.loli.net/2019/02/22/5c6ff41e61ebc.png"
+    "https://i.loli.net/2019/02/22/5c6ff41e61ebc.png",
+    "https://i.loli.net/2019/02/23/5c702b57c3bbb.png",
+    "https://i.loli.net/2019/02/23/5c702b5831271.jpg",
+    "https://i.loli.net/2019/02/23/5c702b584bf33.png",
+    "https://i.loli.net/2019/02/23/5c702b588ebcb.png"
   ];
   i++;
   if(i>=pic.length)
@@ -87,7 +91,7 @@ function click2()
 var rand=Math.random();
 function yes1()
 {
-  if(rand>=0.75)
+  if(rand>=0.25)
   var now=alert('抱歉你并没有成功');
   else
   var now=alert('恭喜你成功了！！！');
