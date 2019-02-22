@@ -15,7 +15,7 @@
 
 
 <html class="theme-next mist use-motion" lang="zh-CN">
-<head>
+<head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -103,26 +103,27 @@
 
 
 
-  <meta name="description" content="CSS3动画实验            div.one       {         background-color: blue;         width: 400px;         height: 400px;         animation: a1 5s infinite;       }       @keyframes a1       {">
+  <meta name="description" content="一个很基础的DOM与计时器操作">
+<meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Baccano">
-<meta property="og:url" content="http://yoursite.com/uncategorizedcss3 animation/index.html">
+<meta property="og:title" content="用JavaScript添加一个计时器选图的博客文章底栏插件">
+<meta property="og:url" content="http://yoursite.com/前端16/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="CSS3动画实验            div.one       {         background-color: blue;         width: 400px;         height: 400px;         animation: a1 5s infinite;       }       @keyframes a1       {">
+<meta property="og:description" content="一个很基础的DOM与计时器操作">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-20T07:30:34.031Z">
+<meta property="og:updated_time" content="2019-02-22T14:10:29.394Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Baccano">
-<meta name="twitter:description" content="CSS3动画实验            div.one       {         background-color: blue;         width: 400px;         height: 400px;         animation: a1 5s infinite;       }       @keyframes a1       {">
+<meta name="twitter:title" content="用JavaScript添加一个计时器选图的博客文章底栏插件">
+<meta name="twitter:description" content="一个很基础的DOM与计时器操作">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Baccano" type="application/atom+xml"/>
+  <link rel="alternate" href="/atom.xml" title="Baccano" type="application/atom+xml">
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/uncategorizedcss3 animation/"/>
+  <link rel="canonical" href="http://yoursite.com/前端16/">
 
 
 
@@ -132,7 +133,7 @@
   };
 </script>
 
-  <title> | Baccano</title>
+  <title>用JavaScript添加一个计时器选图的博客文章底栏插件 | Baccano</title>
   
 
 
@@ -173,7 +174,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -183,7 +184,7 @@
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta">
     
@@ -228,7 +229,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>首页</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
   </li>
         
@@ -245,7 +246,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br/>关于</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
         
@@ -262,7 +263,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
 
   </li>
         
@@ -279,7 +280,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br/>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
         
@@ -296,7 +297,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
 
   </li>
         
@@ -313,7 +314,7 @@
 
     
 
-    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br/>日程表</a>
+    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
 
   </li>
 
@@ -324,7 +325,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
         </li>
       
     </ul>
@@ -347,9 +348,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -391,21 +390,21 @@
 
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/uncategorizedcss3 animation/"/>
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/前端16/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="baccano"/>
-      <meta itemprop="description" content="一个蒟蒻的小家"/>
-      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"/>
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baccano">
+      <meta itemprop="description" content="一个蒟蒻的小家">
+      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baccano"/>
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Baccano">
     </span>
 
     
@@ -413,7 +412,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">用JavaScript添加一个计时器选图的博客文章底栏插件
 
               
             
@@ -439,7 +438,7 @@
                 
               
 
-              <time title="创建时间：2019-02-20 15:31:00 / 修改时间：15:30:34" itemprop="dateCreated datePublished" datetime="2019-02-20T15:31:00+08:00">2019-02-20</time>
+              <time title="创建时间：2019-02-22 21:59:53 / 修改时间：22:10:29" itemprop="dateCreated datePublished" datetime="2019-02-22T21:59:53+08:00">2019-02-22</time>
             
 
             
@@ -449,6 +448,24 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -462,8 +479,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/uncategorizedcss3 animation/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorizedcss3 animation/" itemprop="commentCount"></span>
+                <a href="/前端16/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/前端16/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -474,8 +491,7 @@
 
           
             <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon"
-            >
+            <span class="post-meta-item-icon">
             <i class="fa fa-eye"></i>
              阅读次数： 
             <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
@@ -484,6 +500,8 @@
 
           
 
+          
+            <div class="post-description">一个很基础的DOM与计时器操作</div>
           
 
         </div>
@@ -499,391 +517,13 @@
       
 
       
-        <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="utf-8">
-    <title>CSS3动画实验</title>
-    <style>
-      div.one
-      {
-        background-color: blue;
-        width: 400px;
-        height: 400px;
-        animation: a1 5s infinite;
-      }
-      @keyframes a1
-      {
-        0%   {background:red;}
-	      25%  {background:yellow;}
-	      50%  {background:blue;}
-	      100% {background:green;}
-      }
-      div.two
-      {
-        height: 200px;
-        width: 200px;
-        background-color: red;
-        animation: a2 5s infinite;
-        position: relative;
-      }
-      @keyframes a2
-      {
-        0%   {background:red; left:0px; top:0px;}
-	      25%  {background:yellow; left:200px; top:0px;}
-	      50%  {background:blue; left:200px; top:200px;}
-	      75%  {background:green; left:0px; top:200px;}
-	      100% {background:red; left:0px; top:0px;}
-      }
-      .solarsys{
-  width: 800px;
-  height: 800px;;
-  position: relative;
-  margin: 0 auto;
-  background-color: #000000;
-  padding: 0;
-  transform: scale(1);
-}
-
-/*太阳*/
-.sun {
-  left:357px;
-  top:357px;
-  height: 90px;
-  width: 90px;
-  background-color: rgb(248,107,35);
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px rgb(248,107,35), -5px -5px 10px rgb(248,107,35), 5px -5px 10px rgb(248,107,35), -5px 5px 10px rgb(248,107,35);
-  position: absolute;
-  margin: 0;
-}
-
-/*水星*/
-.mercury {
-  left:337.5px;
-  top:395px;
-  height: 10px;
-  width: 10px;
-  background-color: rgb(166,138,56);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 62.5px 5px;
-  animation: rotate 1.5s infinite linear;
-}
-
-/*水星轨道*/
-.mercuryOrbit {
-  left:342.5px;
-  top:342.5px;
-  height: 115px;
-  width: 115px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  margin: 0px;
-  padding: 0px;
-}
-
-/*金星*/
-.venus {
-  left:309px;
-  top:389px;
-  height: 22px;
-  width: 22px;
-  background-color: rgb(246,157,97);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 91px 11px;
-  animation: rotate 3.84s infinite linear;
-}
-
-/*金星轨道*/
-.venusOrbit {
-  left:320px;
-  top:320px;
-  height: 160px;
-  width: 160px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-/*地球*/
-.earth {
-  left:266.5px;
-  top:391px;
-  height: 18px;
-  width: 18px;
-  background-color: rgb(115,114,174);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 134px 9px;
-  animation: rotate 6.25s infinite linear;
-}
-
-/*地球轨道*/
-.earthOrbit {
-  left:275px;
-  top:275px;
-  height: 250px;
-  width: 250px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-/*火星*/
-.mars {
-  left:222.5px;
-  top:392.5px;
-  height: 15px;
-  width: 15px;
-  background-color: rgb(140,119,63);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 177.5px 7.5px;
-  animation: rotate 11.75s infinite linear;
-}
-
-/*火星轨道*/
-.marsOrbit {
-  left:230px;
-  top:230px;
-  height: 340px;
-  width: 340px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-/*木星*/
-.jupiter {
-  left:134px;
-  top:379px;
-  height: 42px;
-  width: 42px;
-  background-color: rgb(156,164,143);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 266px 21px;
-  animation: rotate 74.04s infinite linear;
-}
-
-/*木星轨道*/
-.jupiterOrbit {
-  left:155px;
-  top:155px;
-  height: 490px;
-  width: 490px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-/*土星*/
-.saturn {
-  left:92px;
-  top:387px;
-  height: 26px;
-  width: 26px;
-  background-color: rgb(215,171,68);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 308px 13px;
-  animation: rotate 183.92s infinite linear;
-}
-
-/*土星轨道*/
-.saturnOrbit {
-  left:105px;
-  top:105px;
-  height: 590px;
-  width: 590px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-/*天王星*/
-.uranus {
-  left:41.5px;
-  top:386.5px;
-  height: 27px;
-  width: 27px;
-  background-color: rgb(164,192,206);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 358.5px 13.5px;
-  animation: rotate 524.46s infinite linear;
-}
-
-/*天王星轨道*/
-.uranusOrbit {
-  left:55px;
-  top:55px;
-  height: 690px;
-  width: 690px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-/*海王星*/
-.neptune {
-  left:10px;
-  top:390px;
-  height: 20px;
-  width: 20px;
-  background-color: rgb(133,136,180);
-  border-radius: 50%;
-  position: absolute;
-  transform-origin: 390px 10px;
-  animation: rotate 1028.76s infinite linear;
-}
-
-/*海王星轨道*/
-.neptuneOrbit {
-  left:20px;
-  top:20px;
-  height: 760px;
-  width: 760px;
-  background-color: transparent;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: gray;
-  position: absolute;
-  border-width: 1px;
-  /*margin: 100px;*/
-  /*transform-origin: -75px -75px;*/
-  /*animation: rotate 4s infinite linear;*/
-  margin: 0px;
-  padding: 0px;
-}
-
-@keyframes rotate {
-  100% {
-    transform: rotate(-360deg);
-  }
-}
-    </style>
-  </head>
-  <body>
-    <h1>下面请尽情欣赏动画</h1>
-    <p>这是一个基础的颜色变换</p>
-    <div class="one">
-    </div>
-    <p>这是一个带移动的动画</p>
-    <div class="two">
-    </div>
-    <br>
-    <br>
-    <br>
-    <p>大佬的太阳系公转动画orz</p>
-    <div class="solarsys">
-  <!--太阳-->
-  <div class="sun"></div>
-
-  <!--水星轨道-->
-  <div class="mercuryOrbit"></div>
-
-  <!--水星-->
-  <div class="mercury"></div>
-
-  <!--金星轨道-->
-  <div class="venusOrbit"></div>
-
-  <!--金星-->
-  <div class="venus"></div>
-
-  <!--地球轨道-->
-  <div class="earthOrbit"></div>
-
-  <!--地球-->
-  <div class="earth"></div>
-
-  <!--火星轨道-->
-  <div class="marsOrbit"></div>
-
-  <!--火星-->
-  <div class="mars"></div>
-
-  <!--木星轨道-->
-  <div class="jupiterOrbit"></div>
-
-  <!--木星-->
-  <div class="jupiter"></div>
-
-  <!--土星轨道-->
-  <div class="saturnOrbit"></div>
-
-  <!--土星-->
-  <div class="saturn"></div>
-
-  <!--天王星轨道-->
-  <div class="uranusOrbit"></div>
-
-  <!--天王星-->
-  <div class="uranus"></div>
-
-  <!--海王星轨道-->
-  <div class="neptuneOrbit"></div>
-
-  <!--海王星-->
-  <div class="neptune"></div>
-</div>
-  <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/assets/hibiki.model.json"},"display":{"position":"left","width":100,"height":300},"mobile":{"show":false},"log":false,"tagMode":false});</script></body>
-</html>
+        <a id="more"></a>
+<h1 id="源代码"><a href="#源代码" class="headerlink" title="源代码"></a>源代码</h1><p>首先放上代码，html部分还用了一些css但是测试了一下发现只有img的盒子大小和文字居中有效，其他不知道为啥没效，还有就是hexo还是next好像并不支持用img的width和height属性所以我才加了css<br>第一次写JavaScript脚本写的比较丑还多见谅</p>
+<h2 id="JavaScript部分"><a href="#JavaScript部分" class="headerlink" title="JavaScript部分"></a>JavaScript部分</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> click1_html;</span><br><span class="line"><span class="keyword">var</span> i=<span class="number">0</span>;</span><br><span class="line"><span class="keyword">var</span> loop1;</span><br><span class="line"><span class="keyword">var</span> body;</span><br><span class="line"><span class="keyword">var</span> re1,re2,re3,re4,re5,re6,re7;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">click1</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> dir=<span class="built_in">document</span>.getElementById(<span class="string">'one'</span>);</span><br><span class="line">  click1_html=dir;</span><br><span class="line">  <span class="keyword">var</span> p=dir.parentNode;</span><br><span class="line">  body=p;</span><br><span class="line">  p.removeChild(dir);</span><br><span class="line">  <span class="keyword">var</span> n=<span class="built_in">document</span>.createElement(<span class="string">'h1'</span>);</span><br><span class="line">  <span class="keyword">var</span> n_text=<span class="built_in">document</span>.createTextNode(<span class="string">'点击选择按钮即可选择'</span>);</span><br><span class="line">  re1=n;</span><br><span class="line">  n.appendChild(n_text);</span><br><span class="line">  p.appendChild(n);</span><br><span class="line">  <span class="keyword">var</span> eimg=<span class="built_in">document</span>.createElement(<span class="string">'img'</span>);</span><br><span class="line">  re2=eimg;</span><br><span class="line">  eimg.id=<span class="string">'img1'</span>;</span><br><span class="line">  eimg.width=<span class="string">'800'</span>;</span><br><span class="line">  eimg.height=<span class="string">'600'</span>;</span><br><span class="line">  p.appendChild(eimg);</span><br><span class="line">  <span class="keyword">var</span> ebut=<span class="built_in">document</span>.createElement(<span class="string">'button'</span>);</span><br><span class="line">  ebut.type=<span class="string">'button'</span>;</span><br><span class="line">  ebut.id=<span class="string">'two'</span>;</span><br><span class="line">  <span class="keyword">var</span> ebut_t=<span class="built_in">document</span>.createTextNode(<span class="string">'选择'</span>);</span><br><span class="line">  re3=ebut;</span><br><span class="line">  <span class="keyword">var</span> nn=<span class="built_in">document</span>.createElement(<span class="string">'br'</span>);</span><br><span class="line">  ebut.appendChild(ebut_t);</span><br><span class="line">  p.appendChild(nn);</span><br><span class="line">  p.appendChild(ebut);</span><br><span class="line">  loop1=setInterval(changeImage,<span class="number">30</span>);</span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">'two'</span>).addEventListener(<span class="string">'click'</span>,click2,<span class="literal">false</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">changeImage</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> pic=[</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff377c521d.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff377d0fc6.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff377d0d5f.png"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff377d1750.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff377d547f.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff377d563a.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff3780db68.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff3780f0f0.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff378167cb.jpeg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff378178c8.jpeg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dc472c.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dc6780.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dc87c9.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dc28c8.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dca549.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dcc4bb.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dd07c7.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dd2797.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41dce646.jpg"</span>,</span><br><span class="line">    <span class="string">"https://i.loli.net/2019/02/22/5c6ff41e61ebc.png"</span></span><br><span class="line">  ];</span><br><span class="line">  i++;</span><br><span class="line">  <span class="keyword">if</span>(i&gt;=pic.length)</span><br><span class="line">  i=<span class="number">0</span>;</span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">'img1'</span>).src=pic[i];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">click2</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  clearInterval(loop1);</span><br><span class="line">  body.removeChild(re3);</span><br><span class="line">  <span class="keyword">var</span> n1=<span class="built_in">document</span>.createElement(<span class="string">'button'</span>);</span><br><span class="line">  <span class="keyword">var</span> n2=<span class="built_in">document</span>.createElement(<span class="string">'button'</span>);</span><br><span class="line">  <span class="keyword">var</span> h1=<span class="built_in">document</span>.createElement(<span class="string">'h1'</span>);</span><br><span class="line">  <span class="keyword">var</span> n1_t=<span class="built_in">document</span>.createTextNode(<span class="string">'带回家！！！'</span>);</span><br><span class="line">  <span class="keyword">var</span> n2_t=<span class="built_in">document</span>.createTextNode(<span class="string">'我选择放弃'</span>);</span><br><span class="line">  <span class="keyword">var</span> h1_t=<span class="built_in">document</span>.createTextNode(<span class="string">'是否选择带回家？有一定的几率'</span>);</span><br><span class="line">  re4=h1;</span><br><span class="line">  n1.appendChild(n1_t);</span><br><span class="line">  n2.appendChild(n2_t);</span><br><span class="line">  n1.id=<span class="string">'yes'</span>;</span><br><span class="line">  n2.id=<span class="string">'no'</span>;</span><br><span class="line">  h1.appendChild(h1_t);</span><br><span class="line">  body.appendChild(h1);</span><br><span class="line">  body.appendChild(n1);</span><br><span class="line">  body.appendChild(n2);</span><br><span class="line">  n1.addEventListener(<span class="string">'click'</span>,yes1,<span class="literal">false</span>);</span><br><span class="line">  n2.addEventListener(<span class="string">'click'</span>,no1,<span class="literal">false</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> rand=<span class="built_in">Math</span>.random();</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">yes1</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(rand&gt;=<span class="number">0.75</span>)</span><br><span class="line">  <span class="keyword">var</span> now=alert(<span class="string">'抱歉你并没有成功'</span>);</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  <span class="keyword">var</span> now=alert(<span class="string">'恭喜你成功了！！！'</span>);</span><br><span class="line">  retry();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">no1</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> now=alert(<span class="string">'真是一个让人遗憾的选择啊！！！'</span>);</span><br><span class="line">  retry();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">retry</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  body.removeChild(<span class="built_in">document</span>.getElementById(<span class="string">'yes'</span>));</span><br><span class="line">  body.removeChild(<span class="built_in">document</span>.getElementById(<span class="string">'no'</span>));</span><br><span class="line">  <span class="keyword">var</span> h1=<span class="built_in">document</span>.createElement(<span class="string">'h1'</span>);</span><br><span class="line">  <span class="keyword">var</span> h1_t=<span class="built_in">document</span>.createTextNode(<span class="string">'是否要重新来过?'</span>);</span><br><span class="line">  re5=h1;</span><br><span class="line">  <span class="keyword">var</span> n1=<span class="built_in">document</span>.createElement(<span class="string">'button'</span>);</span><br><span class="line">  <span class="keyword">var</span> n2=<span class="built_in">document</span>.createElement(<span class="string">'button'</span>);</span><br><span class="line">  <span class="keyword">var</span> n1_t=<span class="built_in">document</span>.createTextNode(<span class="string">'是'</span>);</span><br><span class="line">  <span class="keyword">var</span> n2_t=<span class="built_in">document</span>.createTextNode(<span class="string">'否'</span>);</span><br><span class="line">  n1.appendChild(n1_t);</span><br><span class="line">  n2.appendChild(n2_t);</span><br><span class="line">  re6=n1;</span><br><span class="line">  re7=n2;</span><br><span class="line">  h1.appendChild(h1_t);</span><br><span class="line">  body.appendChild(h1);</span><br><span class="line">  body.appendChild(n1);</span><br><span class="line">  body.appendChild(n2);</span><br><span class="line">  n1.addEventListener(<span class="string">'click'</span>,yes2,<span class="literal">false</span>);</span><br><span class="line">  n2.addEventListener(<span class="string">'click'</span>,no2,<span class="literal">false</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">yes2</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  body.removeChild(re1);</span><br><span class="line">  body.removeChild(re2);</span><br><span class="line">  body.removeChild(re4);</span><br><span class="line">  body.removeChild(re5);</span><br><span class="line">  body.removeChild(re6);</span><br><span class="line">  body.removeChild(re7);</span><br><span class="line">  body.appendChild(click1_html);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">no2</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  alert(<span class="string">'你仍然可以刷新进行重新选择'</span>);</span><br><span class="line">  body.removeChild(re6);</span><br><span class="line">  body.removeChild(re7);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'one'</span>).addEventListener(<span class="string">'click'</span>,click1,<span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+<h2 id="html部分"><a href="#html部分" class="headerlink" title="html部分"></a>html部分</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span> <span class="attr">dir</span>=<span class="string">"ltr"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>小游戏<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="css">      <span class="selector-id">#img1</span></span></span><br><span class="line"><span class="undefined">      &#123;</span></span><br><span class="line"><span class="undefined">        width: 800px;</span></span><br><span class="line"><span class="undefined">        height: 600px;</span></span><br><span class="line"><span class="undefined">        border-style: outset;</span></span><br><span class="line"><span class="undefined">        border-color: orange;</span></span><br><span class="line"><span class="undefined">      &#125;</span></span><br><span class="line"><span class="undefined">      body</span></span><br><span class="line"><span class="undefined">      &#123;</span></span><br><span class="line"><span class="undefined">        border-style: groove;</span></span><br><span class="line"><span class="undefined">        border-width: medium;</span></span><br><span class="line"><span class="undefined">        border: orange;</span></span><br><span class="line"><span class="undefined">      &#125;</span></span><br><span class="line"><span class="css">      <span class="selector-id">#text1</span></span></span><br><span class="line"><span class="undefined">      &#123;</span></span><br><span class="line"><span class="undefined">        text-align: center;</span></span><br><span class="line"><span class="undefined">      &#125;</span></span><br><span class="line"><span class="css">      <span class="selector-id">#one</span></span></span><br><span class="line"><span class="undefined">      &#123;</span></span><br><span class="line"><span class="undefined">        margin: auto;</span></span><br><span class="line"><span class="undefined">      &#125;</span></span><br><span class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"border"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span> <span class="attr">id</span>=<span class="string">"text1"</span>&gt;</span>---小游戏:要不要来选择一下自己可能的老婆？---<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">id</span>=<span class="string">"one"</span>&gt;</span>开始<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"/js/src/game.js"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="如何放到每篇文章的最底下？"><a href="#如何放到每篇文章的最底下？" class="headerlink" title="如何放到每篇文章的最底下？"></a>如何放到每篇文章的最底下？</h1><p>首先你需要在theme/layout目录下新建一个game.swig(当然名字随意)<br>然后把html部分抄上去并且在开头加上<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.passage_end_tag.enabled %&#125;</span><br></pre></td></tr></table></figure></p>
+<p>接着在同目录下的post.swig中找到id为post-expand的div下加入<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> &gt;</span></span><br><span class="line">  &#123;% if not is_index %&#125;</span><br><span class="line">    &#123;% include 'game.swig' %&#125;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>然后再找到theme/source/js/src新建一个game.js(同样名字可以随意)接着把所有的JavaScript代码复制进去即可<br>最后hexo clean&amp;&amp;hexo g –d部署到服务器就行了</p>
 
       
     </div>
@@ -910,14 +550,14 @@
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="https://i.loli.net/2019/02/16/5c6778e69c9a0.png" alt="baccano 微信支付"/>
+        <img id="wechat_qr" src="https://i.loli.net/2019/02/16/5c6778e69c9a0.png" alt="baccano 微信支付">
         <p>微信支付</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="https://i.loli.net/2019/02/16/5c677916a8306.png" alt="baccano 支付宝"/>
+        <img id="alipay_qr" src="https://i.loli.net/2019/02/16/5c677916a8306.png" alt="baccano 支付宝">
         <p>支付宝</p>
       </div>
     
@@ -934,6 +574,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript/" rel="tag"><i class="fa fa-tag"></i> JavaScript</a>
+          
+        </div>
+      
 
       
       
@@ -943,7 +589,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/uncategorizedcss3/" rel="next" title="">
+              <a href="/uncategorizedjs/" rel="next" title="">
                 <i class="fa fa-chevron-left"></i> 
               </a>
             
@@ -952,10 +598,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/前端13/" rel="prev" title="CSS3动画实验">
-                CSS3动画实验 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -977,14 +619,14 @@
       
 <div style="text-align:center;color: black;font-size:36px;">
 ------ 本文结束 ------</div>
-<br/>
+<br>
 <div style="border: 1px solid black">
 <div style="margin-left:10px">
 <span style="font-weight:blod">版权声明</span>
-<img src="https://i.loli.net/2019/02/13/5c64075a050df.png" >
-<br/>
-<p style="font-size: 24px;line-height: 30px"><a href="http://baccano.fun" style="color:#258FC6">Baccano</a> by <a href="http://baccano.fun" style="color:#258FC6">baccano</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">Creative Commons BY-NC-ND 4.0 International License</a>.<br/>
-由<a href="http://baccano.fun" style="color:#258FC6">baccano</a>创作并维护的<a href="http://baccano.fun" style="color:#258FC6">Baccano</a>博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。<br/>
+<img src="https://i.loli.net/2019/02/13/5c64075a050df.png">
+<br>
+<p style="font-size: 24px;line-height: 30px"><a href="http://baccano.fun" style="color:#258FC6">Baccano</a> by <a href="http://baccano.fun" style="color:#258FC6">baccano</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">Creative Commons BY-NC-ND 4.0 International License</a>.<br>
+由<a href="http://baccano.fun" style="color:#258FC6">baccano</a>创作并维护的<a href="http://baccano.fun" style="color:#258FC6">Baccano</a>博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。<br>
 本文首发于<a href="http://baccano.fun" style="color:#258FC6">baccano</a> 博客（ <a href="http://baccano.fun" style="color:#258FC6">http://baccano.fun</a> ），版权所有，侵权必究。</p>
 </div>
 </div>
@@ -992,12 +634,12 @@
 
     
   </div>
-  <div >
+  <div>
     
       
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <title>小游戏</title>
     <style>
@@ -1078,11 +720,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image"
-                src="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"
-                alt="baccano"/>
+              <img class="site-author-image" itemprop="image" src="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif" alt="baccano">
             
               <p class="site-author-name" itemprop="name">baccano</p>
               <p class="site-description motion-element" itemprop="description">一个蒟蒻的小家</p>
@@ -1196,9 +836,9 @@
             </div>
           
           <body>
-            <font face='Arial' color='white' ><h3>来一首舒缓的音乐怎么样？</h3></font>
+            <font face="Arial" color="white"><h3>来一首舒缓的音乐怎么样？</h3></font>
           <div id="music163player">
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
             </iframe>
           </div>
           <body>
@@ -1207,7 +847,7 @@
           
           
 
-        </div>
+        </body></body></div>
       </div>
 
       
@@ -1221,7 +861,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">下面请尽情欣赏动画</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#源代码"><span class="nav-number">1.</span> <span class="nav-text">源代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#JavaScript部分"><span class="nav-number">1.1.</span> <span class="nav-text">JavaScript部分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#html部分"><span class="nav-number">1.2.</span> <span class="nav-text">html部分</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#如何放到每篇文章的最底下？"><span class="nav-number">2.</span> <span class="nav-text">如何放到每篇文章的最底下？</span></a></li></ol></div>
             
 
           </div>
@@ -1325,7 +965,7 @@
     
     
   
-  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
 
