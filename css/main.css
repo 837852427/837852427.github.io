@@ -2019,7 +2019,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6329ff;
+  background: #b6ffaa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3006,7 +3006,6 @@ hr {
 }
 @media screen and (min-width: 1600px) {
   body {
-    background-image: url("https://i.loli.net/2019/02/13/5c63aa4a239b2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 60% 60%;

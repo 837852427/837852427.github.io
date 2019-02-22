@@ -1,15 +1,19 @@
-<script type="text/javascript">
-   //<!CDATA[
-       var bodyBgs = [];
-       bodyBgs[0] = "https://i.loli.net/2019/02/13/5c63aa4a239b2.jpg";
-       bodyBgs[1] = "https://i.loli.net/2019/02/14/5c64462735e20.jpg";
-       bodyBgs[2] = "https://i.loli.net/2019/02/14/5c6446276f5d7.jpg";
-       bodyBgs[3] = "https://i.loli.net/2019/02/14/5c644627b8b6d.jpg";
-       bodyBgs[4] = "https://i.loli.net/2019/02/14/5c6446280ddaf.jpg";
-
-       var randomBgIndex = Math.round( Math.random() * 4 );
-
-   //输出随机的背景图
-       document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
-   //]]>
-   </script>
+var pic=[
+  "https://i.loli.net/2019/02/23/5c702b57c3bbb.png",
+  "https://i.loli.net/2019/02/23/5c702b5831271.jpg",
+  "https://i.loli.net/2019/02/23/5c702b584bf33.png",
+  "https://i.loli.net/2019/02/23/5c702b588ebcb.png",
+  "https://i.loli.net/2019/02/23/5c702f87a58b5.jpg"
+];
+var i=Math.random();
+if(i<=0.2)
+i=0;
+else if(i<=0.4)
+i=1;
+else if(i<=0.6)
+i=2;
+else if(i<=0.8)
+i=3;
+else
+i=4;
+document.body.background=pic[i];
