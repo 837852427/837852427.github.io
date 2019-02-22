@@ -30,7 +30,7 @@ function click1()
   ebut.appendChild(ebut_t);
   p.appendChild(nn);
   p.appendChild(ebut);
-  loop1=setInterval(changeImage,500);
+  loop1=setInterval(changeImage,30);
   document.getElementById('two').addEventListener('click',click2,false);
 }
 function changeImage()

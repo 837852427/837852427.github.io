@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1+qOcTaXUUaQZbqn3nGrilIfUxiZO0gs4ZBaqL8Ji6+ltfO9YyN1HtXg+A/wKyL2QJRSxGOoHN5A4gv4BIy6k7utpTgJA0gZzCon5OqMSOgdEL7pZ/GNCpcqSQ62/ysRmwddZ6xOYOhtVaH9kN88bhtjbgUE8N+m0kHn5Uy9Ilj2f/wtls4Xi6T0YL5v7PkMz9Y5898f8tizCoRzVvdUzLunUQNI4k0X7L6rOnzo/pubVuzaJdXcdw6rozVCNhVGDiqxw+psr+vhldf0a0O7ZqoE8OuOxTvt2kINYBD10+6/IOfk/56zC/VLC3xWW0XuAWWyj1GxN/O1w==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX19oQZ1TRMAHmE/KvrM43jfANAsR6/7EjOvMewmPgAOQU+lipw7OuRODmNo6uFrFjLDDJ8JrqUxKmRA5L/epqbltIsTSSrjlfc3iXD7gsfbLLQQqR7jn2B76p5/g9INFNUPpNEu1Wu3DwcG7v8vlHLMD4fvcSnknJvy7G99UnTktBcaTI4F2C3dIi6Re5pJuvBlyR5CFsSAbPqgewnfJg/gdeiuNUJp7/3R0kjxLiJaACzBX5MblGn4+8czIbDdlYdpiaEl10gu2OzI3AgHbXY3v9uY/jZC6KpEHP/g1pwlshXsCa2UpJjPZTgtjZyP0UEN0K+dPxZQ5rg==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -688,6 +688,13 @@ doDecrypt(passwd, onError);
   <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <title>小游戏</title>
+    <style>
+      #img1
+      {
+        width: 800px;
+        height: 600px;
+      }
+    </style>
   </head>
   <body>
     <h1 id="text1">要不要来选择一下自己可能的老婆？</h1>
