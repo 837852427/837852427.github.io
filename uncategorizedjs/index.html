@@ -103,17 +103,17 @@
 
 
 
-  <meta name="description" content="Javascript实验                  测试标题1          点击我                  L2Dwidget.init({&quot;pluginRootPath&quot;:&quot;live2dw/&quot;,&quot;pluginJsPath&quot;:&quot;lib/&quot;,&quot;pluginModelPath&quot;:&quot;assets/&quot;,&quot;model&quot;:{&quot;jsonPath&quot;:&quot;/live">
+  <meta name="description" content="Javascript实验                  测试标题1          点击我               document.getElementById(&apos;test&apos;).innerHTML=&apos;TEST&apos;;     function check()     {       var x;       var y=confirm(&apos;请点击&apos;);">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Baccano">
 <meta property="og:url" content="http://yoursite.com/uncategorizedjs/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="Javascript实验                  测试标题1          点击我                  L2Dwidget.init({&quot;pluginRootPath&quot;:&quot;live2dw/&quot;,&quot;pluginJsPath&quot;:&quot;lib/&quot;,&quot;pluginModelPath&quot;:&quot;assets/&quot;,&quot;model&quot;:{&quot;jsonPath&quot;:&quot;/live">
+<meta property="og:description" content="Javascript实验                  测试标题1          点击我               document.getElementById(&apos;test&apos;).innerHTML=&apos;TEST&apos;;     function check()     {       var x;       var y=confirm(&apos;请点击&apos;);">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-22T09:30:29.067Z">
+<meta property="og:updated_time" content="2019-02-22T09:43:03.926Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Baccano">
-<meta name="twitter:description" content="Javascript实验                  测试标题1          点击我                  L2Dwidget.init({&quot;pluginRootPath&quot;:&quot;live2dw/&quot;,&quot;pluginJsPath&quot;:&quot;lib/&quot;,&quot;pluginModelPath&quot;:&quot;assets/&quot;,&quot;model&quot;:{&quot;jsonPath&quot;:&quot;/live">
+<meta name="twitter:description" content="Javascript实验                  测试标题1          点击我               document.getElementById(&apos;test&apos;).innerHTML=&apos;TEST&apos;;     function check()     {       var x;       var y=confirm(&apos;请点击&apos;);">
 
 
 
@@ -439,7 +439,7 @@
                 
               
 
-              <time title="创建时间：2019-02-22 17:39:14 / 修改时间：17:30:29" itemprop="dateCreated datePublished" datetime="2019-02-22T17:39:14+08:00">2019-02-22</time>
+              <time title="创建时间：2019-02-22 17:39:14 / 修改时间：17:43:03" itemprop="dateCreated datePublished" datetime="2019-02-22T17:39:14+08:00">2019-02-22</time>
             
 
             
@@ -511,7 +511,19 @@
     </h1>
     <button type="button" id="one">点击我</button>
     <h1 id="hide"></h1>
-    <script src="js.js">
+    <script>
+    document.getElementById('test').innerHTML='<h1>TEST</h1>';
+    function check()
+    {
+      var x;
+      var y=confirm('请点击');
+      if(y==true)
+      x='thats good';
+      else
+      x='thats bad';
+      document.getElementById('hide').textContent=x;
+    }
+    document.getElementById('one').addEventListener('click',check,false);
     </script>
   <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/assets/hibiki.model.json"},"display":{"position":"left","width":100,"height":300},"mobile":{"show":false},"log":false,"tagMode":false});</script></body>
 </html>
@@ -583,10 +595,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/uncategorizedjs/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -682,7 +690,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">20</span>
+                    <span class="site-state-item-count">19</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
