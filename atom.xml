@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-22T14:10:29.394Z</updated>
+  <updated>2019-02-22T14:13:56.127Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>用JavaScript添加一个计时器选图的博客文章底栏插件</title>
+    <title>用JavaScript添加一个计时器选图的hexo博客文章底栏插件</title>
     <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF16/"/>
     <id>http://yoursite.com/前端16/</id>
     <published>2019-02-22T13:59:53.000Z</published>
-    <updated>2019-02-22T14:10:29.394Z</updated>
+    <updated>2019-02-22T14:13:56.127Z</updated>
     
     <summary type="html">
     
