@@ -18,8 +18,6 @@ function click1()
   var eimg=document.createElement('img');
   re2=eimg;
   eimg.id='img1';
-  eimg.width='800';
-  eimg.height='600';
   p.appendChild(eimg);
   var ebut=document.createElement('button');
   ebut.type='button';
