@@ -2019,7 +2019,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6c2f;
+  background: #ffa6ac;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2988,7 +2988,6 @@ hr {
   }
 }
 body {
-  background-image: url("https://i.loli.net/2019/02/23/5c70ac9b1d921.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
