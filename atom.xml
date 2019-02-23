@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-02-23T06:33:25.226Z</updated>
+  <updated>2019-02-23T13:10:54.673Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>jQuery特效小实验</title>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF18/"/>
+    <id>http://www.baccano.fun/前端18/</id>
+    <published>2019-02-23T13:01:53.000Z</published>
+    <updated>2019-02-23T13:10:54.673Z</updated>
+    
+    <summary type="html">
+    
+      一个小小的特效的实验全部应用jQuery
+    
+    </summary>
+    
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo用jQuery实现背景图随机导入</title>
@@ -412,26 +432,6 @@ function doDecrypt (pwd, onError) {
 	console.log(&#39;in doDecrypt&#39;);
 	const txt = document.getE
       
-    
-    </summary>
-    
-      <category term="测试" scheme="http://www.baccano.fun/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="test something" scheme="http://www.baccano.fun/tags/test-something/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三种语言样例测试</title>
-    <link href="http://www.baccano.fun/%E6%B5%8B%E8%AF%950002/"/>
-    <id>http://www.baccano.fun/测试0002/</id>
-    <published>2019-02-13T07:41:01.000Z</published>
-    <updated>2019-02-14T16:03:01.810Z</updated>
-    
-    <summary type="html">
-    
-      没啥子卵用的水文
     
     </summary>
     
