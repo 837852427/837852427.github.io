@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-02-23T06:56:44.337Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://www.baccano.fun/"/>
+  <updated>2019-02-23T06:33:25.226Z</updated>
+  <id>http://www.baccano.fun/</id>
   
   <author>
     <name>baccano</name>
@@ -17,28 +17,9 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/uncategorizedbaidu_verify_beyYNWYZzP/"/>
-    <id>http://yoursite.com/uncategorizedbaidu_verify_beyYNWYZzP/</id>
-    <published>2019-02-23T06:59:15.846Z</published>
-    <updated>2019-02-23T06:56:44.337Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        beyYNWYZzP
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>hexo用jQuery实现背景图随机导入</title>
-    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF17/"/>
-    <id>http://yoursite.com/前端17/</id>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF17/"/>
+    <id>http://www.baccano.fun/前端17/</id>
     <published>2019-02-23T06:25:34.000Z</published>
     <updated>2019-02-23T06:33:25.226Z</updated>
     
@@ -48,17 +29,17 @@
     
     </summary>
     
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title>用JavaScript添加一个计时器选图的hexo博客文章底栏插件</title>
-    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF16/"/>
-    <id>http://yoursite.com/前端16/</id>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF16/"/>
+    <id>http://www.baccano.fun/前端16/</id>
     <published>2019-02-22T13:59:53.000Z</published>
     <updated>2019-02-22T14:13:56.127Z</updated>
     
@@ -68,17 +49,17 @@
     
     </summary>
     
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorizedjs/"/>
-    <id>http://yoursite.com/uncategorizedjs/</id>
+    <link href="http://www.baccano.fun/uncategorizedjs/"/>
+    <id>http://www.baccano.fun/uncategorizedjs/</id>
     <published>2019-02-22T09:39:14.949Z</published>
     <updated>2019-02-22T15:49:45.667Z</updated>
     
@@ -100,8 +81,8 @@
   
   <entry>
     <title>JavaScript 事件监听器的一个小小的实验</title>
-    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF15/"/>
-    <id>http://yoursite.com/前端15/</id>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF15/"/>
+    <id>http://www.baccano.fun/前端15/</id>
     <published>2019-02-22T09:34:18.000Z</published>
     <updated>2019-02-22T09:47:27.312Z</updated>
     
@@ -111,17 +92,17 @@
     
     </summary>
     
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
     
   </entry>
   
   <entry>
     <title>Codeforces Round 540 (Div. 3)(补题)</title>
-    <link href="http://yoursite.com/%E8%A1%A5%E9%A2%9814/"/>
-    <id>http://yoursite.com/补题14/</id>
+    <link href="http://www.baccano.fun/%E8%A1%A5%E9%A2%9814/"/>
+    <id>http://www.baccano.fun/补题14/</id>
     <published>2019-02-21T16:10:41.000Z</published>
     <updated>2019-02-21T16:32:18.321Z</updated>
     
@@ -131,17 +112,17 @@
     
     </summary>
     
-      <category term="补题" scheme="http://yoursite.com/categories/%E8%A1%A5%E9%A2%98/"/>
+      <category term="补题" scheme="http://www.baccano.fun/categories/%E8%A1%A5%E9%A2%98/"/>
     
     
-      <category term="Codeforces" scheme="http://yoursite.com/tags/Codeforces/"/>
+      <category term="Codeforces" scheme="http://www.baccano.fun/tags/Codeforces/"/>
     
   </entry>
   
   <entry>
     <title>CSS3动画实验</title>
-    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF13/"/>
-    <id>http://yoursite.com/前端13/</id>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF13/"/>
+    <id>http://www.baccano.fun/前端13/</id>
     <published>2019-02-20T07:31:10.000Z</published>
     <updated>2019-02-20T07:38:52.321Z</updated>
     
@@ -151,17 +132,17 @@
     
     </summary>
     
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+      <category term="CSS" scheme="http://www.baccano.fun/tags/CSS/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorizedcss3%20animation/"/>
-    <id>http://yoursite.com/uncategorizedcss3 animation/</id>
+    <link href="http://www.baccano.fun/uncategorizedcss3%20animation/"/>
+    <id>http://www.baccano.fun/uncategorizedcss3 animation/</id>
     <published>2019-02-20T07:31:00.354Z</published>
     <updated>2019-02-20T07:30:34.031Z</updated>
     
@@ -183,8 +164,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/uncategorizedcss3/"/>
-    <id>http://yoursite.com/uncategorizedcss3/</id>
+    <link href="http://www.baccano.fun/uncategorizedcss3/"/>
+    <id>http://www.baccano.fun/uncategorizedcss3/</id>
     <published>2019-02-20T05:22:51.936Z</published>
     <updated>2019-02-20T05:46:02.875Z</updated>
     
@@ -206,8 +187,8 @@
   
   <entry>
     <title>CSS3过渡实验</title>
-    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF12/"/>
-    <id>http://yoursite.com/前端12/</id>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF12/"/>
+    <id>http://www.baccano.fun/前端12/</id>
     <published>2019-02-20T05:08:02.000Z</published>
     <updated>2019-02-20T07:32:49.546Z</updated>
     
@@ -217,17 +198,17 @@
     
     </summary>
     
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+      <category term="CSS" scheme="http://www.baccano.fun/tags/CSS/"/>
     
   </entry>
   
   <entry>
     <title>bfs判断转弯次数</title>
-    <link href="http://yoursite.com/%E7%AE%97%E6%B3%9511/"/>
-    <id>http://yoursite.com/算法11/</id>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9511/"/>
+    <id>http://www.baccano.fun/算法11/</id>
     <published>2019-02-18T16:46:50.000Z</published>
     <updated>2019-02-18T16:58:28.201Z</updated>
     
@@ -237,17 +218,17 @@
     
     </summary>
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="bfs" scheme="http://yoursite.com/tags/bfs/"/>
+      <category term="bfs" scheme="http://www.baccano.fun/tags/bfs/"/>
     
   </entry>
   
   <entry>
     <title>html学习(1)</title>
-    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF10/"/>
-    <id>http://yoursite.com/前端10/</id>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF10/"/>
+    <id>http://www.baccano.fun/前端10/</id>
     <published>2019-02-18T16:41:27.000Z</published>
     <updated>2019-02-18T16:44:41.725Z</updated>
     
@@ -257,17 +238,17 @@
     
     </summary>
     
-      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="html" scheme="http://yoursite.com/tags/html/"/>
+      <category term="html" scheme="http://www.baccano.fun/tags/html/"/>
     
   </entry>
   
   <entry>
     <title>背包变形:过程型背包</title>
-    <link href="http://yoursite.com/%E7%AE%97%E6%B3%959/"/>
-    <id>http://yoursite.com/算法9/</id>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%959/"/>
+    <id>http://www.baccano.fun/算法9/</id>
     <published>2019-02-17T07:35:40.000Z</published>
     <updated>2019-02-17T08:27:16.087Z</updated>
     
@@ -277,17 +258,17 @@
     
     </summary>
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+      <category term="dp" scheme="http://www.baccano.fun/tags/dp/"/>
     
   </entry>
   
   <entry>
     <title>完全背包变形(1) 取数问题</title>
-    <link href="http://yoursite.com/%E7%AE%97%E6%B3%958/"/>
-    <id>http://yoursite.com/算法8/</id>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%958/"/>
+    <id>http://www.baccano.fun/算法8/</id>
     <published>2019-02-17T07:35:04.000Z</published>
     <updated>2019-02-17T07:59:34.493Z</updated>
     
@@ -297,17 +278,17 @@
     
     </summary>
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+      <category term="dp" scheme="http://www.baccano.fun/tags/dp/"/>
     
   </entry>
   
   <entry>
     <title>站内更新日志</title>
-    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950/"/>
-    <id>http://yoursite.com/记录0/</id>
+    <link href="http://www.baccano.fun/%E8%AE%B0%E5%BD%950/"/>
+    <id>http://www.baccano.fun/记录0/</id>
     <published>2019-02-15T16:37:23.000Z</published>
     <updated>2019-02-22T17:05:08.314Z</updated>
     
@@ -324,17 +305,17 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
-      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+      <category term="记录" scheme="http://www.baccano.fun/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
+      <category term="日志" scheme="http://www.baccano.fun/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>Codeforces Round 370 (Div. 2)(前三题)</title>
-    <link href="http://yoursite.com/%E8%A1%A5%E9%A2%980007/"/>
-    <id>http://yoursite.com/补题0007/</id>
+    <link href="http://www.baccano.fun/%E8%A1%A5%E9%A2%980007/"/>
+    <id>http://www.baccano.fun/补题0007/</id>
     <published>2019-02-15T08:31:53.000Z</published>
     <updated>2019-02-15T09:05:10.300Z</updated>
     
@@ -344,17 +325,17 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
-      <category term="补题" scheme="http://yoursite.com/categories/%E8%A1%A5%E9%A2%98/"/>
+      <category term="补题" scheme="http://www.baccano.fun/categories/%E8%A1%A5%E9%A2%98/"/>
     
     
-      <category term="Codeforces" scheme="http://yoursite.com/tags/Codeforces/"/>
+      <category term="Codeforces" scheme="http://www.baccano.fun/tags/Codeforces/"/>
     
   </entry>
   
   <entry>
     <title>my goals</title>
-    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950006/"/>
-    <id>http://yoursite.com/记录0006/</id>
+    <link href="http://www.baccano.fun/%E8%AE%B0%E5%BD%950006/"/>
+    <id>http://www.baccano.fun/记录0006/</id>
     <published>2019-02-14T16:04:42.000Z</published>
     <updated>2019-02-14T16:34:14.145Z</updated>
     
@@ -364,17 +345,17 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
-      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+      <category term="记录" scheme="http://www.baccano.fun/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
+      <category term="日志" scheme="http://www.baccano.fun/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>Codeforces Round 538 (Div. 2) (补题)</title>
-    <link href="http://yoursite.com/%E8%A1%A5%E9%A2%980005/"/>
-    <id>http://yoursite.com/补题0005/</id>
+    <link href="http://www.baccano.fun/%E8%A1%A5%E9%A2%980005/"/>
+    <id>http://www.baccano.fun/补题0005/</id>
     <published>2019-02-14T09:17:46.000Z</published>
     <updated>2019-02-15T16:30:55.212Z</updated>
     
@@ -384,17 +365,17 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
-      <category term="补题" scheme="http://yoursite.com/categories/%E8%A1%A5%E9%A2%98/"/>
+      <category term="补题" scheme="http://www.baccano.fun/categories/%E8%A1%A5%E9%A2%98/"/>
     
     
-      <category term="Codeforces" scheme="http://yoursite.com/tags/Codeforces/"/>
+      <category term="Codeforces" scheme="http://www.baccano.fun/tags/Codeforces/"/>
     
   </entry>
   
   <entry>
     <title>历时多天终于基本弄完了博客</title>
-    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950004/"/>
-    <id>http://yoursite.com/记录0004/</id>
+    <link href="http://www.baccano.fun/%E8%AE%B0%E5%BD%950004/"/>
+    <id>http://www.baccano.fun/记录0004/</id>
     <published>2019-02-14T05:22:54.000Z</published>
     <updated>2019-02-14T16:02:59.239Z</updated>
     
@@ -407,17 +388,17 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
-      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+      <category term="记录" scheme="http://www.baccano.fun/categories/%E8%AE%B0%E5%BD%95/"/>
     
     
-      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
+      <category term="日志" scheme="http://www.baccano.fun/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>加密文档测试，密码为6个6</title>
-    <link href="http://yoursite.com/%E6%B5%8B%E8%AF%950003/"/>
-    <id>http://yoursite.com/测试0003/</id>
+    <link href="http://www.baccano.fun/%E6%B5%8B%E8%AF%950003/"/>
+    <id>http://www.baccano.fun/测试0003/</id>
     <published>2019-02-13T14:24:29.000Z</published>
     <updated>2019-02-14T16:03:00.629Z</updated>
     
@@ -434,10 +415,30 @@ function doDecrypt (pwd, onError) {
     
     </summary>
     
-      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://www.baccano.fun/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="test something" scheme="http://yoursite.com/tags/test-something/"/>
+      <category term="test something" scheme="http://www.baccano.fun/tags/test-something/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三种语言样例测试</title>
+    <link href="http://www.baccano.fun/%E6%B5%8B%E8%AF%950002/"/>
+    <id>http://www.baccano.fun/测试0002/</id>
+    <published>2019-02-13T07:41:01.000Z</published>
+    <updated>2019-02-14T16:03:01.810Z</updated>
+    
+    <summary type="html">
+    
+      没啥子卵用的水文
+    
+    </summary>
+    
+      <category term="测试" scheme="http://www.baccano.fun/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="test something" scheme="http://www.baccano.fun/tags/test-something/"/>
     
   </entry>
   
