@@ -17,3 +17,4 @@ i=3;
 else
 i=4;
 $('body').css('background-image','url('+pic[i]+')');
+$('body').css('-webkit-background-image','url('+pic[i]+')');

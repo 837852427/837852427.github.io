@@ -2019,7 +2019,7 @@ pre {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #060bff;
+  background: #f2ffa2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2992,6 +2992,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-size: cover;
+  -webkit-background-repeat: no-repeat;
+  -webkit-background-attachment: fixed;
 }
 .post {
   margin-top: 0px;
