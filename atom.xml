@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-22T14:13:56.127Z</updated>
+  <updated>2019-02-23T06:33:25.226Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo用jQuery实现背景图随机导入</title>
+    <link href="http://yoursite.com/%E5%89%8D%E7%AB%AF17/"/>
+    <id>http://yoursite.com/前端17/</id>
+    <published>2019-02-23T06:25:34.000Z</published>
+    <updated>2019-02-23T06:33:25.226Z</updated>
+    
+    <summary type="html">
+    
+      搞了半天终于弄出来了
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>用JavaScript添加一个计时器选图的hexo博客文章底栏插件</title>
@@ -419,29 +439,6 @@ function doDecrypt (pwd, onError) {
     
     
       <category term="test something" scheme="http://yoursite.com/tags/test-something/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello Anybody here?</title>
-    <link href="http://yoursite.com/%E8%AE%B0%E5%BD%950001/"/>
-    <id>http://yoursite.com/记录0001/</id>
-    <published>2019-02-12T13:06:17.225Z</published>
-    <updated>2019-02-14T16:24:48.230Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;新博客正式启动！！！！&quot;&gt;&lt;a href=&quot;#新博客正式启动！！！！&quot; class=&quot;headerlink&quot; title=&quot;新博客正式启动！！！！&quot;&gt;&lt;/a&gt;新博客正式启动！！！！&lt;/h1&gt;&lt;h4 id=&quot;多谢各位大佬的照顾与支持，新的一年里得更加的努力！！！老博
-      
-    
-    </summary>
-    
-      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-      <category term="日志" scheme="http://yoursite.com/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
