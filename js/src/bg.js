@@ -16,4 +16,4 @@ else if(i<=0.8)
 i=3;
 else
 i=4;
-document.body.style.background='url('+pic[i]+');';
+$('body').css('background-image','url('+pic[i]+')');
