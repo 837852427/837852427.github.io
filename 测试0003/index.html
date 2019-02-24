@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19noEjPLCmIe7xEZRxKH84LIb4MOnd3AHdm7tXWF7VpxsSEWLt6quU8SjUZPRHop9EeNZVdxduvs+lwsHH0B1pqSj9AIEoaX0xKyOniIuc2N/Fweb4Y1pBGhRu/J4DxzadpXUyODRsthH1HwHF/CPau5xJsI0gP1Lv36wcANqcJf72IyxEFEYW/EtSlWbClPvLnw0oSJMZsyHFMjt5ZkIpvRmTiSTH3RtJ5ORkQmTqFaYP9Dmw/0wg9oStmVTFtxY5OCqxbMKJTwv4zLGBJJwuezxXgTyXpAJjm0bWy2ZSN74dUw80K+A0AXsPihmippcJf/RS6zKc6ug==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX19FOcaW0Hfplkyb299TgNO7x+XT05+IYZDelcWM1e4XJl0TaBtkZ8hlvHk9Dsek57gTbdC50HDA+bwTYL0+/HrLYPsF1vBow2rnhRHbgVFoWbDre5Oyxx7GMHC37wRaUbLnrZ0EbokSgRvlM11M0hqUZiyg7ioOJ3H9vR6aTh8HfeRHzlD0Jx8w672mmEw3hCVnRu0+Sf/fgD9e569er2SGLguY2CdgJH6XfP3YxOR6mxakj2HrN3kajZ4KE7T2FJAxSFdB4GmeZh3s+PLB/6ptre4GmYDCIgRfvEktmJnmBZuDHXIxH2gu6BClDd57jWXTjWEEfaECjw==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -727,14 +727,13 @@ doDecrypt(passwd, onError);
 
     
     
-      
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <title>简易发声器</title>
     <style>
-      #all
+      li.piano
       {
         display: inline-block;
         width: 90px;
@@ -788,14 +787,14 @@ doDecrypt(passwd, onError);
     </style>
   </head>
   <body>
-    <ul id="all">
-      <li id="one">1</li>
-      <li id="two">2</li>
-      <li id="three">3</li>
-      <li id="four">4</li>
-      <li id="five">5</li>
-      <li id="six">6</li>
-      <li id="seven">7</li>
+    <ul class="all">
+      <li class="piano" id="one">1</li>
+      <li class="piano" id="two">2</li>
+      <li class="piano" id="three">3</li>
+      <li class="piano" id="four">4</li>
+      <li class="piano" id="five">5</li>
+      <li class="piano" id="six">6</li>
+      <li class="piano" id="seven">7</li>
     </ul>
     <audio id="sound1" src="b0.mp3"></audio>
     <audio id="sound2" src="b1.mp3"></audio>
@@ -804,7 +803,7 @@ doDecrypt(passwd, onError);
     <audio id="sound5" src="b4.mp3"></audio>
     <audio id="sound6" src="b5.mp3"></audio>
     <audio id="sound7" src="b6.mp3"></audio>
-    <script src="js/src/piano.js"></script>
+    <script src="/js/src/piano.js"></script>
   </body>
 </html>
 
