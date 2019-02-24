@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-02-23T13:10:54.673Z</updated>
+  <updated>2019-02-24T14:02:38.035Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用jQuery实现简易钢琴按键博客栏底部小插件</title>
+    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF19/"/>
+    <id>http://www.baccano.fun/前端19/</id>
+    <published>2019-02-24T13:43:09.000Z</published>
+    <updated>2019-02-24T14:02:38.035Z</updated>
+    
+    <summary type="html">
+    
+      简易的钢琴按键
+    
+    </summary>
+    
+      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>jQuery特效小实验</title>
@@ -412,33 +432,6 @@ function doDecrypt (pwd, onError) {
     
     
       <category term="日志" scheme="http://www.baccano.fun/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>加密文档测试，密码为6个6</title>
-    <link href="http://www.baccano.fun/%E6%B5%8B%E8%AF%950003/"/>
-    <id>http://www.baccano.fun/测试0003/</id>
-    <published>2019-02-13T14:24:29.000Z</published>
-    <updated>2019-02-14T16:03:00.629Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=/js/crypto-js.js&gt;&lt;/script&gt;
-&lt;script&gt;
-function doDecrypt (pwd, onError) {
-	console.log(&#39;in doDecrypt&#39;);
-	const txt = document.getE
-      
-    
-    </summary>
-    
-      <category term="测试" scheme="http://www.baccano.fun/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-      <category term="test something" scheme="http://www.baccano.fun/tags/test-something/"/>
     
   </entry>
   
