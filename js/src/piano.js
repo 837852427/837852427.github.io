@@ -1,3 +1,11 @@
+$('ul.piano').hide();
+$('h1.piano_start').on('click',
+  function()
+  {
+    $(this).fadeOut(700);
+    $('ul.piano').show(700).fadeIn(700);
+  }
+);
 $('#one').on('click',
   function()
   {
@@ -25,7 +33,7 @@ $('#one').on('click',
       }
     )
   }
-)
+);
 $('#two').on('click',
   function()
   {
@@ -53,7 +61,7 @@ $('#two').on('click',
       }
     )
   }
-)
+);
 $('#three').on('click',
   function()
   {
@@ -81,7 +89,7 @@ $('#three').on('click',
       }
     )
   }
-)
+);
 $('#four').on('click',
   function()
   {
@@ -109,7 +117,7 @@ $('#four').on('click',
       }
     )
   }
-)
+);
 $('#five').on('click',
   function()
   {
@@ -137,7 +145,7 @@ $('#five').on('click',
       }
     )
   }
-)
+);
 $('#six').on('click',
   function()
   {
@@ -165,7 +173,7 @@ $('#six').on('click',
       }
     )
   }
-)
+);
 $('#seven').on('click',
   function()
   {
@@ -193,7 +201,7 @@ $('#seven').on('click',
       }
     )
   }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -224,7 +232,7 @@ $('body').on('keydown',
     )
   }
 }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -255,7 +263,7 @@ $('body').on('keydown',
     )
   }
 }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -286,7 +294,7 @@ $('body').on('keydown',
     )
   }
 }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -317,7 +325,7 @@ $('body').on('keydown',
     )
   }
 }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -348,7 +356,7 @@ $('body').on('keydown',
     )
   }
 }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -379,7 +387,7 @@ $('body').on('keydown',
     )
   }
 }
-)
+);
 $('body').on('keydown',
   function(e)
   {
@@ -410,4 +418,4 @@ $('body').on('keydown',
     )
   }
 }
-)
+);

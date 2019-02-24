@@ -533,7 +533,7 @@
           
           
             <div class="post-gallery-row">
-              <a class="post-gallery-img fancybox" href="https://i.loli.net/2019/02/13/5c63cb99e62ed.jpg" rel="gallery_cjsixi70l0002j4uwmsm5vawd" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url">
+              <a class="post-gallery-img fancybox" href="https://i.loli.net/2019/02/13/5c63cb99e62ed.jpg" rel="gallery_cjsixztqf0007kcuwvlh7hrw5" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url">
                 <img src="https://i.loli.net/2019/02/13/5c63cb99e62ed.jpg" itemprop="contentUrl">
               </a>
             
@@ -767,10 +767,28 @@
         top:0px;
         background-color: black;
       }
+      h1.piano
+      {
+        text-align: center;
+      }
+      p.piano
+      {
+        text-align: center;
+      }
+      h1.piano_start
+      {
+        background-color: purple;
+        color: white;
+        width:50%;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    <ul class="all">
+    <h1 class="piano">---简易的七键钢琴插件---</h1>
+    <p class="piano">可以使用鼠标点击琴键也可以使用主键盘1-7或者小键盘的1-7来操作</p>
+    <h1 class="piano_start">那么现在开始吧</h1>
+    <ul class="piano">
       <li class="piano" id="one">1</li>
       <li class="piano" id="two">2</li>
       <li class="piano" id="three">3</li>
@@ -779,13 +797,13 @@
       <li class="piano" id="six">6</li>
       <li class="piano" id="seven">7</li>
     </ul>
-    <audio id="sound1" src="b0.mp3"></audio>
-    <audio id="sound2" src="b1.mp3"></audio>
-    <audio id="sound3" src="b2.mp3"></audio>
-    <audio id="sound4" src="b3.mp3"></audio>
-    <audio id="sound5" src="b4.mp3"></audio>
-    <audio id="sound6" src="b5.mp3"></audio>
-    <audio id="sound7" src="b6.mp3"></audio>
+    <audio id="sound1" src="/audio/b0.mp3"></audio>
+    <audio id="sound2" src="/audio/b1.mp3"></audio>
+    <audio id="sound3" src="/audio/b2.mp3"></audio>
+    <audio id="sound4" src="/audio/b3.mp3"></audio>
+    <audio id="sound5" src="/audio/b4.mp3"></audio>
+    <audio id="sound6" src="/audio/b5.mp3"></audio>
+    <audio id="sound7" src="/audio/b6.mp3"></audio>
     <script src="/js/src/piano.js"></script>
   </body>
 </html>

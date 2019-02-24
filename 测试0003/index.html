@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19FOcaW0Hfplkyb299TgNO7x+XT05+IYZDelcWM1e4XJl0TaBtkZ8hlvHk9Dsek57gTbdC50HDA+bwTYL0+/HrLYPsF1vBow2rnhRHbgVFoWbDre5Oyxx7GMHC37wRaUbLnrZ0EbokSgRvlM11M0hqUZiyg7ioOJ3H9vR6aTh8HfeRHzlD0Jx8w672mmEw3hCVnRu0+Sf/fgD9e569er2SGLguY2CdgJH6XfP3YxOR6mxakj2HrN3kajZ4KE7T2FJAxSFdB4GmeZh3s+PLB/6ptre4GmYDCIgRfvEktmJnmBZuDHXIxH2gu6BClDd57jWXTjWEEfaECjw==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+rXRo5L7+r6Kz2XlJr5ZBDqCvcf7O5uX3knQs4GdLv8Khf0Wxp/pTA3zgpbO6ybMFgiG15pFEZICcfiVeiAiiGNblaN/uLh/m+wK54OvRVLtYLFMKuYLpBWSt4pZtIuoI3SzLjqcP3Loek2oXtPwkrqHlO4N0OfVd2WJkX0YZfI9mOvMiYkImfwukzYaKxdnL1KxIqO61Fb8cLmVQ4ucPz7chquqw4KGbyawOC8fxP2amUZjxz0eBFNOCKd0X2OKdPUtX5U/u3E+OEz8MRTtuintxJFBWraaFOF0+kYHOt6sQPmp+AnFak7uhdpM7MISG/CiiMxCn2rg==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -784,10 +784,28 @@ doDecrypt(passwd, onError);
         top:0px;
         background-color: black;
       }
+      h1.piano
+      {
+        text-align: center;
+      }
+      p.piano
+      {
+        text-align: center;
+      }
+      h1.piano_start
+      {
+        background-color: purple;
+        color: white;
+        width:50%;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    <ul class="all">
+    <h1 class="piano">---简易的七键钢琴插件---</h1>
+    <p class="piano">可以使用鼠标点击琴键也可以使用主键盘1-7或者小键盘的1-7来操作</p>
+    <h1 class="piano_start">那么现在开始吧</h1>
+    <ul class="piano">
       <li class="piano" id="one">1</li>
       <li class="piano" id="two">2</li>
       <li class="piano" id="three">3</li>
@@ -796,13 +814,13 @@ doDecrypt(passwd, onError);
       <li class="piano" id="six">6</li>
       <li class="piano" id="seven">7</li>
     </ul>
-    <audio id="sound1" src="b0.mp3"></audio>
-    <audio id="sound2" src="b1.mp3"></audio>
-    <audio id="sound3" src="b2.mp3"></audio>
-    <audio id="sound4" src="b3.mp3"></audio>
-    <audio id="sound5" src="b4.mp3"></audio>
-    <audio id="sound6" src="b5.mp3"></audio>
-    <audio id="sound7" src="b6.mp3"></audio>
+    <audio id="sound1" src="/audio/b0.mp3"></audio>
+    <audio id="sound2" src="/audio/b1.mp3"></audio>
+    <audio id="sound3" src="/audio/b2.mp3"></audio>
+    <audio id="sound4" src="/audio/b3.mp3"></audio>
+    <audio id="sound5" src="/audio/b4.mp3"></audio>
+    <audio id="sound6" src="/audio/b5.mp3"></audio>
+    <audio id="sound7" src="/audio/b6.mp3"></audio>
     <script src="/js/src/piano.js"></script>
   </body>
 </html>
