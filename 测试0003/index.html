@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX19Xq1Jq1IRIElV2oMrPPcgywtsMUoEDN3loeqLk4NqCrIcWlp/RsAouUu4Zf3spsPsTM4Ntx+SwhdqQwa18fC5etodI9QCJ5yw3xuEM5Hs8m25uTd5YRZyipcRf0uGUba5sIh7X1eEtZogHAgt2vFCZOtjH/rXadwSn5NuHjnmvAxQ4wG5/wAEIjGFOJaoBHGXi/x84UWNfK25Pw5bDDRfuyWDTBhBOfD35Dtaib4RiGW4Xi6YYDt0+wzJ+EktokkrsNWdQkP+CNzxTwJtwv5WyDNiqKLIbzx4zOZ18y0WRfEbq9kKWkPr6W5eiKUJ/Ea5eLn7X+nCnJA==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+Z7azfpPMo7+HKKs5QCtPmGZtzkUFHOP4GeFYKNmAFpXCPh2w2IeF3LfpFEu8v5mWqqWEnoSIhi6pMuLonNbfIKAYwHWhhzxSgrag3st83bvdgPapbakR1DnfffGd32b0PUhma+ymtKpf5nvW5gPe8LenX7Qx/zR80W1DqTGtH4xEKERsE2irA4IymWdtgJwp7oHIXI+sHp7lkz27krHbA3Kuoj7PX+DhTufMJq4r+W/kt5V6C/ru8sSuKY8k5OOkFoZqQmSqp8zkk18RNcw5hvkaOWf2bzQ1qqJlSEUJOywc1WTCcOMG3CzMXhjJeHAnUdzvkAq8kOg==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -806,13 +806,13 @@ doDecrypt(passwd, onError);
     <p class="piano">可以使用鼠标点击琴键也可以使用主键盘1-7或者小键盘的1-7来操作</p>
     <h1 class="piano_start">那么现在开始吧</h1>
     <ul class="piano">
-      <li class="piano" id="one">1</li>
-      <li class="piano" id="two">2</li>
-      <li class="piano" id="three">3</li>
-      <li class="piano" id="four">4</li>
-      <li class="piano" id="five">5</li>
-      <li class="piano" id="six">6</li>
-      <li class="piano" id="seven">7</li>
+      <li class="piano" id="pone">1</li>
+      <li class="piano" id="ptwo">2</li>
+      <li class="piano" id="pthree">3</li>
+      <li class="piano" id="pfour">4</li>
+      <li class="piano" id="pfive">5</li>
+      <li class="piano" id="psix">6</li>
+      <li class="piano" id="pseven">7</li>
     </ul>
     <audio id="sound1" src="/audio/b0.mp3"></audio>
     <audio id="sound2" src="/audio/b1.mp3"></audio>

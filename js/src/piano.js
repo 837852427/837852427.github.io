@@ -6,7 +6,7 @@ $('h1.piano_start').on('click',
     $('ul.piano').show(700).fadeIn(700);
   }
 );
-$('#one').on('click',
+$('#pone').on('click',
   function()
   {
     if($('#sound1')[0].currentTime==0)
@@ -34,7 +34,7 @@ $('#one').on('click',
     )
   }
 );
-$('#two').on('click',
+$('#ptwo').on('click',
   function()
   {
     if($('#sound2')[0].currentTime==0)
@@ -62,7 +62,7 @@ $('#two').on('click',
     )
   }
 );
-$('#three').on('click',
+$('#pthree').on('click',
   function()
   {
     if($('#sound3')[0].currentTime==0)
@@ -90,7 +90,7 @@ $('#three').on('click',
     )
   }
 );
-$('#four').on('click',
+$('#pfour').on('click',
   function()
   {
     if($('#sound4')[0].currentTime==0)
@@ -118,7 +118,7 @@ $('#four').on('click',
     )
   }
 );
-$('#five').on('click',
+$('#pfive').on('click',
   function()
   {
     if($('#sound5')[0].currentTime==0)
@@ -146,7 +146,7 @@ $('#five').on('click',
     )
   }
 );
-$('#six').on('click',
+$('#psix').on('click',
   function()
   {
     if($('#sound6')[0].currentTime==0)
@@ -174,7 +174,7 @@ $('#six').on('click',
     )
   }
 );
-$('#seven').on('click',
+$('#pseven').on('click',
   function()
   {
     if($('#sound7')[0].currentTime==0)
@@ -214,15 +214,15 @@ $('body').on('keydown',
       $('#sound1')[0].load();
       $('#sound1')[0].play();
     }
-    var color=$('#one').css('background-color');
-    $('#one').animate(
+    var color=$('#pone').css('background-color');
+    $('#pone').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#one').animate(
+        $('#pone').animate(
           {
             opacity: '1',
             backgroundColor: color
@@ -245,15 +245,15 @@ $('body').on('keydown',
       $('#sound2')[0].load();
       $('#sound2')[0].play();
     }
-    var color=$('#two').css('background-color');
-    $('#two').animate(
+    var color=$('#ptwo').css('background-color');
+    $('#ptwo').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#two').animate(
+        $('#ptwo').animate(
           {
             opacity: '1',
             backgroundColor: color
@@ -276,15 +276,15 @@ $('body').on('keydown',
       $('#sound3')[0].load();
       $('#sound3')[0].play();
     }
-    var color=$('#three').css('background-color');
-    $('#three').animate(
+    var color=$('#pthree').css('background-color');
+    $('#pthree').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#three').animate(
+        $('#pthree').animate(
           {
             opacity: '1',
             backgroundColor: color
@@ -307,15 +307,15 @@ $('body').on('keydown',
       $('#sound4')[0].load();
       $('#sound4')[0].play();
     }
-    var color=$('#four').css('background-color');
-    $('#four').animate(
+    var color=$('#pfour').css('background-color');
+    $('#pfour').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#four').animate(
+        $('#pfour').animate(
           {
             opacity: '1',
             backgroundColor: color
@@ -338,15 +338,15 @@ $('body').on('keydown',
       $('#sound5')[0].load();
       $('#sound5')[0].play();
     }
-    var color=$('#five').css('background-color');
-    $('#five').animate(
+    var color=$('#pfive').css('background-color');
+    $('#pfive').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#five').animate(
+        $('#pfive').animate(
           {
             opacity: '1',
             backgroundColor: color
@@ -369,15 +369,15 @@ $('body').on('keydown',
       $('#sound6')[0].load();
       $('#sound6')[0].play();
     }
-    var color=$('#six').css('background-color');
-    $('#six').animate(
+    var color=$('#psix').css('background-color');
+    $('#psix').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#six').animate(
+        $('#psix').animate(
           {
             opacity: '1',
             backgroundColor: color
@@ -400,15 +400,15 @@ $('body').on('keydown',
       $('#sound7')[0].load();
       $('#sound7')[0].play();
     }
-    var color=$('#seven').css('background-color');
-    $('#seven').animate(
+    var color=$('#pseven').css('background-color');
+    $('#pseven').animate(
       {
         opacity: '0.2',
         backgroundColor: 'white'
       },300,
       function()
       {
-        $('#seven').animate(
+        $('#pseven').animate(
           {
             opacity: '1',
             backgroundColor: color
