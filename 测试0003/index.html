@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX1+rXRo5L7+r6Kz2XlJr5ZBDqCvcf7O5uX3knQs4GdLv8Khf0Wxp/pTA3zgpbO6ybMFgiG15pFEZICcfiVeiAiiGNblaN/uLh/m+wK54OvRVLtYLFMKuYLpBWSt4pZtIuoI3SzLjqcP3Loek2oXtPwkrqHlO4N0OfVd2WJkX0YZfI9mOvMiYkImfwukzYaKxdnL1KxIqO61Fb8cLmVQ4ucPz7chquqw4KGbyawOC8fxP2amUZjxz0eBFNOCKd0X2OKdPUtX5U/u3E+OEz8MRTtuintxJFBWraaFOF0+kYHOt6sQPmp+AnFak7uhdpM7MISG/CiiMxCn2rg==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX19Xq1Jq1IRIElV2oMrPPcgywtsMUoEDN3loeqLk4NqCrIcWlp/RsAouUu4Zf3spsPsTM4Ntx+SwhdqQwa18fC5etodI9QCJ5yw3xuEM5Hs8m25uTd5YRZyipcRf0uGUba5sIh7X1eEtZogHAgt2vFCZOtjH/rXadwSn5NuHjnmvAxQ4wG5/wAEIjGFOJaoBHGXi/x84UWNfK25Pw5bDDRfuyWDTBhBOfD35Dtaib4RiGW4Xi6YYDt0+wzJ+EktokkrsNWdQkP+CNzxTwJtwv5WyDNiqKLIbzx4zOZ18y0WRfEbq9kKWkPr6W5eiKUJ/Ea5eLn7X+nCnJA==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -821,6 +821,7 @@ doDecrypt(passwd, onError);
     <audio id="sound5" src="/audio/b4.mp3"></audio>
     <audio id="sound6" src="/audio/b5.mp3"></audio>
     <audio id="sound7" src="/audio/b6.mp3"></audio>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/src/piano.js"></script>
   </body>
 </html>
