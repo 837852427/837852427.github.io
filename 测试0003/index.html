@@ -554,7 +554,7 @@ function doDecrypt (pwd, onError) {
 	}
 }
 </script>
-<div id="enc_content" style="display:none">U2FsdGVkX18tik9/s2X9S0CU4GFOPht8BIB4/Kgbh6VqnSMo0RqiMFyqvWHhwBFtJ/w1Qeqih3i12riWrRaMf7gksm4shGMhbUYqD4uDIBhLKZX/ipok7agr4CALEFyLm972Dbp8FJL0TzRQI2sa1ykIXpZPtMl8z5rQuahk4JjI3r7tjW9+BCRTRtE19SNvGjumm7P+DvC/ZL0s8fLxmUSDF9F8oV5+0+F23ljtKPvCFY0XubI11W1PQ42l4lmlYdD5U1VB28M5RWFNz8oTsX7UQcSRJvRZCtcjGqDlSMRPStT6ucaC/bJL7wPaaHkKOMEtrwJFw4RaQQFr3rhfLw==</div>
+<div id="enc_content" style="display:none">U2FsdGVkX1+YVvz1MNEyGNKCoWPgk4Co/qrPBOTN8+rV6iGSOa77c8kXp7CY2dVxlbEWbVQ/zJ5jObTjkUAcEHYeXwQy1rtH9xXKk4PDUHVQTsRAn1y9dSt6w0YCo6efCQRa0RxmczoMK1OIS7qwVkEX9xeJdGMQIfHmdvX1CleJsP2qAcAgVaU77vmP0d24DU5ZAfdBkVT7cifVBxzx5cn1UIHeC9118OwMjtLsC5ZWjcRzbtRDJf8AeiIZYZVtBfVqT7sKZ9GJYktLotMzO2dwLY7Q9ZoBODWmFjJeTeiaN8B/tU+nEs+1S+VCowAHo8vx3+z7YKqO84aiw59AZg==</div>
 <div id="enc_passwd"> <input id="enc_pwd_input" type="password" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
 <script>
 var onError = function(error) {
@@ -722,6 +722,91 @@ doDecrypt(passwd, onError);
     <script src="/js/src/game.js">
     </script>
     </div>
+  </body>
+</html>
+
+    
+  </div>
+  <div>
+    
+      
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <title>简易发声器</title>
+    <style>
+      li
+      {
+        display: inline;
+        width: 90px;
+        height: 400px;
+        position: absolute;
+        border-style: outset;
+        border-width: thick;
+      }
+      #one
+      {
+        left:0px;
+        top:0px;
+        background-color: white;
+      }
+      #two
+      {
+        left:105px;
+        top:0px;
+        background-color: yellow;
+      }
+      #three
+      {
+        left:210px;
+        top:0px;
+        background-color: green;
+      }
+      #four
+      {
+        left:315px;
+        top:0px;
+        background-color: blue;
+      }
+      #five
+      {
+        left:420px;
+        top:0px;
+        background-color: orange;
+      }
+      #six
+      {
+        left:535px;
+        top:0px;
+        background-color: red;
+      }
+      #seven
+      {
+        left:640px;
+        top:0px;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="all">
+      <li id="one">1</li>
+      <li id="two">2</li>
+      <li id="three">3</li>
+      <li id="four">4</li>
+      <li id="five">5</li>
+      <li id="six">6</li>
+      <li id="seven">7</li>
+    </ul>
+    <audio id="sound1" src="b0.mp3"></audio>
+    <audio id="sound2" src="b1.mp3"></audio>
+    <audio id="sound3" src="b2.mp3"></audio>
+    <audio id="sound4" src="b3.mp3"></audio>
+    <audio id="sound5" src="b4.mp3"></audio>
+    <audio id="sound6" src="b5.mp3"></audio>
+    <audio id="sound7" src="b6.mp3"></audio>
+    <script src="js/src/piano.js"></script>
   </body>
 </html>
 
