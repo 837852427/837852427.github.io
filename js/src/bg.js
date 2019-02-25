@@ -1,9 +1,9 @@
 var pic=[
-  "https://s2.ax1x.com/2019/02/25/k5mxOA.png",
-  "https://s2.ax1x.com/2019/02/25/k5mvyd.png",
-  "https://s2.ax1x.com/2019/02/25/k5mXSe.png",
-  "https://s2.ax1x.com/2019/02/25/k5mLWD.jpg",
-  "https://s2.ax1x.com/2019/02/25/k5mjQH.jpg"
+  "https://s2.ax1x.com/2019/02/25/k5D3Os.png",
+  "https://s2.ax1x.com/2019/02/25/k5DGmn.png",
+  "https://s2.ax1x.com/2019/02/25/k5DYT0.png",
+  "https://s2.ax1x.com/2019/02/25/k5D1yj.jpg",
+  "https://s2.ax1x.com/2019/02/25/k5DJwq.jpg"
 ];
 var i=Math.random();
 if(i<=0.2)
