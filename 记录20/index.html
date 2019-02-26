@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="bfs判断转弯次数也就是顾名思义我们如何来应对需要至少转弯多少次或者计算总共转弯多少次的题目">
-<meta name="keywords" content="bfs">
+  <meta name="description" content="作业">
+<meta name="keywords" content="日志">
 <meta property="og:type" content="article">
-<meta property="og:title" content="bfs判断转弯次数">
-<meta property="og:url" content="http://www.baccano.fun/算法11/index.html">
+<meta property="og:title" content="家乡的发展历程">
+<meta property="og:url" content="http://www.baccano.fun/记录20/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="bfs判断转弯次数也就是顾名思义我们如何来应对需要至少转弯多少次或者计算总共转弯多少次的题目">
+<meta property="og:description" content="作业">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-18T16:58:28.201Z">
+<meta property="og:updated_time" content="2019-02-26T16:36:18.317Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="bfs判断转弯次数">
-<meta name="twitter:description" content="bfs判断转弯次数也就是顾名思义我们如何来应对需要至少转弯多少次或者计算总共转弯多少次的题目">
+<meta name="twitter:title" content="家乡的发展历程">
+<meta name="twitter:description" content="作业">
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/算法11/">
+  <link rel="canonical" href="http://www.baccano.fun/记录20/">
 
 
 
@@ -133,7 +133,7 @@
   };
 </script>
 
-  <title>bfs判断转弯次数 | Baccano</title>
+  <title>家乡的发展历程 | Baccano</title>
   
 
 
@@ -395,7 +395,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/算法11/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/记录20/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -412,7 +412,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">bfs判断转弯次数
+          <h1 class="post-title" itemprop="name headline">家乡的发展历程
 
               
             
@@ -438,7 +438,7 @@
                 
               
 
-              <time title="创建时间：2019-02-19 00:46:50 / 修改时间：00:58:28" itemprop="dateCreated datePublished" datetime="2019-02-19T00:46:50+08:00">2019-02-19</time>
+              <time title="创建时间：2019-02-27 00:34:20 / 修改时间：00:36:18" itemprop="dateCreated datePublished" datetime="2019-02-27T00:34:20+08:00">2019-02-27</time>
             
 
             
@@ -460,7 +460,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/记录/" itemprop="url" rel="index"><span itemprop="name">记录</span></a></span>
 
                 
                 
@@ -479,8 +479,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/算法11/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/算法11/" itemprop="commentCount"></span>
+                <a href="/记录20/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/记录20/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -501,6 +501,8 @@
           
 
           
+            <div class="post-description">作业</div>
+          
 
         </div>
       </header>
@@ -515,10 +517,8 @@
       
 
       
-        <p>bfs判断转弯次数也就是顾名思义我们如何来应对需要至少转弯多少次或者计算总共转弯多少次的题目<br><a id="more"></a></p>
-<h2 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>例题 P1649 [USACO07OCT]障碍路线Obstacle Course<br>算法核心在于对每个能到达的部分进行枚举然后进行一波更新<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">4</span>;i++)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">int</span> xx=p.x+dx[i];</span><br><span class="line">  <span class="keyword">int</span> yy=p.y+dy[i];</span><br><span class="line">  <span class="keyword">while</span>(check(xx,yy))</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span>(step[xx][yy]&gt;step[p.x][p.y]+<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">      step[xx][yy]=step[p.x][p.y]+<span class="number">1</span>;</span><br><span class="line">      q.push((node)&#123;xx,yy&#125;);</span><br><span class="line">    &#125;</span><br><span class="line">    xx+=dx[i];</span><br><span class="line">    yy+=dy[i];</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>还需要注意除了<b>开始节点设置为-1</b>其他节点初始化都为inf(也就是一个极大值)</p>
-<h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">char</span> mp[<span class="number">666</span>][<span class="number">666</span>];</span><br><span class="line"><span class="keyword">int</span> sx,sy,ex,ey,f,step[<span class="number">666</span>][<span class="number">666</span>];</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">  <span class="keyword">int</span> x,y;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">int</span> dx[]=&#123;<span class="number">-1</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> dy[]=&#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">-1</span>,<span class="number">1</span>&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;mp[i][j];</span><br><span class="line">    <span class="keyword">if</span>(mp[i][j]==<span class="string">'A'</span>)</span><br><span class="line">    sx=i,sy=j;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span>(mp[i][j]==<span class="string">'B'</span>)</span><br><span class="line">    ex=i,ey=j;</span><br><span class="line">    step[i][j]=<span class="number">99999</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  step[sx][sy]=<span class="number">-1</span>;</span><br><span class="line">  <span class="built_in">queue</span>&lt;node&gt; q;</span><br><span class="line">  q.push((node)&#123;sx,sy&#125;);</span><br><span class="line">  <span class="keyword">while</span>(q.size())</span><br><span class="line">  &#123;</span><br><span class="line">    node p=q.front();</span><br><span class="line">    q.pop();</span><br><span class="line">    <span class="keyword">if</span>(p.x==ex&amp;&amp;p.y==ey)</span><br><span class="line">    &#123;</span><br><span class="line">      f=<span class="number">1</span>;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">4</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="keyword">int</span> xx=p.x+dx[i];</span><br><span class="line">      <span class="keyword">int</span> yy=p.y+dy[i];</span><br><span class="line">      <span class="keyword">while</span>(xx&gt;=<span class="number">1</span>&amp;&amp;yy&gt;=<span class="number">1</span>&amp;&amp;xx&lt;=n&amp;&amp;yy&lt;=n&amp;&amp;mp[xx][yy]!=<span class="string">'x'</span>)</span><br><span class="line">      &#123;</span><br><span class="line">        <span class="keyword">if</span>(step[xx][yy]&gt;step[p.x][p.y]+<span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">          step[xx][yy]=step[p.x][p.y]+<span class="number">1</span>;</span><br><span class="line">          q.push((node)&#123;xx,yy&#125;);</span><br><span class="line">        &#125;</span><br><span class="line">        xx+=dx[i];</span><br><span class="line">        yy+=dy[i];</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;(f?step[ex][ey]:<span class="number">-1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <a id="more"></a>
+<p></p><h1>转载自百度</h1><br>济南市，简称“济”，别称“泉城”，是山东省省会、 [1]  全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。 [2]  中国人民解放军北部战区陆军机关驻地 [3]  ，山东半岛城市群和济南都市圈核心城市、新一线城市。<br>济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城”，素有“四面荷花三面柳，一城山色半城湖”的美誉，济南八景闻名于世，是拥有“山、泉、湖、河、城”独特风貌的旅游城市，是国家历史文化名城、首批中国优秀旅游城市，史前文化——龙山文化的发祥地之一。<br>济南北连首都经济圈，南接长三角经济圈，东西连通山东半岛与华中地区，是环渤海经济区和京沪经济轴上的重要交汇点，环渤海地区和黄河中下游地区中心城市之一。济南已成功举办亚洲杯、全运会、中国国际园林花卉博览会、中国艺术节等多项国际和国家级盛会，2015年第22届国际历史科学大会也在济南成功举办，标志着这项世界盛会创办一个多世纪后首次走进亚洲。2016年中国绿公司年会 [4]  、2017年第五届世界摄影大会在济南开幕 [5]  。<br>2016年12月7日，济南市被国务院列为第三批国家新型城镇化综合试点地区 [6]  。2017年中国百强城市排行榜排19位。 [7-8]  2018年1月，国务院正式批复《山东新旧动能转换综合试验区建设总体方案》，支持济南建设国家新旧动能转换先行区。 [9-<p></p>
 
       
     </div>
@@ -571,7 +571,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/bfs/" rel="tag"><i class="fa fa-tag"></i> bfs</a>
+            <a href="/tags/日志/" rel="tag"><i class="fa fa-tag"></i> 日志</a>
           
         </div>
       
@@ -584,8 +584,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/前端10/" rel="next" title="html学习(1)">
-                <i class="fa fa-chevron-left"></i> html学习(1)
+              <a href="/前端19/" rel="next" title="用jQuery实现简易钢琴按键博客栏底部小插件">
+                <i class="fa fa-chevron-left"></i> 用jQuery实现简易钢琴按键博客栏底部小插件
               </a>
             
           </div>
@@ -593,10 +593,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/前端12/" rel="prev" title="CSS3过渡实验">
-                CSS3过渡实验 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -967,7 +963,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#完整代码"><span class="nav-number">2.</span> <span class="nav-text">完整代码</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">转载自百度</span></a></li></ol></div>
             
 
           </div>
