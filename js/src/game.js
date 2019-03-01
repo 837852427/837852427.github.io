@@ -56,7 +56,7 @@ function changeImage()
     "/images/22.jpg",
     "/images/23.jpg",
     "/images/24.jpg",
-    "/images/25S.jpg",
+    "/images/25.jpg",
   ];
   i++;
   if(i>=pic.length)
