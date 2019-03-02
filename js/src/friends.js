@@ -1,0 +1,221 @@
+$('h1.mytitle,h1.mytitle2,h1.mytitle3,h1.mytitle4').css({'color':'white',
+                  'background':'orange',
+                  'text-align':'center',
+                  'font-size':'28px',
+                  'opacity':'0.75'
+                });
+$('hr').css('color','black');
+$('h1.mytitle').hover(
+  function()
+{
+  $('h1.mytitle').css
+  (
+    {
+      'color':"pink",
+      'font-size':'48px'
+    }
+  )
+},
+  function()
+  {
+    $('h1.mytitle').css
+    (
+      {
+        'color':'white',
+        'font-size':'28px'
+      }
+    );
+  }
+);
+$('h1.mytitle2').hover(function()
+{
+  $('h1.mytitle2').css
+  (
+    {
+      'color':"pink",
+      'font-size':'48px'
+    }
+  )
+},
+  function()
+  {
+    $('h1.mytitle2').css
+    (
+      {
+        'color':'white',
+        'font-size':'28px'
+      }
+    );
+  }
+);
+$('h1.mytitle3').hover(function()
+{
+  $('h1.mytitle3').css
+  (
+    {
+      'color':"pink",
+      'font-size':'48px'
+    }
+  );
+},
+  function()
+  {
+    $('h1.mytitle3').css
+    (
+      {
+        'color':'white',
+        'font-size':'28px'
+      }
+    );
+  }
+);
+$('h1.mytitle4').hover(function()
+{
+  $('h1.mytitle4').css
+  (
+    {
+      'color':"pink",
+      'font-size':'48px'
+    }
+  );
+},
+  function()
+  {
+    $('h1.mytitle4').css
+    (
+      {
+        'color':'white',
+        'font-size':'28px'
+      }
+    );
+  }
+);
+$('p').css
+(
+  {
+    'color':'white',
+    'background-color':'purple',
+    'opacity':'0.75'
+  }
+);
+$('h2.h21').css({'color':'white',
+                  'background':'red',
+                  'text-align':'center',
+                  'font-size':'30px',
+                  'opacity':'0.75'
+                });
+$('div.fd').css
+(
+  {
+    'display':'inline',
+    'width':'25%',
+    'text-align':'center',
+    'border-style':'dotted'
+  }
+);
+$('img').css
+(
+  {
+    'width':'45%',
+    'height':'45%',
+    'margin':'auto',
+    'opacity':'0.75',
+    'transition':'all 2s'
+  }
+)
+$('img.im1').hover(function()
+{
+  $('img.im1').css
+  (
+    {
+      'transform':'rotateY(360deg)'
+    }
+  );
+},
+  function()
+  {
+    $('img.im1').css
+    (
+      {
+        'transform':'rotateY(-360deg)'
+      }
+    );
+  }
+);
+$('img.im2').hover(function()
+{
+  $('img.im2').css
+  (
+    {
+      'transform':'rotateY(360deg)'
+    }
+  );
+},
+  function()
+  {
+    $('img.im2').css
+    (
+      {
+        'transform':'rotateY(-360deg)'
+      }
+    );
+  }
+);
+$('img.im3').hover(function()
+{
+  $('img.im3').css
+  (
+    {
+      'transform':'rotateY(360deg)'
+    }
+  );
+},
+  function()
+  {
+    $('img.im3').css
+    (
+      {
+        'transform':'rotateY(-360deg)'
+      }
+    );
+  }
+);
+$('img.im4').hover(function()
+{
+  $('img.im4').css
+  (
+    {
+      'transform':'rotateY(360deg)'
+    }
+  );
+},
+  function()
+  {
+    $('img.im4').css
+    (
+      {
+        'transform':'rotateY(-360deg)'
+      }
+    );
+  }
+);
+$('h3').css
+(
+  {
+    'color':'white',
+    'background-color':'#6699FF',
+    'font-size':'24px',
+    'opacity':'0.75',
+    'text-align':'center'
+  }
+);
+$('p.info').css
+(
+  {
+    'color':'white',
+    'background-color':'#FFA07A',
+    'font-size':'18px',
+    'opacity':'0.75',
+    'text-align':'center'
+  }
+);
