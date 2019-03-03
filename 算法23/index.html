@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="Baccano">
 <meta property="og:description" content="欧拉筛法简析">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-03T16:53:04.881Z">
+<meta property="og:updated_time" content="2019-03-03T17:09:00.697Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="线性素数筛法(欧拉筛法)">
 <meta name="twitter:description" content="欧拉筛法简析">
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-03-04 00:41:22 / 修改时间：00:53:04" itemprop="dateCreated datePublished" datetime="2019-03-04T00:41:22+08:00">2019-03-04</time>
+              <time title="创建时间：2019-03-04 00:41:22 / 修改时间：01:09:00" itemprop="dateCreated datePublished" datetime="2019-03-04T00:41:22+08:00">2019-03-04</time>
             
 
             
@@ -547,14 +547,14 @@
   <span class="built_in">cin</span>.tie(<span class="number">0</span>);
   <span class="built_in">cout</span>.tie(<span class="number">0</span>);
   <span class="keyword">int</span> cnt=<span class="number">0</span>;
-  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=<span class="number">1000000</span>;i++) <span class="comment">//外层枚举</span>
+  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=<span class="number">1000000</span>;i++)
   {
     <span class="keyword">if</span>(!bk[i])
-    prime[++cnt]=i; <span class="comment">//加入到素数表里</span>
+    prime[++cnt]=i;
     <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=cnt&amp;&amp;i*prime[j]&lt;=<span class="number">1000000</span>;j++)
     {
-      bk[i*prime[j]]=<span class="number">1</span>;  <span class="comment">//打上标记</span>
-      <span class="keyword">if</span>(i%prime[j]==<span class="number">0</span>)  <span class="comment">//优化保证每个素数都被筛选了一次</span>
+      bk[i*prime[j]]=<span class="number">1</span>;  
+      <span class="keyword">if</span>(i%prime[j]==<span class="number">0</span>)  
       <span class="keyword">break</span>;
     }
   }
