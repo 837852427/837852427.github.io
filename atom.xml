@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-03T17:09:00.697Z</updated>
+  <updated>2019-03-04T04:32:38.098Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>拓展欧几里得算法求线性同余方程</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9524/"/>
+    <id>http://www.baccano.fun/算法24/</id>
+    <published>2019-03-04T04:11:07.000Z</published>
+    <updated>2019-03-04T04:32:38.098Z</updated>
+    
+    <summary type="html">
+    
+      一些小小的知识总结
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>线性素数筛法(欧拉筛法)</title>
     <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9523/"/>
     <id>http://www.baccano.fun/算法23/</id>
     <published>2019-03-03T16:41:22.000Z</published>
-    <updated>2019-03-03T17:09:00.697Z</updated>
+    <updated>2019-03-04T04:10:18.517Z</updated>
     
     <summary type="html">
     
@@ -405,26 +425,6 @@
     <summary type="html">
     
       &lt;p&gt;过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值&lt;br&gt;
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="dp" scheme="http://www.baccano.fun/tags/dp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>完全背包变形(1) 取数问题</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%958/"/>
-    <id>http://www.baccano.fun/算法8/</id>
-    <published>2019-02-17T07:35:04.000Z</published>
-    <updated>2019-02-17T07:59:34.493Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;朴素的完全背包就是总容量一定物品无限能放多少东西，这里记录一下最近遇到的变形取数问题&lt;br&gt;
     
     </summary>
     
