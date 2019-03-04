@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="Baccano">
 <meta property="og:description" content="一些小小的知识总结">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-04T04:32:38.098Z">
+<meta property="og:updated_time" content="2019-03-04T04:40:34.449Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="拓展欧几里得算法求线性同余方程">
 <meta name="twitter:description" content="一些小小的知识总结">
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-03-04 12:11:07 / 修改时间：12:32:38" itemprop="dateCreated datePublished" datetime="2019-03-04T12:11:07+08:00">2019-03-04</time>
+              <time title="创建时间：2019-03-04 12:11:07 / 修改时间：12:40:34" itemprop="dateCreated datePublished" datetime="2019-03-04T12:11:07+08:00">2019-03-04</time>
             
 
             
@@ -538,8 +538,8 @@
 <h1 id="欧几里得算法"><a href="#欧几里得算法" class="headerlink" title="欧几里得算法"></a>欧几里得算法</h1><h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>首先说一下欧几里得算法怎么回事<br><b>gcd(a,b)=gcd(b,a%b)</b>这就是欧几里得算法<br>然后还需要记住一个结论<br><b>gcd(a,b)=gcd(a+b*t,b)</b>其中t是一个任意的整数  </p>
 <h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> !b?<span class="number">0</span>:gcd(b,a%b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="拓展欧几里得算法"><a href="#拓展欧几里得算法" class="headerlink" title="拓展欧几里得算法"></a>拓展欧几里得算法</h1><h2 id="简述-1"><a href="#简述-1" class="headerlink" title="简述"></a>简述</h2><p>首先说一下线性同余方程ax≡c(mod b)是什么意思？<br>线性同余顾名思义就是左边与右边余数相同也就是说(ax)%b=c%b<br>也就是说(ax-c)%b=0<br>也就是说(ax-c)=by<br>所以<br>ax+by=m<br>这也就是一个二元一次方程<br>因为只有一个式子所以他的解是无穷多个的<br>拓展欧几里得算法算的就是<b>ax+by=gcd(a,b)</b>时候的x和y是多少<br>说是拓展欧几里得算法，那么其中肯定包含求gcd的一般欧几里得算法  </p>
-<h1 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">exgcd</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> &amp;d,<span class="keyword">int</span> &amp;x,<span class="keyword">int</span> &amp;y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!b)</span><br><span class="line">  d=a,x=<span class="number">1</span>,y=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  exgcd(b,a%b,d,y,x),y-=x*(a/b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>唯一需要记忆的地方就是y-=x*(a/b);</p>
+<h1 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">exgcd</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> &amp;d,<span class="keyword">int</span> &amp;x,<span class="keyword">int</span> &amp;y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!b)</span><br><span class="line">  d=a,x=<span class="number">1</span>,y=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  exgcd(b,a%b,d,y,x),y-=x*(a/b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>唯一需要记忆的地方就是y-=x*(a/b);<br>其中d是gcd(a,b) x,y是求解的值</p>
 <h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>这样我们把特殊的ax+by=gcd(a,b)拓展到ax+by=c<br>那么我们就可以得到<b>如果c|gcd(a,b)那么存在整数解否则不存在整数解</b><br>这样我们还需要知道一个延伸的最小整数解的公式为:<br><b>x0=(x0*(c/d))%b这里先c/d比较好保证不要爆表</b><br><b>b1=b/d</b><br><b>x=(x0%b1+b1)%b1</b>  </p>
 
       
