@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-04T06:17:35.880Z</updated>
+  <updated>2019-03-06T03:54:29.624Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>线段树基础求和与修改</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9526/"/>
+    <id>http://www.baccano.fun/算法26/</id>
+    <published>2019-03-06T03:36:22.000Z</published>
+    <updated>2019-03-06T03:54:29.624Z</updated>
+    
+    <summary type="html">
+    
+      基础线段树操作
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构" scheme="http://www.baccano.fun/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>数论编程实验</title>
@@ -412,26 +432,6 @@
     
     
       <category term="bfs" scheme="http://www.baccano.fun/tags/bfs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>html学习(1)</title>
-    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF10/"/>
-    <id>http://www.baccano.fun/前端10/</id>
-    <published>2019-02-18T16:41:27.000Z</published>
-    <updated>2019-02-18T16:44:41.725Z</updated>
-    
-    <summary type="html">
-    
-      第一次学习前端
-    
-    </summary>
-    
-      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="html" scheme="http://www.baccano.fun/tags/html/"/>
     
   </entry>
   

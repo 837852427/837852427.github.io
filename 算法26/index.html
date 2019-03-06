@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="一些小小的知识总结">
-<meta name="keywords" content="数论">
+  <meta name="description" content="基础线段树操作">
+<meta name="keywords" content="数据结构">
 <meta property="og:type" content="article">
-<meta property="og:title" content="拓展欧几里得算法求线性同余方程">
-<meta property="og:url" content="http://www.baccano.fun/算法24/index.html">
+<meta property="og:title" content="线段树基础求和与修改">
+<meta property="og:url" content="http://www.baccano.fun/算法26/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="一些小小的知识总结">
+<meta property="og:description" content="基础线段树操作">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-04T04:50:33.967Z">
+<meta property="og:updated_time" content="2019-03-06T03:54:29.624Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="拓展欧几里得算法求线性同余方程">
-<meta name="twitter:description" content="一些小小的知识总结">
+<meta name="twitter:title" content="线段树基础求和与修改">
+<meta name="twitter:description" content="基础线段树操作">
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/算法24/">
+  <link rel="canonical" href="http://www.baccano.fun/算法26/">
 
 
 
@@ -133,7 +133,7 @@
   };
 </script>
 
-  <title>拓展欧几里得算法求线性同余方程 | Baccano</title>
+  <title>线段树基础求和与修改 | Baccano</title>
   
 
 
@@ -412,7 +412,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/算法24/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/算法26/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -429,7 +429,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">拓展欧几里得算法求线性同余方程
+          <h1 class="post-title" itemprop="name headline">线段树基础求和与修改
 
               
             
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-03-04 12:11:07 / 修改时间：12:50:33" itemprop="dateCreated datePublished" datetime="2019-03-04T12:11:07+08:00">2019-03-04</time>
+              <time title="创建时间：2019-03-06 11:36:22 / 修改时间：11:54:29" itemprop="dateCreated datePublished" datetime="2019-03-06T11:36:22+08:00">2019-03-06</time>
             
 
             
@@ -496,8 +496,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/算法24/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/算法24/" itemprop="commentCount"></span>
+                <a href="/算法26/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/算法26/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -518,7 +518,7 @@
           
 
           
-            <div class="post-description">一些小小的知识总结</div>
+            <div class="post-description">基础线段树操作</div>
           
 
         </div>
@@ -535,12 +535,12 @@
 
       
         <a id="more"></a>
-<h1 id="欧几里得算法"><a href="#欧几里得算法" class="headerlink" title="欧几里得算法"></a>欧几里得算法</h1><h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>首先说一下欧几里得算法怎么回事<br><b>gcd(a,b)=gcd(b,a%b)</b>这就是欧几里得算法<br>然后还需要记住一个结论<br><b>gcd(a,b)与gcd(a+b<em>t,b)互质属性相同，也就是a,b互质那么a+b</em>t与b也互质</b>其中t是一个任意的整数  </p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">gcd</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> !b?<span class="number">0</span>:gcd(b,a%b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="拓展欧几里得算法"><a href="#拓展欧几里得算法" class="headerlink" title="拓展欧几里得算法"></a>拓展欧几里得算法</h1><h2 id="简述-1"><a href="#简述-1" class="headerlink" title="简述"></a>简述</h2><p>首先说一下线性同余方程ax≡c(mod b)是什么意思？<br>线性同余顾名思义就是左边与右边余数相同也就是说(ax)%b=c%b<br>也就是说(ax-c)%b=0<br>也就是说(ax-c)=by<br>所以<br>ax+by=m<br>这也就是一个二元一次方程<br>因为只有一个式子所以他的解是无穷多个的<br>拓展欧几里得算法算的就是<b>ax+by=gcd(a,b)</b>时候的x和y是多少<br>说是拓展欧几里得算法，那么其中肯定包含求gcd的一般欧几里得算法  </p>
-<h1 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">exgcd</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> &amp;d,<span class="keyword">int</span> &amp;x,<span class="keyword">int</span> &amp;y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!b)</span><br><span class="line">  d=a,x=<span class="number">1</span>,y=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">else</span></span><br><span class="line">  exgcd(b,a%b,d,y,x),y-=x*(a/b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>唯一需要记忆的地方就是y-=x*(a/b);<br>其中d是gcd(a,b) x,y是求解的值</p>
-<h2 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h2><p>这样我们把特殊的ax+by=gcd(a,b)拓展到ax+by=c<br>那么我们就可以得到<b>如果c|gcd(a,b)那么存在整数解否则不存在整数解</b><br>这样我们还需要知道一个延伸的最小整数解的公式为:<br><b>x0=(x0*(c/d))%b这里先c/d比较好保证不要爆表</b><br><b>b1=b/d</b><br><b>x=(x0%b1+b1)%b1</b>  </p>
+<h1 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h1><p>说到线段树实际上还是一个具有叫做lazy tag的完全二叉树</p>
+<h1 id="分布操作"><a href="#分布操作" class="headerlink" title="分布操作"></a>分布操作</h1><h2 id="建树"><a href="#建树" class="headerlink" title="建树"></a>建树</h2><p>建树操作需要知道一个就是当前p的左儿子是2p右儿子是2p+1然后我们递归建树即可，回溯的时候更新每个值<br>所以代码就比较清晰了，如果当前l=r的话那么我们就把这个叶子节点赋值然后向上回溯即可<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> p,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  t[p].l=l;t[p].r=r;</span><br><span class="line">  <span class="keyword">if</span>(l==r)</span><br><span class="line">  &#123;</span><br><span class="line">    t[p].sum=num[l];</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">int</span> mid=(l+r)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">  build(<span class="number">2</span>*p,l,mid);</span><br><span class="line">  build(<span class="number">2</span>*p+<span class="number">1</span>,mid+<span class="number">1</span>,r);</span><br><span class="line">  t[p].sum=t[<span class="number">2</span>*p].sum+t[<span class="number">2</span>*p+<span class="number">1</span>].sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="lazy-tag下放"><a href="#lazy-tag下放" class="headerlink" title="lazy tag下放"></a>lazy tag下放</h2><p>lazy tag在这里是记录区间总共更改了多少，下放的时候要注意更改左右儿子的值并且把左右儿子的lazy tag更新，自己的lazy tag清除<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">lazy</span><span class="params">(<span class="keyword">int</span> p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(t[p].tag)</span><br><span class="line">  &#123;</span><br><span class="line">    t[<span class="number">2</span>*p].sum+=t[p].tag*(t[<span class="number">2</span>*p].r+<span class="number">1</span>-t[<span class="number">2</span>*p].l);</span><br><span class="line">    t[<span class="number">2</span>*p+<span class="number">1</span>].sum+=t[p].tag*(t[<span class="number">2</span>*p+<span class="number">1</span>].r+<span class="number">1</span>-t[<span class="number">2</span>*p+<span class="number">1</span>].l);</span><br><span class="line">    t[<span class="number">2</span>*p].tag+=t[p].tag;</span><br><span class="line">    t[<span class="number">2</span>*p+<span class="number">1</span>].tag+=t[p].tag;</span><br><span class="line">    t[p].tag=<span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="更改操作"><a href="#更改操作" class="headerlink" title="更改操作"></a>更改操作</h2><p>更改是把父节点对应的子节点的个数乘以修改的值，因为每个节点都加上一个数，所以一次把加和给父节点，并且给父节点打上lazy tag,如果修改的区间并不覆盖父节点所管理的范围，那么下放lazy tag并且递归更改其他区间，最后回溯赋值<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">change</span><span class="params">(<span class="keyword">int</span> p,<span class="keyword">int</span> x,<span class="keyword">int</span> y,<span class="keyword">int</span> z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(t[p].l&gt;=x&amp;&amp;t[p].r&lt;=y)</span><br><span class="line">  &#123;</span><br><span class="line">    t[p].sum+=<span class="number">1L</span>L*z*(t[p].r+<span class="number">1</span>-t[p].l);</span><br><span class="line">    t[p].tag+=z;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  lazy(p);</span><br><span class="line">  <span class="keyword">int</span> mid=(t[p].r+t[p].l)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span>(x&lt;=mid)</span><br><span class="line">  change(p*<span class="number">2</span>,x,y,z);</span><br><span class="line">  <span class="keyword">if</span>(y&gt;mid)</span><br><span class="line">  change(p*<span class="number">2</span>+<span class="number">1</span>,x,y,z);</span><br><span class="line">  t[p].sum=t[<span class="number">2</span>*p].sum+t[<span class="number">2</span>*p+<span class="number">1</span>].sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h2><p>查询需要看当前是不是已经区间覆盖了，如果是那么返回当前的区间的值，否则还是下放lazy tag进行递归寻找<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">long</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span> p,<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(t[p].l&gt;=x&amp;&amp;t[p].r&lt;=y)</span><br><span class="line">  <span class="keyword">return</span> t[p].sum;</span><br><span class="line">  lazy(p);</span><br><span class="line">  <span class="keyword">int</span> mid=(t[p].r+t[p].l)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">long</span> <span class="keyword">long</span> ans=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">if</span>(x&lt;=mid)</span><br><span class="line">  ans+=sum(<span class="number">2</span>*p,x,y);</span><br><span class="line">  <span class="keyword">if</span>(y&gt;mid)</span><br><span class="line">  ans+=sum(<span class="number">2</span>*p+<span class="number">1</span>,x,y);</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="完整模板-洛谷P3372-【模板】线段树-1"><a href="#完整模板-洛谷P3372-【模板】线段树-1" class="headerlink" title="完整模板(洛谷P3372 【模板】线段树 1)"></a>完整模板(洛谷P3372 【模板】线段树 1)</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">  <span class="keyword">long</span> <span class="keyword">long</span> l,r,sum,tag;</span><br><span class="line">&#125;t[<span class="number">666666</span>];</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> num[<span class="number">666666</span>];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> p,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  t[p].l=l;t[p].r=r;</span><br><span class="line">  <span class="keyword">if</span>(l==r)</span><br><span class="line">  &#123;</span><br><span class="line">    t[p].sum=num[l];</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">int</span> mid=(l+r)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">  build(<span class="number">2</span>*p,l,mid);</span><br><span class="line">  build(<span class="number">2</span>*p+<span class="number">1</span>,mid+<span class="number">1</span>,r);</span><br><span class="line">  t[p].sum=t[<span class="number">2</span>*p].sum+t[<span class="number">2</span>*p+<span class="number">1</span>].sum;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">lazy</span><span class="params">(<span class="keyword">int</span> p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(t[p].tag)</span><br><span class="line">  &#123;</span><br><span class="line">    t[<span class="number">2</span>*p].sum+=t[p].tag*(t[<span class="number">2</span>*p].r+<span class="number">1</span>-t[<span class="number">2</span>*p].l);</span><br><span class="line">    t[<span class="number">2</span>*p+<span class="number">1</span>].sum+=t[p].tag*(t[<span class="number">2</span>*p+<span class="number">1</span>].r+<span class="number">1</span>-t[<span class="number">2</span>*p+<span class="number">1</span>].l);</span><br><span class="line">    t[<span class="number">2</span>*p].tag+=t[p].tag;</span><br><span class="line">    t[<span class="number">2</span>*p+<span class="number">1</span>].tag+=t[p].tag;</span><br><span class="line">    t[p].tag=<span class="number">0</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">change</span><span class="params">(<span class="keyword">int</span> p,<span class="keyword">int</span> x,<span class="keyword">int</span> y,<span class="keyword">int</span> z)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(t[p].l&gt;=x&amp;&amp;t[p].r&lt;=y)</span><br><span class="line">  &#123;</span><br><span class="line">    t[p].sum+=<span class="number">1L</span>L*z*(t[p].r+<span class="number">1</span>-t[p].l);</span><br><span class="line">    t[p].tag+=z;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  lazy(p);</span><br><span class="line">  <span class="keyword">int</span> mid=(t[p].r+t[p].l)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span>(x&lt;=mid)</span><br><span class="line">  change(p*<span class="number">2</span>,x,y,z);</span><br><span class="line">  <span class="keyword">if</span>(y&gt;mid)</span><br><span class="line">  change(p*<span class="number">2</span>+<span class="number">1</span>,x,y,z);</span><br><span class="line">  t[p].sum=t[<span class="number">2</span>*p].sum+t[<span class="number">2</span>*p+<span class="number">1</span>].sum;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">long</span> <span class="keyword">long</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span> p,<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(t[p].l&gt;=x&amp;&amp;t[p].r&lt;=y)</span><br><span class="line">  <span class="keyword">return</span> t[p].sum;</span><br><span class="line">  lazy(p);</span><br><span class="line">  <span class="keyword">int</span> mid=(t[p].r+t[p].l)&gt;&gt;<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">long</span> <span class="keyword">long</span> ans=<span class="number">0</span>;</span><br><span class="line">  <span class="keyword">if</span>(x&lt;=mid)</span><br><span class="line">  ans+=sum(<span class="number">2</span>*p,x,y);</span><br><span class="line">  <span class="keyword">if</span>(y&gt;mid)</span><br><span class="line">  ans+=sum(<span class="number">2</span>*p+<span class="number">1</span>,x,y);</span><br><span class="line">  <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,m;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;m;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;num[i];</span><br><span class="line">  build(<span class="number">1</span>,<span class="number">1</span>,n);</span><br><span class="line">  <span class="keyword">while</span>(m--)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">int</span> p,x,y,z;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;p;</span><br><span class="line">    <span class="keyword">if</span>(p==<span class="number">1</span>)</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">cin</span>&gt;&gt;x&gt;&gt;y&gt;&gt;z;</span><br><span class="line">      change(<span class="number">1</span>,x,y,z);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">      <span class="built_in">cin</span>&gt;&gt;x&gt;&gt;y;</span><br><span class="line">      <span class="built_in">cout</span>&lt;&lt;sum(<span class="number">1</span>,x,y)&lt;&lt;<span class="string">"\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -593,7 +593,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/数论/" rel="tag"><i class="fa fa-tag"></i> 数论</a>
+            <a href="/tags/数据结构/" rel="tag"><i class="fa fa-tag"></i> 数据结构</a>
           
         </div>
       
@@ -606,8 +606,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/算法23/" rel="next" title="线性素数筛法(欧拉筛法)">
-                <i class="fa fa-chevron-left"></i> 线性素数筛法(欧拉筛法)
+              <a href="/补题25/" rel="next" title="数论编程实验">
+                <i class="fa fa-chevron-left"></i> 数论编程实验
               </a>
             
           </div>
@@ -615,10 +615,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/补题25/" rel="prev" title="数论编程实验">
-                数论编程实验 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1005,7 +1001,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#欧几里得算法"><span class="nav-number">1.</span> <span class="nav-text">欧几里得算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#简述"><span class="nav-number">1.1.</span> <span class="nav-text">简述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">1.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#拓展欧几里得算法"><span class="nav-number">2.</span> <span class="nav-text">拓展欧几里得算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#简述-1"><span class="nav-number">2.1.</span> <span class="nav-text">简述</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码-1"><span class="nav-number">3.</span> <span class="nav-text">代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#拓展"><span class="nav-number">3.1.</span> <span class="nav-text">拓展</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#分布操作"><span class="nav-number">2.</span> <span class="nav-text">分布操作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#建树"><span class="nav-number">2.1.</span> <span class="nav-text">建树</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lazy-tag下放"><span class="nav-number">2.2.</span> <span class="nav-text">lazy tag下放</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更改操作"><span class="nav-number">2.3.</span> <span class="nav-text">更改操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查询"><span class="nav-number">2.4.</span> <span class="nav-text">查询</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#完整模板-洛谷P3372-【模板】线段树-1"><span class="nav-number">3.</span> <span class="nav-text">完整模板(洛谷P3372 【模板】线段树 1)</span></a></li></ol></div>
             
 
           </div>
