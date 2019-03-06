@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-06T03:54:29.624Z</updated>
+  <updated>2019-03-06T04:10:45.678Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>哈理工训练赛20190304(简略题解)</title>
+    <link href="http://www.baccano.fun/%E9%A2%98%E8%A7%A327/"/>
+    <id>http://www.baccano.fun/题解27/</id>
+    <published>2019-03-06T03:57:26.000Z</published>
+    <updated>2019-03-06T04:10:45.678Z</updated>
+    
+    <summary type="html">
+    
+      简略版题解
+    
+    </summary>
+    
+      <category term="题解" scheme="http://www.baccano.fun/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>线段树基础求和与修改</title>
@@ -412,26 +432,6 @@
     
     
       <category term="CSS" scheme="http://www.baccano.fun/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bfs判断转弯次数</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9511/"/>
-    <id>http://www.baccano.fun/算法11/</id>
-    <published>2019-02-18T16:46:50.000Z</published>
-    <updated>2019-02-18T16:58:28.201Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;bfs判断转弯次数也就是顾名思义我们如何来应对需要至少转弯多少次或者计算总共转弯多少次的题目&lt;br&gt;
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="bfs" scheme="http://www.baccano.fun/tags/bfs/"/>
     
   </entry>
   
