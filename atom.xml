@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-08T02:53:12.581Z</updated>
+  <updated>2019-03-09T07:48:18.699Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>树形dp(1) P2015二叉苹果树</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9528/"/>
+    <id>http://www.baccano.fun/算法28/</id>
+    <published>2019-03-09T07:40:44.000Z</published>
+    <updated>2019-03-09T07:48:18.699Z</updated>
+    
+    <summary type="html">
+    
+      树形dp(1) P2015二叉苹果树
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
   
   <entry>
     <title>哈理工训练赛20190304(简略题解)</title>
@@ -412,26 +432,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>CSS3过渡实验</title>
-    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF12/"/>
-    <id>http://www.baccano.fun/前端12/</id>
-    <published>2019-02-20T05:08:02.000Z</published>
-    <updated>2019-02-20T07:32:49.546Z</updated>
-    
-    <summary type="html">
-    
-      进行了一些过渡的基础操作
-    
-    </summary>
-    
-      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="CSS" scheme="http://www.baccano.fun/tags/CSS/"/>
     
   </entry>
   
