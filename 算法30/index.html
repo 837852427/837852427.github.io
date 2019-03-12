@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="Baccano">
 <meta property="og:description" content="P2858 [USACO06FEB]奶牛零食Treats for the Cows">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-09T16:26:25.366Z">
+<meta property="og:updated_time" content="2019-03-10T11:08:58.141Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows">
 <meta name="twitter:description" content="P2858 [USACO06FEB]奶牛零食Treats for the Cows">
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-03-10 00:21:40 / 修改时间：00:26:25" itemprop="dateCreated datePublished" datetime="2019-03-10T00:21:40+08:00">2019-03-10</time>
+              <time title="创建时间：2019-03-10 00:21:40 / 修改时间：19:08:58" itemprop="dateCreated datePublished" datetime="2019-03-10T00:21:40+08:00">2019-03-10</time>
             
 
             
@@ -535,7 +535,7 @@
 
       
         <a id="more"></a>
-<h1 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h1><p>一道区间dp的题目，大佬的算法是既然要选择左边一个或者右边的一个，那么我们可以得到一个转移方程<br><b>dp[i][j]=max(dp[i+1][j],dp[i][j-1])+cha[j]-cha[i-1]  </b><br>其中i,j是从i到j的最优解显然答案就是dp[1][n]</p>
+<h1 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h1><p>一道区间dp的题目，大佬的算法是既然要选择左边一个或者右边的一个，那么我们可以得到一个转移方程<br><b>dp[i][j]=max(dp[i+1][j],dp[i][j-1])+cha[j]-cha[i-1]  </b><br>其中i,j是从i到j的最321优解显然答案就是dp[1][n]</p>
 <h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> dp[<span class="number">2005</span>][<span class="number">2005</span>],num[<span class="number">2005</span>],cha[<span class="number">2005</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;num[i],cha[i]=cha[i<span class="number">-1</span>]+num[i];</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=i;j++)</span><br><span class="line">  dp[j][i]=max(dp[j<span class="number">-1</span>][i],dp[j][i+<span class="number">1</span>])+cha[i]-cha[j<span class="number">-1</span>];</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;dp[<span class="number">1</span>][n];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
@@ -611,6 +611,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/题解31/" rel="prev" title="哈理工训练赛20190310(组队赛1)">
+                哈理工训练赛20190310(组队赛1) <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -855,7 +859,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">35</span>
+                    <span class="site-state-item-count">36</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>

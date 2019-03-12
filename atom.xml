@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-09T16:26:25.366Z</updated>
+  <updated>2019-03-12T08:59:07.910Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>哈理工训练赛20190310(组队赛1)</title>
+    <link href="http://www.baccano.fun/%E9%A2%98%E8%A7%A331/"/>
+    <id>http://www.baccano.fun/题解31/</id>
+    <published>2019-03-12T08:05:22.000Z</published>
+    <updated>2019-03-12T08:59:07.910Z</updated>
+    
+    <summary type="html">
+    
+      哈理工训练赛20190310(组队赛1)
+    
+    </summary>
+    
+      <category term="题解" scheme="http://www.baccano.fun/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows</title>
     <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9530/"/>
     <id>http://www.baccano.fun/算法30/</id>
     <published>2019-03-09T16:21:40.000Z</published>
-    <updated>2019-03-09T16:26:25.366Z</updated>
+    <updated>2019-03-10T11:08:58.141Z</updated>
     
     <summary type="html">
     
@@ -406,26 +426,6 @@
     
     
       <category term="Codeforces" scheme="http://www.baccano.fun/tags/Codeforces/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSS3动画实验</title>
-    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF13/"/>
-    <id>http://www.baccano.fun/前端13/</id>
-    <published>2019-02-20T07:31:10.000Z</published>
-    <updated>2019-02-20T07:38:52.321Z</updated>
-    
-    <summary type="html">
-    
-      进行了一下动画的基本操作并且引用了一位大佬的动画
-    
-    </summary>
-    
-      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="CSS" scheme="http://www.baccano.fun/tags/CSS/"/>
     
   </entry>
   
