@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-12T08:59:07.910Z</updated>
+  <updated>2019-03-12T15:20:32.713Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>线段树区间合并板子</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9532/"/>
+    <id>http://www.baccano.fun/算法32/</id>
+    <published>2019-03-12T15:02:50.000Z</published>
+    <updated>2019-03-12T15:20:32.713Z</updated>
+    
+    <summary type="html">
+    
+      线段树区间合并板子
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="线段树" scheme="http://www.baccano.fun/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
     <title>哈理工训练赛20190310(组队赛1)</title>
     <link href="http://www.baccano.fun/%E9%A2%98%E8%A7%A331/"/>
     <id>http://www.baccano.fun/题解31/</id>
     <published>2019-03-12T08:05:22.000Z</published>
-    <updated>2019-03-12T08:59:07.910Z</updated>
+    <updated>2019-03-12T14:03:35.228Z</updated>
     
     <summary type="html">
     
@@ -406,26 +426,6 @@
     
     
       <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Codeforces Round 540 (Div. 3)(补题)</title>
-    <link href="http://www.baccano.fun/%E8%A1%A5%E9%A2%9814/"/>
-    <id>http://www.baccano.fun/补题14/</id>
-    <published>2019-02-21T16:10:41.000Z</published>
-    <updated>2019-02-21T16:32:18.321Z</updated>
-    
-    <summary type="html">
-    
-      这次又回到了青名，算是寒假的最后一战了
-    
-    </summary>
-    
-      <category term="补题" scheme="http://www.baccano.fun/categories/%E8%A1%A5%E9%A2%98/"/>
-    
-    
-      <category term="Codeforces" scheme="http://www.baccano.fun/tags/Codeforces/"/>
     
   </entry>
   
