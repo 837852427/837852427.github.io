@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-15T01:33:57.733Z</updated>
+  <updated>2019-03-15T11:08:00.459Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>EXKMP模板小结</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9535/"/>
+    <id>http://www.baccano.fun/算法35/</id>
+    <published>2019-03-15T10:52:48.000Z</published>
+    <updated>2019-03-15T11:08:00.459Z</updated>
+    
+    <summary type="html">
+    
+      EXKMP模板小结
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="KMP" scheme="http://www.baccano.fun/tags/KMP/"/>
+    
+  </entry>
   
   <entry>
     <title>树形DP(4) 最小覆盖集点与边的分别的做法</title>
@@ -396,26 +416,6 @@
     <summary type="html">
     
       搞了半天终于弄出来了
-    
-    </summary>
-    
-      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用JavaScript添加一个计时器选图的hexo博客文章底栏插件</title>
-    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF16/"/>
-    <id>http://www.baccano.fun/前端16/</id>
-    <published>2019-02-22T13:59:53.000Z</published>
-    <updated>2019-02-22T14:13:56.127Z</updated>
-    
-    <summary type="html">
-    
-      一个很基础的DOM与计时器操作
     
     </summary>
     
