@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="Baccano">
 <meta property="og:description" content="EXKMP模板小结">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-15T11:08:00.459Z">
+<meta property="og:updated_time" content="2019-03-15T11:10:28.235Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="EXKMP模板小结">
 <meta name="twitter:description" content="EXKMP模板小结">
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-03-15 18:52:48 / 修改时间：19:08:00" itemprop="dateCreated datePublished" datetime="2019-03-15T18:52:48+08:00">2019-03-15</time>
+              <time title="创建时间：2019-03-15 18:52:48 / 修改时间：19:10:28" itemprop="dateCreated datePublished" datetime="2019-03-15T18:52:48+08:00">2019-03-15</time>
             
 
             
@@ -537,7 +537,7 @@
         <a id="more"></a>
 <h1 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h1><h2 id="什么是EXKMP"><a href="#什么是EXKMP" class="headerlink" title="什么是EXKMP?"></a>什么是EXKMP?</h2><p>kmp就是当前这一部分的前缀与后缀的一个最大等值，然后等着线性匹配的时候如果出现了失配那么能够快速匹配到位的一种算法那么既然是EXKMP那么肯定是要有EX的部分的，那一部分就是EXKMP是子串与所有的主串所匹配的最大前缀长度<br><b>例子</b><br>aabbabaaab<br>aabb<br>4 1 0 0 1 0 2 3 1 0<br>aabb跟主串第一个位置是有最大的4个前缀长度，第二个位置只有一个a最大其他的同理</p>
 <h2 id="EXKMP怎么实现"><a href="#EXKMP怎么实现" class="headerlink" title="EXKMP怎么实现?"></a>EXKMP怎么实现?</h2><p>首先我们需要两个数组也就是子串的next数组这里的next数组和kmp的不一样是上面说的全部的匹配然后一个主串的ex数组存的就是答案具体的证明可以看这位大佬的<a href="https://www.cnblogs.com/Never-mind/p/7776543.html" target="_blank" rel="noopener">博文</a>  </p>
-<h2 id="模板需要注意的事项"><a href="#模板需要注意的事项" class="headerlink" title="模板需要注意的事项"></a>模板需要注意的事项</h2><p>实际上具体的实现的步骤就是复读两遍一个同样的算法首先计算子串的的next数组，先暴力出第二个第一个就是lenb然后从第三个开始计算k代表当前所运行的位置p代表最大的匹配的范围l是一个计算的变量<br>其中p=k+next[k]-1 l=next[i-k+1]<br>判断一下如果i+l&lt;p+1<br>那么直接next[i]=l<br>否则进行下一波的匹配<br>令j=p-i+1<br>然后接着匹配b[j]与b[i+j]看是否能相等最后把next[i]=j即可更新一下k匹配的时候同理不同的地方就是<b>l=next[i-k+1]不是l=ex[i-k+1]</b></p>
+<h2 id="模板需要注意的事项"><a href="#模板需要注意的事项" class="headerlink" title="模板需要注意的事项"></a>模板需要注意的事项</h2><p>实际上具体的实现的步骤就是复读两遍一个同样的算法首先计算子串的的next数组，先暴力出第二个第一个就是lenb然后从第三个开始计算k代表当前所运行的位置p代表最大的匹配的范围l是一个计算的变量<br>其中p=k+next[k]-1 l=next[i-k+1]<br>判断一下如果i+l&lt;p+1<br>那么直接next[i]=l<br>否则进行下一波的匹配<br>令j=p-i+1<br>然后接着匹配b[j]与b[i+j]看是否能相等最后把next[i]=j即可更新一下k匹配的时候同理不同的地方就是<b>l=next[i-k+1]不是l=ex[i-k+1]</b>  </p>
 <h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><pre><code class="cpp"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span>
 <span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;
 <span class="keyword">char</span> a[<span class="number">10005</span>],b[<span class="number">10005</span>];
