@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="又手生白给了">
-<meta name="keywords" content="补题">
+  <meta name="description" content="PAT 1013 Battle Over Cities (25 分)">
+<meta name="keywords" content="图论">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2019年春季个人训练赛第一场（新生场）(补题题解)">
-<meta property="og:url" content="http://www.baccano.fun/中石油训练赛21/index.html">
+<meta property="og:title" content="PAT 1013 Battle Over Cities (25 分)">
+<meta property="og:url" content="http://www.baccano.fun/算法37/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="又手生白给了">
+<meta property="og:description" content="PAT 1013 Battle Over Cities (25 分)">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-26T17:10:37.967Z">
+<meta property="og:updated_time" content="2019-04-01T08:00:26.708Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2019年春季个人训练赛第一场（新生场）(补题题解)">
-<meta name="twitter:description" content="又手生白给了">
+<meta name="twitter:title" content="PAT 1013 Battle Over Cities (25 分)">
+<meta name="twitter:description" content="PAT 1013 Battle Over Cities (25 分)">
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/中石油训练赛21/">
+  <link rel="canonical" href="http://www.baccano.fun/算法37/">
 
 
 
@@ -133,7 +133,7 @@
   };
 </script>
 
-  <title>2019年春季个人训练赛第一场（新生场）(补题题解) | Baccano</title>
+  <title>PAT 1013 Battle Over Cities (25 分) | Baccano</title>
   
 
 
@@ -412,7 +412,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/中石油训练赛21/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/算法37/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -429,7 +429,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">2019年春季个人训练赛第一场（新生场）(补题题解)
+          <h1 class="post-title" itemprop="name headline">PAT 1013 Battle Over Cities (25 分)
 
               
             
@@ -455,7 +455,7 @@
                 
               
 
-              <time title="创建时间：2019-02-27 01:06:52 / 修改时间：01:10:37" itemprop="dateCreated datePublished" datetime="2019-02-27T01:06:52+08:00">2019-02-27</time>
+              <time title="创建时间：2019-04-01 15:48:26 / 修改时间：16:00:26" itemprop="dateCreated datePublished" datetime="2019-04-01T15:48:26+08:00">2019-04-01</time>
             
 
             
@@ -477,7 +477,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/中石油训练赛/" itemprop="url" rel="index"><span itemprop="name">中石油训练赛</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
 
                 
                 
@@ -496,8 +496,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/中石油训练赛21/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/中石油训练赛21/" itemprop="commentCount"></span>
+                <a href="/算法37/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/算法37/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -518,7 +518,7 @@
           
 
           
-            <div class="post-description">又手生白给了</div>
+            <div class="post-description">PAT 1013 Battle Over Cities (25 分)</div>
           
 
         </div>
@@ -535,8 +535,9 @@
 
       
         <a id="more"></a>
-<h1 id="C-海港"><a href="#C-海港" class="headerlink" title="C 海港"></a>C 海港</h1><h2 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>上来就看错了以为k的总和有3e5一想n都有1e5那不输入都超时直接不会了…<br>这个题要做也是枚举人，定义一个队列，队列放入结构体，结构体有时间和人的id，这样每次枚举的时候看看队首的时间是不是已经不在这一天范围内了，那么就要队首出对，如果队首先减去一人没有人的话，答案也要减一</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">  <span class="keyword">int</span> t,id;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">int</span> ans[<span class="number">666666</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,sum=<span class="number">0</span>;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  <span class="built_in">queue</span>&lt;node&gt; q;</span><br><span class="line">  <span class="keyword">while</span>(n--)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">int</span> t,k;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;t&gt;&gt;k;</span><br><span class="line">    <span class="keyword">while</span>(k--)</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="keyword">int</span> id;</span><br><span class="line">      <span class="built_in">cin</span>&gt;&gt;id;</span><br><span class="line">      q.push((node)&#123;t,id&#125;);</span><br><span class="line">      <span class="keyword">if</span>(!ans[id])</span><br><span class="line">      sum++;</span><br><span class="line">      ans[id]++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(t-q.front().t&gt;=<span class="number">86400</span>)</span><br><span class="line">    &#123;</span><br><span class="line">      ans[q.front().id]--;</span><br><span class="line">      <span class="keyword">if</span>(!ans[q.front().id])</span><br><span class="line">      sum--;</span><br><span class="line">      q.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;sum&lt;&lt;<span class="string">"\n"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>题意就是问你图中去掉一个点剩余的部分需要最少修几条路可以再次保证联通？</p>
+<h1 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h1><p>我最初是想着把他们弄成点，然后10分，看网上老哥做法是看成联通快，把剩余的部分看成图，最后求图路径就是联通块个数-1即可</p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; G[<span class="number">2333</span>];</span><br><span class="line"><span class="keyword">int</span> mk[<span class="number">2333</span>],ans[<span class="number">2333</span>],sum;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;G[p].size();i++)</span><br><span class="line">  <span class="keyword">if</span>(!mk[G[p][i]])</span><br><span class="line">  &#123;</span><br><span class="line">    mk[G[p][i]]=<span class="number">1</span>;</span><br><span class="line">    dfs(G[p][i]);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,m,k;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;m&gt;&gt;k;</span><br><span class="line">  <span class="keyword">while</span>(m--)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">int</span> st,ed;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;st&gt;&gt;ed;</span><br><span class="line">    G[st].push_back(ed);</span><br><span class="line">    G[ed].push_back(st);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">while</span>(k--)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">int</span> now;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;now;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">memset</span>(mk,<span class="number">0</span>,<span class="keyword">sizeof</span>(mk));</span><br><span class="line">    mk[now]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">    <span class="keyword">if</span>(!mk[j])</span><br><span class="line">    &#123;</span><br><span class="line">      dfs(j);</span><br><span class="line">      sum++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;sum<span class="number">-1</span>&lt;&lt;<span class="string">"\n"</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -589,7 +590,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/补题/" rel="tag"><i class="fa fa-tag"></i> 补题</a>
+            <a href="/tags/图论/" rel="tag"><i class="fa fa-tag"></i> 图论</a>
           
         </div>
       
@@ -602,8 +603,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/记录20/" rel="next" title="家乡的发展历程">
-                <i class="fa fa-chevron-left"></i> 家乡的发展历程
+              <a href="/算法36/" rel="next" title="博弈论基础入门">
+                <i class="fa fa-chevron-left"></i> 博弈论基础入门
               </a>
             
           </div>
@@ -611,10 +612,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/前端22/" rel="prev" title="jQuery ajax测试">
-                jQuery ajax测试 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1013,7 +1010,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C-海港"><span class="nav-number">1.</span> <span class="nav-text">C 海港</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">1.2.</span> <span class="nav-text">代码</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#解法"><span class="nav-number">1.</span> <span class="nav-text">解法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码"><span class="nav-number">2.</span> <span class="nav-text">代码</span></a></li></ol></div>
             
 
           </div>
