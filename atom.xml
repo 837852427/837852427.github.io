@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-04-01T08:00:26.708Z</updated>
+  <updated>2019-04-22T08:13:36.566Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论如何补一道南昌网络赛的题补一上午</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9538/"/>
+    <id>http://www.baccano.fun/算法38/</id>
+    <published>2019-04-22T07:45:02.000Z</published>
+    <updated>2019-04-22T08:13:36.566Z</updated>
+    
+    <summary type="html">
+    
+      论如何补一道南昌网络赛的题补一上午
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构" scheme="http://www.baccano.fun/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>PAT 1013 Battle Over Cities (25 分)</title>
@@ -403,26 +423,6 @@
     
     
       <category term="日志" scheme="http://www.baccano.fun/tags/%E6%97%A5%E5%BF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用jQuery实现简易钢琴按键博客栏底部小插件</title>
-    <link href="http://www.baccano.fun/%E5%89%8D%E7%AB%AF19/"/>
-    <id>http://www.baccano.fun/前端19/</id>
-    <published>2019-02-24T13:43:09.000Z</published>
-    <updated>2019-02-24T14:02:38.035Z</updated>
-    
-    <summary type="html">
-    
-      简易的钢琴按键
-    
-    </summary>
-    
-      <category term="前端" scheme="http://www.baccano.fun/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.baccano.fun/tags/JavaScript/"/>
     
   </entry>
   
