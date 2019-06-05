@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-04-22T08:13:36.566Z</updated>
+  <updated>2019-06-05T11:35:38.091Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="http://www.baccano.fun/uncategorizednim/"/>
+    <id>http://www.baccano.fun/uncategorizednim/</id>
+    <published>2019-06-05T11:31:26.356Z</published>
+    <updated>2019-06-05T11:35:38.091Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;博弈小游戏&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>论如何补一道南昌网络赛的题补一上午</title>
     <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9538/"/>
     <id>http://www.baccano.fun/算法38/</id>
     <published>2019-04-22T07:45:02.000Z</published>
-    <updated>2019-04-22T08:13:36.566Z</updated>
+    <updated>2019-04-22T09:11:22.079Z</updated>
     
     <summary type="html">
     
@@ -403,26 +426,6 @@
     
     
       <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>家乡的发展历程</title>
-    <link href="http://www.baccano.fun/%E8%AE%B0%E5%BD%9520/"/>
-    <id>http://www.baccano.fun/记录20/</id>
-    <published>2019-02-26T16:34:20.000Z</published>
-    <updated>2019-02-26T16:36:18.317Z</updated>
-    
-    <summary type="html">
-    
-      作业
-    
-    </summary>
-    
-      <category term="记录" scheme="http://www.baccano.fun/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-      <category term="日志" scheme="http://www.baccano.fun/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   

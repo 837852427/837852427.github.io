@@ -1,0 +1,288 @@
+//$("body").css("background-color","blue");
+$("#end_").hide();
+$("h1.startinfo_").hide();
+$("#xianshou").hide();
+$("#houshou").hide();
+$("h1.heng").hide();
+$("h1.round").hide();
+$("p.ticks").hide();
+$("#one").hide();
+$("#two").hide();
+$("#three").hide();
+$("#four").hide();
+$("#five").hide();
+$("#one_").hide();
+$("#two_").hide();
+$("#three_").hide();
+$("#four_").hide();
+$("#five_").hide();
+$("#atfo").hide();
+$("#back").hide();
+$("end_").hide();
+$("h1.chaofeng").hide();
+var heap=new Array();
+var ticks=1;
+$("#start").click(
+  function()
+  {
+    $("h1.title").fadeOut();
+    $("#start").fadeOut();
+    $("#author").fadeOut();
+    $("h1.startinfo_").fadeIn(300);
+    $("#xianshou").fadeIn(300);
+    $("#houshou").fadeIn(300);
+    $("h1.chaofeng").fadeIn(300);
+  }
+)
+$("p.startmenu_").click(
+  function()
+  {
+    $("h1.title").fadeOut();
+    $("#start").fadeOut();
+    $("#author").fadeOut();
+    $("#atfo").fadeIn();
+    $("#back").fadeIn();
+    $("#back").click(
+      function()
+      {
+        $("#atfo").fadeOut(300);
+        $("#back").fadeOut(300);
+        $("h1.title").fadeIn();
+        $("#start").fadeIn();
+        $("#author").fadeIn();
+      }
+    );
+  }
+);
+$("#xianshou").click(
+  function()
+  {
+    $("h1.chaofeng").fadeOut();
+    game();
+  }
+)
+$("#houshou").click(
+  function()
+  {
+    $("h1.chaofeng").fadeOut();
+    game2();
+  }
+)
+function game2()
+{
+  $("h1.startinfo_").fadeOut();
+  $("#xianshou").fadeOut();
+  $("#houshou").fadeOut();
+  $("h1.heng").fadeIn(300);
+  $("h1.round").fadeIn(300);
+  $("p.ticks").text(ticks);
+  $("p.ticks").fadeIn(300);
+  while(1)
+  {
+    for(var i=1;i<=5;i++)
+    heap[i]=parseInt(Math.random()*10+1);
+    if(check()==0)
+    break;
+  }
+  draw();
+  AI();
+  event();
+  console.log("2222");
+}
+function game()
+{
+  $("h1.startinfo_").fadeOut();
+  $("#xianshou").fadeOut();
+  $("#houshou").fadeOut();
+  $("h1.heng").fadeIn(300);
+  $("h1.round").fadeIn(300);
+  $("p.ticks").text(ticks);
+  $("p.ticks").fadeIn(300);
+  while(1)
+  {
+    for(var i=1;i<=5;i++)
+    heap[i]=parseInt(Math.random()*20+1);
+    if(check())
+    break;
+  }
+  draw();
+  event();
+  console.log("2222");
+}
+function check()
+{
+  var sum=0;
+  for(var i=1;i<=5;i++)
+  sum^=heap[i];
+  return sum==0;
+}
+function run()
+{
+  for(var i=1;i<=5;i++)
+  if(heap[i]>0)
+  return true;
+  return false;
+}
+function draw()
+{
+  $("#one").fadeOut();
+  $("#two").fadeOut();
+  $("#three").fadeOut();
+  $("#four").fadeOut();
+  $("#five").fadeOut();
+  $("#one_").fadeOut();
+  $("#two_").fadeOut();
+  $("#three_").fadeOut();
+  $("#four_").fadeOut();
+  $("#five_").fadeOut();
+  $("#one").css("top",78-heap[1]*3.5+"%");
+  $("#one").css("height",heap[1]*3.5+"%");
+  $("#two").css("top",78-heap[2]*3.5+"%");
+  $("#two").css("height",heap[2]*3.5+"%");
+  $("#three").css("top",78-heap[3]*3.5+"%");
+  $("#three").css("height",heap[3]*3.5+"%");
+  $("#four").css("top",78-heap[4]*3.5+"%");
+  $("#four").css("height",heap[4]*3.5+"%");
+  $("#five").css("top",78-heap[5]*3.5+"%");
+  $("#five").css("height",heap[5]*3.5+"%");
+  $("#one_").text(heap[1]);
+  $("#two_").text(heap[2]);
+  $("#three_").text(heap[3]);
+  $("#four_").text(heap[4]);
+  $("#five_").text(heap[5]);
+  $("#one").fadeIn(300);
+  $("#two").fadeIn(300);
+  $("#three").fadeIn(300);
+  $("#four").fadeIn(300);
+  $("#five").fadeIn(300);
+  $("#one_").fadeIn(300);
+  $("#two_").fadeIn(300);
+  $("#three_").fadeIn(300);
+  $("#four_").fadeIn(300);
+  $("#five_").fadeIn(300);
+}
+function event()
+{
+  console.log("1111");
+  $("#one").click(
+    function()
+    {
+      change(1);
+      console.log("1");
+      return;
+    }
+  );
+  $("#two").click(
+    function()
+    {
+      change(2);
+      console.log("2");
+      return;
+    }
+  );
+  $("#three").click(
+    function()
+    {
+      change(3);
+      console.log("3");
+      return;
+    }
+  );
+  $("#four").click(
+    function()
+    {
+      change(4);
+      console.log("4");
+      return;
+    }
+  );
+  $("#five").click(
+    function()
+    {
+      change(5);
+      console.log("5");
+      return;
+    }
+  );
+  return;
+}
+function change(id)
+{
+  var sum=prompt("请输入你要移走的个数");
+  sum=parseInt(sum);
+  if(!isNaN(sum)&&sum>=1&&sum<=heap[id])
+  {
+    ticks+=1;
+    $("p.ticks").fadeOut();
+    $("p.ticks").text(ticks);
+    $("p.ticks").fadeIn(300);
+    heap[id]-=sum;
+  }
+  else
+  {
+    alert("输入非法");
+  }
+  draw();
+  setTimeout(AI(),2000);
+}
+function AI()
+{
+  var f=0;
+  for(var i=1;i<=5;i++)
+  {
+    if(f==1)
+    break;
+    for(var j=1;j<=heap[i];j++)
+    {
+      var sum=0;
+      sum^=(heap[i]-j);
+      for(var k=1;k<=5;k++)
+      if(k!=i)
+      sum^=heap[k];
+      if(sum==0)
+      {
+        heap[i]-=j;
+        alert("AI从第"+i+"堆取走"+j+"个硬币");
+        f=1;
+        break;
+      }
+      if(f==1)
+      break;
+    }
+  }
+  draw();
+  if(run()==false)
+  {
+    alert("你输了!!!!");
+    $("#end_").fadeIn();
+    $("#end_").click(
+      function()
+      {
+        $("h1.heng").hide();
+        $("h1.round").hide();
+        $("p.ticks").hide();
+        $("#one").hide();
+        $("#two").hide();
+        $("#three").hide();
+        $("#four").hide();
+        $("#five").hide();
+        $("#one_").hide();
+        $("#two_").hide();
+        $("#three_").hide();
+        $("#four_").hide();
+        $("#five_").hide();
+        $("h1.title").fadeIn();
+        $("#start").fadeIn();
+        $("#author").fadeIn();
+        $("#end_").fadeOut();
+        $("h1.chaofeng").fadeOut();
+        ticks=1;
+      }
+    )
+  }
+}
+function sleep(n)
+{
+  var start = new Date().getTime();
+  while(true)  if(new Date().getTime()-start > n) break;
+}
