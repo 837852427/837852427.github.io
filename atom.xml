@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-06-05T12:18:15.181Z</updated>
+  <updated>2019-06-06T14:15:15.845Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nim23</title>
+    <link href="http://www.baccano.fun/uncategorizednim23/"/>
+    <id>http://www.baccano.fun/uncategorizednim23/</id>
+    <published>2019-06-06T14:13:21.000Z</published>
+    <updated>2019-06-06T14:15:15.845Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;br&gt;  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;&lt;br&gt;    &lt;meta charset=&quot;utf-8&quot;&gt;&lt;br&gt;    &lt;title&gt;博弈小游戏&lt;/title&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="game" scheme="http://www.baccano.fun/tags/game/"/>
+    
+  </entry>
   
   <entry>
     <title>nim</title>
@@ -402,26 +423,6 @@
     
     
       <category term="jQuery" scheme="http://www.baccano.fun/tags/jQuery/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019年春季个人训练赛第一场（新生场）(补题题解)</title>
-    <link href="http://www.baccano.fun/%E4%B8%AD%E7%9F%B3%E6%B2%B9%E8%AE%AD%E7%BB%83%E8%B5%9B21/"/>
-    <id>http://www.baccano.fun/中石油训练赛21/</id>
-    <published>2019-02-26T17:06:52.000Z</published>
-    <updated>2019-02-26T17:10:37.967Z</updated>
-    
-    <summary type="html">
-    
-      又手生白给了
-    
-    </summary>
-    
-      <category term="中石油训练赛" scheme="http://www.baccano.fun/categories/%E4%B8%AD%E7%9F%B3%E6%B2%B9%E8%AE%AD%E7%BB%83%E8%B5%9B/"/>
-    
-    
-      <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
     
   </entry>
   
