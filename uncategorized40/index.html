@@ -103,18 +103,17 @@
 
 
 
-  <meta name="description" content="进行了一些过渡的基础操作">
-<meta name="keywords" content="CSS">
+  <meta name="description" content="概述二分图判定很好说就是没有奇边环即可然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也等于最小点覆盖集   匈牙利算法匈牙利算法原理是通过増广路实际上也不需要这么的复杂，核心在于我前面的两个点如果已经选了我再进行匹配的时候要怎么最优化道理在于先维护一个vis代表当前点遍历过后所有的点,这个vis巧妙而且必不可少因为如果这是保证切换寻找的时候不会出现重复的现象   代码1234567">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSS3过渡实验">
-<meta property="og:url" content="http://www.baccano.fun/前端12/index.html">
+<meta property="og:title" content="二分图基础初步探究">
+<meta property="og:url" content="http://www.baccano.fun/uncategorized40/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="进行了一些过渡的基础操作">
+<meta property="og:description" content="概述二分图判定很好说就是没有奇边环即可然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也等于最小点覆盖集   匈牙利算法匈牙利算法原理是通过増广路实际上也不需要这么的复杂，核心在于我前面的两个点如果已经选了我再进行匹配的时候要怎么最优化道理在于先维护一个vis代表当前点遍历过后所有的点,这个vis巧妙而且必不可少因为如果这是保证切换寻找的时候不会出现重复的现象   代码1234567">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-20T07:32:49.546Z">
+<meta property="og:updated_time" content="2019-07-14T08:45:08.479Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CSS3过渡实验">
-<meta name="twitter:description" content="进行了一些过渡的基础操作">
+<meta name="twitter:title" content="二分图基础初步探究">
+<meta name="twitter:description" content="概述二分图判定很好说就是没有奇边环即可然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也等于最小点覆盖集   匈牙利算法匈牙利算法原理是通过増广路实际上也不需要这么的复杂，核心在于我前面的两个点如果已经选了我再进行匹配的时候要怎么最优化道理在于先维护一个vis代表当前点遍历过后所有的点,这个vis巧妙而且必不可少因为如果这是保证切换寻找的时候不会出现重复的现象   代码1234567">
 
 
 
@@ -123,7 +122,7 @@
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/前端12/">
+  <link rel="canonical" href="http://www.baccano.fun/uncategorized40/">
 
 
 
@@ -133,7 +132,7 @@
   };
 </script>
 
-  <title>CSS3过渡实验 | Baccano</title>
+  <title>二分图基础初步探究 | Baccano</title>
   
 
 
@@ -412,7 +411,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/前端12/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized40/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -429,7 +428,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CSS3过渡实验
+          <h1 class="post-title" itemprop="name headline">二分图基础初步探究
 
               
             
@@ -455,7 +454,7 @@
                 
               
 
-              <time title="创建时间：2019-02-20 13:08:02 / 修改时间：15:32:49" itemprop="dateCreated datePublished" datetime="2019-02-20T13:08:02+08:00">2019-02-20</time>
+              <time title="创建时间：2019-07-14 16:35:28 / 修改时间：16:45:08" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
             
 
             
@@ -465,24 +464,6 @@
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -496,8 +477,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/前端12/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/前端12/" itemprop="commentCount"></span>
+                <a href="/uncategorized40/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized40/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -518,8 +499,6 @@
           
 
           
-            <div class="post-description">进行了一些过渡的基础操作</div>
-          
 
         </div>
       </header>
@@ -535,10 +514,11 @@
 
       
         <a id="more"></a>
-<h1 id="既然是要过渡那么就需要先看看过渡是什么了下面放例子"><a href="#既然是要过渡那么就需要先看看过渡是什么了下面放例子" class="headerlink" title="既然是要过渡那么就需要先看看过渡是什么了下面放例子"></a>既然是要过渡那么就需要先看看过渡是什么了下面放例子</h1><p><a href="https://www.baccano.fun/uncategorizedcss3/index.html">点击这里查看效果</a></p>
-<h1 id="过渡的实现"><a href="#过渡的实现" class="headerlink" title="过渡的实现"></a>过渡的实现</h1><h2 id="css3-2D与3D变换"><a href="#css3-2D与3D变换" class="headerlink" title="css3 2D与3D变换"></a>css3 2D与3D变换</h2><p>全部用到transform属性<br>2d和3d都是通用的格式<br>2d:translate() rotate() scale()<br>字面意思就是变换位置旋转变换大小<br>3d:translateX translateY translatezZ<br>其他的一样都是加上XYZ即可</p>
-<h2 id="过渡"><a href="#过渡" class="headerlink" title="过渡"></a>过渡</h2><p>用到了transition: all xs;<br>x更改为你需要转换的时间<br>之后只需要再定义一个hover伪类进行鼠标放上去的一顿2d3d变换即可</p>
-<h1 id="源代码"><a href="#源代码" class="headerlink" title="源代码"></a>源代码</h1><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">&lt;!<span class="selector-tag">DOCTYPE</span> <span class="selector-tag">html</span>&gt;</span><br><span class="line">&lt;html lang="en" dir="ltr"&gt;</span><br><span class="line">  &lt;<span class="selector-tag">head</span>&gt;</span><br><span class="line">    &lt;meta charset="utf-8"&gt;</span><br><span class="line">    &lt;title&gt;css3过渡测试&lt;/title&gt;</span><br><span class="line">    &lt;<span class="selector-tag">style</span>&gt;</span><br><span class="line">      <span class="selector-tag">div</span><span class="selector-class">.one</span></span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">400px</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="number">400px</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: red;</span><br><span class="line">        <span class="attribute">transition</span>: width <span class="number">2s</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-tag">div</span><span class="selector-class">.one</span><span class="selector-pseudo">:hover</span></span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-tag">div</span><span class="selector-class">.two</span></span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">400px</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="number">400px</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: blue;</span><br><span class="line">        <span class="attribute">transition</span>: all <span class="number">2s</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-tag">div</span><span class="selector-class">.two</span><span class="selector-pseudo">:hover</span></span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attribute">background-color</span>: yellow;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(270deg) <span class="built_in">translate</span>(100px,100px);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-tag">div</span><span class="selector-class">.three</span></span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">400px</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="number">400px</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: black;</span><br><span class="line">        <span class="attribute">transition</span>: all <span class="number">3s</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="selector-tag">div</span><span class="selector-class">.three</span><span class="selector-pseudo">:hover</span></span><br><span class="line">      &#123;</span><br><span class="line">        <span class="attribute">width</span>: <span class="number">200px</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="number">200px</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: white;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">rotateY</span>(360deg);</span><br><span class="line">      &#125;</span><br><span class="line">    &lt;/style&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;<span class="selector-tag">body</span>&gt;</span><br><span class="line">    &lt;h1&gt;&lt;b&gt;下面演示几种过渡效果,你只需要把鼠标放上即可&lt;/b&gt;&lt;/h1&gt;</span><br><span class="line">    &lt;div class="one"&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;p&gt;这是第一种效果&lt;/p&gt;</span><br><span class="line">    &lt;div class="two"&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;p&gt;这是第二种效果&lt;/p&gt;</span><br><span class="line">    &lt;div class="three"&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;p&gt;这是第三种效果&lt;/p&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>二分图判定很好说就是没有奇边环即可<br>然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也等于最小点覆盖集  </p>
+<h2 id="匈牙利算法"><a href="#匈牙利算法" class="headerlink" title="匈牙利算法"></a>匈牙利算法</h2><p>匈牙利算法原理是通过増广路实际上也不需要这么的复杂，核心在于我前面的两个点如果已经选了我再进行匹配的时候要怎么最优化<br>道理在于先维护一个vis代表当前点遍历过后所有的点,这个vis巧妙而且必不可少因为如果这是保证切换寻找的时候不会出现重复的现象  </p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> n,m,k,l[<span class="number">105</span>],r[<span class="number">105</span>],mp[<span class="number">105</span>][<span class="number">105</span>],vis[<span class="number">105</span>],ans;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">	<span class="keyword">if</span>(mp[p][i]&amp;&amp;!vis[i])</span><br><span class="line">	&#123;</span><br><span class="line">		vis[i]=<span class="number">1</span>;</span><br><span class="line">		<span class="keyword">if</span>(!r[i]||dfs(r[i]))</span><br><span class="line">		&#123;</span><br><span class="line">			l[p]=i;</span><br><span class="line">			r[i]=p;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;n,&amp;m,&amp;k))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(n==<span class="number">0</span>)</span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">		<span class="built_in">memset</span>(mp,<span class="number">0</span>,<span class="keyword">sizeof</span>(mp));</span><br><span class="line">		<span class="built_in">memset</span>(l,<span class="number">0</span>,<span class="keyword">sizeof</span>(l));</span><br><span class="line">		<span class="built_in">memset</span>(r,<span class="number">0</span>,<span class="keyword">sizeof</span>(r));</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=k;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">int</span> id,l,r;</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;id,&amp;l,&amp;r);</span><br><span class="line">			mp[l][r]=<span class="number">1</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		ans=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(!l[i])</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">memset</span>(vis,<span class="number">0</span>,<span class="keyword">sizeof</span>(vis));</span><br><span class="line">				ans+=dfs(i);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="最大权匹配集"><a href="#最大权匹配集" class="headerlink" title="最大权匹配集"></a>最大权匹配集</h2><p>匈牙利算法的升级版，应用于左右互相最大的匹配边权和最大值,匈牙利算法的重复尝试在于连接性这里要加上边权的问题<br>首先我们初始化左边的wl数组为边权最大的那条边的权值右边为0<br>接着我们每次匹配如果出现了问题，需要重复匹配按照这样的规则:<br>出现二夹一就要左加右减<br>最后把答案统计即可</p>
+<h2 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> wl[<span class="number">305</span>],wr[<span class="number">305</span>],vl[<span class="number">305</span>],vr[<span class="number">305</span>],cha[<span class="number">305</span>],n,a[<span class="number">305</span>][<span class="number">305</span>],vrr[<span class="number">305</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	vl[p]=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(vr[i])</span><br><span class="line">		<span class="keyword">continue</span>;</span><br><span class="line">		<span class="keyword">int</span> g=wl[p]+wr[i]-a[p][i];</span><br><span class="line">		<span class="keyword">if</span>(g==<span class="number">0</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			vr[i]=<span class="number">1</span>;</span><br><span class="line">			<span class="keyword">if</span>(!vrr[i]||dfs(vrr[i]))</span><br><span class="line">			&#123;</span><br><span class="line">				vrr[i]=p;</span><br><span class="line">				<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		cha[i]=min(cha[i],g);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n))</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">memset</span>(wl,<span class="number">0</span>,<span class="keyword">sizeof</span>(wl));</span><br><span class="line">		<span class="built_in">memset</span>(wr,<span class="number">0</span>,<span class="keyword">sizeof</span>(wr));</span><br><span class="line">		<span class="built_in">memset</span>(vrr,<span class="number">0</span>,<span class="keyword">sizeof</span>(vrr));</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a[i][j]);</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">		wl[i]=max(wl[i],a[i][j]);</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">memset</span>(cha,<span class="number">0x7f</span>,<span class="keyword">sizeof</span>(cha));</span><br><span class="line">			<span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">memset</span>(vl,<span class="number">0</span>,<span class="keyword">sizeof</span>(vl));</span><br><span class="line">				<span class="built_in">memset</span>(vr,<span class="number">0</span>,<span class="keyword">sizeof</span>(vr));</span><br><span class="line">				<span class="keyword">if</span>(dfs(i))</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">				<span class="keyword">int</span> t=<span class="number">1</span>&lt;&lt;<span class="number">30</span>;</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">				<span class="keyword">if</span>(!vr[j])</span><br><span class="line">				t=min(t,cha[j]);</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">				&#123;</span><br><span class="line">					<span class="keyword">if</span>(vl[j])</span><br><span class="line">					wl[j]-=t;</span><br><span class="line">					<span class="keyword">if</span>(vr[j])</span><br><span class="line">					wr[j]+=t;</span><br><span class="line">					<span class="keyword">else</span></span><br><span class="line">					cha[j]-=t;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">int</span> ans=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">		ans+=a[vrr[i]][i];</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -589,12 +569,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/CSS/" rel="tag"><i class="fa fa-tag"></i> CSS</a>
-          
-        </div>
-      
 
       
       
@@ -604,8 +578,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/算法11/" rel="next" title="bfs判断转弯次数">
-                <i class="fa fa-chevron-left"></i> bfs判断转弯次数
+              <a href="/算法39/" rel="next" title="JOIOJI">
+                <i class="fa fa-chevron-left"></i> JOIOJI
               </a>
             
           </div>
@@ -613,10 +587,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/uncategorizedcss3/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1019,7 +989,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#既然是要过渡那么就需要先看看过渡是什么了下面放例子"><span class="nav-number">1.</span> <span class="nav-text">既然是要过渡那么就需要先看看过渡是什么了下面放例子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#过渡的实现"><span class="nav-number">2.</span> <span class="nav-text">过渡的实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#css3-2D与3D变换"><span class="nav-number">2.1.</span> <span class="nav-text">css3 2D与3D变换</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#过渡"><span class="nav-number">2.2.</span> <span class="nav-text">过渡</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#源代码"><span class="nav-number">3.</span> <span class="nav-text">源代码</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#匈牙利算法"><span class="nav-number">2.</span> <span class="nav-text">匈牙利算法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#代码"><span class="nav-number">2.1.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最大权匹配集"><span class="nav-number">3.</span> <span class="nav-text">最大权匹配集</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码-1"><span class="nav-number">4.</span> <span class="nav-text">代码</span></a></li></ol></div>
             
 
           </div>

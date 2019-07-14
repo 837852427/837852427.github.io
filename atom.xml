@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-07-13T11:55:22.133Z</updated>
+  <updated>2019-07-14T08:45:08.479Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-14T08:45:08.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>JOIOJI</title>
@@ -393,31 +413,6 @@
     
     
       <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedajax1/"/>
-    <id>http://www.baccano.fun/uncategorizedajax1/</id>
-    <published>2019-03-01T03:18:00.720Z</published>
-    <updated>2019-03-01T06:16:53.515Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
-  &lt;style&gt;
-    #ajax_test
-    {
-      font-size: 36px;
-      font-align: center;
-      col
-      
-    
-    </summary>
-    
     
   </entry>
   
