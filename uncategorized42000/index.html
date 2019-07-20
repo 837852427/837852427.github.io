@@ -103,18 +103,18 @@
 
 
 
-  <meta name="description" content="树形dp(2) P1352 没有上司的舞会">
-<meta name="keywords" content="DP">
+  <meta name="description" content="题意求01矩阵第二大1矩阵的面积真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据1 41 1 1 1答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….解决方法多加入一些长减一或者宽减一之类的矩形然后就是寻找的时候好多bug,复杂的实现我就不说了">
+<meta name="keywords" content="牛客">
 <meta property="og:type" content="article">
-<meta property="og:title" content="树形dp(2) P1352 没有上司的舞会">
-<meta property="og:url" content="http://www.baccano.fun/算法29/index.html">
+<meta property="og:title" content="2019牛客2 Second Large Rectangle">
+<meta property="og:url" content="http://www.baccano.fun/uncategorized42000/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="树形dp(2) P1352 没有上司的舞会">
+<meta property="og:description" content="题意求01矩阵第二大1矩阵的面积真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据1 41 1 1 1答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….解决方法多加入一些长减一或者宽减一之类的矩形然后就是寻找的时候好多bug,复杂的实现我就不说了">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-09T10:15:47.766Z">
+<meta property="og:updated_time" content="2019-07-20T12:09:34.323Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="树形dp(2) P1352 没有上司的舞会">
-<meta name="twitter:description" content="树形dp(2) P1352 没有上司的舞会">
+<meta name="twitter:title" content="2019牛客2 Second Large Rectangle">
+<meta name="twitter:description" content="题意求01矩阵第二大1矩阵的面积真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据1 41 1 1 1答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….解决方法多加入一些长减一或者宽减一之类的矩形然后就是寻找的时候好多bug,复杂的实现我就不说了">
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/算法29/">
+  <link rel="canonical" href="http://www.baccano.fun/uncategorized42000/">
 
 
 
@@ -133,7 +133,7 @@
   };
 </script>
 
-  <title>树形dp(2) P1352 没有上司的舞会 | Baccano</title>
+  <title>2019牛客2 Second Large Rectangle | Baccano</title>
   
 
 
@@ -412,7 +412,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/算法29/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized42000/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -429,7 +429,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">树形dp(2) P1352 没有上司的舞会
+          <h1 class="post-title" itemprop="name headline">2019牛客2 Second Large Rectangle
 
               
             
@@ -455,34 +455,28 @@
                 
               
 
-              <time title="创建时间：2019-03-09 18:11:39 / 修改时间：18:15:47" itemprop="dateCreated datePublished" datetime="2019-03-09T18:11:39+08:00">2019-03-09</time>
+              <time title="创建时间：2019-07-14 16:35:28" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-20 20:09:34" itemprop="dateModified" datetime="2019-07-20T20:09:34+08:00">2019-07-20</time>
               
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -496,8 +490,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/算法29/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/算法29/" itemprop="commentCount"></span>
+                <a href="/uncategorized42000/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized42000/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -518,8 +512,6 @@
           
 
           
-            <div class="post-description">树形dp(2) P1352 没有上司的舞会</div>
-          
 
         </div>
       </header>
@@ -535,8 +527,7 @@
 
       
         <a id="more"></a>
-<h1 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h1><p>这个题目就是相对简单了，我基本想到了8成的转移方程，但是还是无奈dfs功底有点差写不出来…..<br>转移方程就是当前选这个父亲节点或者不选这个父亲节点的问题，如果选这个父亲节点的话那么加上子节点不选的，不选那么加上子节点不选和选的最大值<br>也就是说<br>dp[p][0]+=max(dp[s][0],dp[s][1])<br>dp[p][1]+=dp[s][0]<br>其中p是父亲节点s是子节点0代表不选1代表选那么dfs即可</p>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> num[<span class="number">6666</span>],dp[<span class="number">6666</span>][<span class="number">6</span>],bk[<span class="number">6666</span>];</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; G[<span class="number">6666</span>];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  dp[p][<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">  dp[p][<span class="number">1</span>]=num[p];</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;G[p].size();i++)</span><br><span class="line">  &#123;</span><br><span class="line">    dfs(G[p][i]);</span><br><span class="line">    dp[p][<span class="number">0</span>]+=max(dp[G[p][i]][<span class="number">0</span>],dp[G[p][i]][<span class="number">1</span>]);</span><br><span class="line">    dp[p][<span class="number">1</span>]+=dp[G[p][i]][<span class="number">0</span>];</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,rt;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;num[i];</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n<span class="number">-1</span>;i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">int</span> st,ed;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;ed&gt;&gt;st;</span><br><span class="line">    bk[ed]++;</span><br><span class="line">    G[st].push_back(ed);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">if</span>(!bk[i])</span><br><span class="line">  &#123;</span><br><span class="line">    rt=i;</span><br><span class="line">    <span class="keyword">break</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  dfs(rt);</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;max(dp[rt][<span class="number">0</span>],dp[rt][<span class="number">1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="题意求01矩阵第二大1矩阵的面积"><a href="#题意求01矩阵第二大1矩阵的面积" class="headerlink" title="题意求01矩阵第二大1矩阵的面积"></a>题意求01矩阵第二大1矩阵的面积</h2><p>真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。<br>首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据<br>1 4<br>1 1 1 1<br>答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….<br>解决方法多加入一些长减一或者宽减一之类的矩形<br>然后就是寻找的时候好多bug,复杂的实现我就不说了,简易的实现就是把第一大面积第二大面积算出来然后再单调栈遍历一遍这个地方因为我们的复杂度大约n^2 1e6多点常数无所谓然后就是看看不重复的矩形的最大的面积是否会有多于一个等于最大值的有就直接输出最大值否则输出二大值即可.<br>矩形判重直接用左上角右下角坐标或者是i*m+j之类的判别<br>代码<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> st[<span class="number">1005</span>],a[<span class="number">1005</span>][<span class="number">1005</span>],h[<span class="number">1005</span>][<span class="number">1005</span>],l[<span class="number">1005</span>],r[<span class="number">1005</span>],p,q;</span><br><span class="line"><span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt; s;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="keyword">long</span> <span class="keyword">long</span>,<span class="built_in">map</span>&lt;<span class="keyword">long</span> <span class="keyword">long</span>,<span class="keyword">long</span> <span class="keyword">long</span>&gt;&gt; bk;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">char</span> x;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;x;</span><br><span class="line">        a[i][j]=x-<span class="string">'0'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">    <span class="keyword">if</span>(a[j][i]==<span class="number">1</span>)</span><br><span class="line">    h[j][i]=h[j<span class="number">-1</span>][i]+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            l[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            l[j]=<span class="number">0</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=m;j;j--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            r[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            r[j]=m+<span class="number">1</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            s.insert((r[j]-l[j]<span class="number">-1</span>)*h[i][j]);</span><br><span class="line">            s.insert((r[j]-l[j]<span class="number">-2</span>)*h[i][j]);</span><br><span class="line">            s.insert((r[j]-l[j]<span class="number">-1</span>)*(h[i][j]<span class="number">-1</span>));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">auto</span> it=s.end();</span><br><span class="line">    <span class="keyword">int</span> m1=*(--it);</span><br><span class="line">    <span class="keyword">int</span> m2=*(--it);</span><br><span class="line">    <span class="keyword">int</span> num__ = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            l[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            l[j]=<span class="number">0</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=m;j;j--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            r[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            r[j]=m+<span class="number">1</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">int</span> now=(r[j]-l[j]<span class="number">-1</span>)*h[i][j];</span><br><span class="line">            <span class="keyword">if</span>(now==m1&amp;&amp;(!bk[(i-h[i][j])*m+(l[j]+<span class="number">1</span>)][(i<span class="number">-1</span>)*m+(r[j]<span class="number">-1</span>)]))</span><br><span class="line">            &#123;</span><br><span class="line">                num__++;</span><br><span class="line">                bk[(i-h[i][j])*m+(l[j]+<span class="number">1</span>)][(i<span class="number">-1</span>)*m+(r[j]<span class="number">-1</span>)]=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(num__&gt;<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="built_in">printf</span>(<span class="string">"%d"</span>,m1),<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,m2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -589,7 +580,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/DP/" rel="tag"><i class="fa fa-tag"></i> DP</a>
+            <a href="/tags/牛客/" rel="tag"><i class="fa fa-tag"></i> 牛客</a>
           
         </div>
       
@@ -602,8 +593,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/算法28/" rel="next" title="树形dp(1) P2015二叉苹果树">
-                <i class="fa fa-chevron-left"></i> 树形dp(1) P2015二叉苹果树
+              <a href="/uncategorized4200/" rel="next" title="P2072 宗教问题">
+                <i class="fa fa-chevron-left"></i> P2072 宗教问题
               </a>
             
           </div>
@@ -612,8 +603,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/算法30/" rel="prev" title="区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows">
-                区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows <i class="fa fa-chevron-right"></i>
+              <a href="/uncategorized420/" rel="prev" title="P1103 书本整理">
+                P1103 书本整理 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -1019,7 +1010,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码"><span class="nav-number">2.</span> <span class="nav-text">代码</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题意求01矩阵第二大1矩阵的面积"><span class="nav-number">1.</span> <span class="nav-text">题意求01矩阵第二大1矩阵的面积</span></a></li></ol></div>
             
 
           </div>

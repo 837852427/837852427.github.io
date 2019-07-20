@@ -67,6 +67,114 @@
   </entry>
   
   <entry>
+    <title>洛谷P1977 出租车拼车</title>
+    <link href="http://www.baccano.fun/uncategorized42/"/>
+    <id>http://www.baccano.fun/uncategorized42/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T15:43:45.414Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P1103 书本整理</title>
+    <link href="http://www.baccano.fun/uncategorized420/"/>
+    <id>http://www.baccano.fun/uncategorized420/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-19T08:02:05.585Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;技巧比较强，如果正着想删除几本书那实在是太难了，我是白给了。倒着想留下几本书的话，我们可以判断当前书在序列中是留下的第几本，那么很容易想到每一本都有可能由前面的任意序列组合而成，最后再枚举第三个剩下的条件然后即可解决&lt;br&gt;&lt;figure
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客2 Second Large Rectangle</title>
+    <link href="http://www.baccano.fun/uncategorized42000/"/>
+    <id>http://www.baccano.fun/uncategorized42000/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-20T12:09:34.323Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;题意求01矩阵第二大1矩阵的面积&quot;&gt;&lt;a href=&quot;#题意求01矩阵第二大1矩阵的面积&quot; class=&quot;headerlink&quot; title=&quot;题意求01矩阵第二大1矩阵的面积&quot;&gt;&lt;/a&gt;题意求01矩阵第二大1矩阵的面积&lt;/h2
+      
+    
+    </summary>
+    
+    
+      <category term="牛客" scheme="http://www.baccano.fun/tags/%E7%89%9B%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P2072 宗教问题</title>
+    <link href="http://www.baccano.fun/uncategorized4200/"/>
+    <id>http://www.baccano.fun/uncategorized4200/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-20T11:17:57.323Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-14T08:45:08.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>洛谷P1970花匠</title>
     <link href="http://www.baccano.fun/uncategorized41/"/>
     <id>http://www.baccano.fun/uncategorized41/</id>
@@ -94,48 +202,6 @@
     <id>http://www.baccano.fun/uncategorized400/</id>
     <published>2019-07-14T08:35:28.000Z</published>
     <updated>2019-07-18T09:10:29.632Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>洛谷P1977 出租车拼车</title>
-    <link href="http://www.baccano.fun/uncategorized42/"/>
-    <id>http://www.baccano.fun/uncategorized42/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T15:43:45.414Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;t
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
@@ -367,66 +433,6 @@
     
     
       <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9530/"/>
-    <id>http://www.baccano.fun/算法30/</id>
-    <published>2019-03-09T16:21:40.000Z</published>
-    <updated>2019-03-10T11:08:58.141Z</updated>
-    
-    <summary type="html">
-    
-      P2858 [USACO06FEB]奶牛零食Treats for the Cows
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树形dp(2) P1352 没有上司的舞会</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9529/"/>
-    <id>http://www.baccano.fun/算法29/</id>
-    <published>2019-03-09T10:11:39.000Z</published>
-    <updated>2019-03-09T10:15:47.766Z</updated>
-    
-    <summary type="html">
-    
-      树形dp(2) P1352 没有上司的舞会
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树形dp(1) P2015二叉苹果树</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9528/"/>
-    <id>http://www.baccano.fun/算法28/</id>
-    <published>2019-03-09T07:40:44.000Z</published>
-    <updated>2019-03-09T08:14:32.890Z</updated>
-    
-    <summary type="html">
-    
-      树形dp(1) P2015二叉苹果树
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
