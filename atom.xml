@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-07-20T12:15:25.853Z</updated>
+  <updated>2019-07-20T12:22:31.711Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>2019牛客2 Second Large Rectangle</title>
-    <link href="http://www.baccano.fun/uncategorized42000/"/>
-    <id>http://www.baccano.fun/uncategorized42000/</id>
+    <link href="http://www.baccano.fun/uncategorized44/"/>
+    <id>http://www.baccano.fun/uncategorized44/</id>
     <published>2019-07-20T11:35:28.000Z</published>
-    <updated>2019-07-20T12:15:25.853Z</updated>
+    <updated>2019-07-20T12:22:31.711Z</updated>
     
     <summary type="html">
     
@@ -39,59 +39,31 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedajax11/"/>
-    <id>http://www.baccano.fun/uncategorizedajax11/</id>
-    <published>2019-07-18T09:10:23.992Z</published>
-    <updated>2019-07-18T09:10:23.992Z</updated>
+    <title>P2072 宗教问题</title>
+    <link href="http://www.baccano.fun/uncategorized45/"/>
+    <id>http://www.baccano.fun/uncategorized45/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:28.054Z</updated>
     
     <summary type="html">
     
       
       
-        &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
-  &lt;style&gt;
-    #ajax_test
-    {
-      font-size: 36px;
-      font-align: center;
-      col
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
       
     
     </summary>
     
     
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedajax10/"/>
-    <id>http://www.baccano.fun/uncategorizedajax10/</id>
-    <published>2019-07-18T09:10:21.776Z</published>
-    <updated>2019-07-18T09:10:21.776Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
-  &lt;style&gt;
-    #ajax_test
-    {
-      font-size: 36px;
-      font-align: center;
-      col
-      
-    
-    </summary>
-    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
   <entry>
     <title>P1103 书本整理</title>
-    <link href="http://www.baccano.fun/uncategorized420/"/>
-    <id>http://www.baccano.fun/uncategorized420/</id>
+    <link href="http://www.baccano.fun/uncategorized43/"/>
+    <id>http://www.baccano.fun/uncategorized43/</id>
     <published>2019-07-15T08:35:28.000Z</published>
     <updated>2019-07-20T12:15:27.459Z</updated>
     
@@ -111,24 +83,22 @@
   </entry>
   
   <entry>
-    <title>P2072 宗教问题</title>
-    <link href="http://www.baccano.fun/uncategorized4200/"/>
-    <id>http://www.baccano.fun/uncategorized4200/</id>
-    <published>2019-07-15T08:35:28.000Z</published>
-    <updated>2019-07-20T12:15:28.054Z</updated>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
       
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;br&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
       
     
     </summary>
     
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
@@ -173,26 +143,6 @@
     
     
       <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -433,6 +383,46 @@
     
     
       <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9530/"/>
+    <id>http://www.baccano.fun/算法30/</id>
+    <published>2019-03-09T16:21:40.000Z</published>
+    <updated>2019-03-10T11:08:58.141Z</updated>
+    
+    <summary type="html">
+    
+      P2858 [USACO06FEB]奶牛零食Treats for the Cows
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树形dp(2) P1352 没有上司的舞会</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9529/"/>
+    <id>http://www.baccano.fun/算法29/</id>
+    <published>2019-03-09T10:11:39.000Z</published>
+    <updated>2019-03-09T10:15:47.766Z</updated>
+    
+    <summary type="html">
+    
+      树形dp(2) P1352 没有上司的舞会
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   

@@ -15,7 +15,7 @@
 
 
 <html class="theme-next mist use-motion" lang="zh-CN">
-<head>
+<head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -103,26 +103,27 @@
 
 
 
-  <meta name="description" content="#ajax_test     {       font-size: 36px;       font-align: center;       color: red;       background-color: purple;     }     jQuery的load太好用了！！！">
+  <meta name="description" content="题意求01矩阵第二大1矩阵的面积真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据1 41 1 1 1答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….解决方法多加入一些长减一或者宽减一之类的矩形然后就是寻找的时候好多bug,复杂的实现我就不说了">
+<meta name="keywords" content="牛客">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Baccano">
-<meta property="og:url" content="http://www.baccano.fun/uncategorizedajax10/index.html">
+<meta property="og:title" content="2019牛客2 Second Large Rectangle">
+<meta property="og:url" content="http://www.baccano.fun/uncategorized44/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="#ajax_test     {       font-size: 36px;       font-align: center;       color: red;       background-color: purple;     }     jQuery的load太好用了！！！">
+<meta property="og:description" content="题意求01矩阵第二大1矩阵的面积真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据1 41 1 1 1答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….解决方法多加入一些长减一或者宽减一之类的矩形然后就是寻找的时候好多bug,复杂的实现我就不说了">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-18T09:10:21.776Z">
+<meta property="og:updated_time" content="2019-07-20T12:22:31.711Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Baccano">
-<meta name="twitter:description" content="#ajax_test     {       font-size: 36px;       font-align: center;       color: red;       background-color: purple;     }     jQuery的load太好用了！！！">
+<meta name="twitter:title" content="2019牛客2 Second Large Rectangle">
+<meta name="twitter:description" content="题意求01矩阵第二大1矩阵的面积真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据1 41 1 1 1答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….解决方法多加入一些长减一或者宽减一之类的矩形然后就是寻找的时候好多bug,复杂的实现我就不说了">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Baccano" type="application/atom+xml"/>
+  <link rel="alternate" href="/atom.xml" title="Baccano" type="application/atom+xml">
 
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/uncategorizedajax10/"/>
+  <link rel="canonical" href="http://www.baccano.fun/uncategorized44/">
 
 
 
@@ -132,7 +133,7 @@
   };
 </script>
 
-  <title> | Baccano</title>
+  <title>2019牛客2 Second Large Rectangle | Baccano</title>
   
 
 
@@ -173,7 +174,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -183,7 +184,7 @@
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta">
     
@@ -228,7 +229,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>首页</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
   </li>
         
@@ -245,7 +246,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br/>关于</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
         
@@ -262,7 +263,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
 
   </li>
         
@@ -279,7 +280,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br/>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
         
@@ -296,7 +297,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
 
   </li>
         
@@ -313,7 +314,7 @@
 
     
 
-    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br/>日程表</a>
+    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
 
   </li>
         
@@ -330,7 +331,7 @@
 
     
 
-    <a href="/friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-address-book"></i> <br/>friends</a>
+    <a href="/friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-address-book"></i> <br>friends</a>
 
   </li>
 
@@ -341,7 +342,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
         </li>
       
     </ul>
@@ -364,9 +365,7 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -408,21 +407,21 @@
 
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorizedajax10/"/>
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized44/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="baccano"/>
-      <meta itemprop="description" content="一个蒟蒻的小家"/>
-      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"/>
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baccano">
+      <meta itemprop="description" content="一个蒟蒻的小家">
+      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baccano"/>
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Baccano">
     </span>
 
     
@@ -430,7 +429,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">2019牛客2 Second Large Rectangle
 
               
             
@@ -456,9 +455,13 @@
                 
               
 
-              <time title="创建时间：2019-07-18 17:10:21" itemprop="dateCreated datePublished" datetime="2019-07-18T17:10:21+08:00">2019-07-18</time>
+              <time title="创建时间：2019-07-20 19:35:28 / 修改时间：20:22:31" itemprop="dateCreated datePublished" datetime="2019-07-20T19:35:28+08:00">2019-07-20</time>
             
 
+            
+              
+
+              
             
           </span>
 
@@ -475,8 +478,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/uncategorizedajax10/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorizedajax10/" itemprop="commentCount"></span>
+                <a href="/uncategorized44/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized44/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -487,8 +490,7 @@
 
           
             <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon"
-            >
+            <span class="post-meta-item-icon">
             <i class="fa fa-eye"></i>
              阅读次数： 
             <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
@@ -512,18 +514,8 @@
       
 
       
-        <head><meta name="generator" content="Hexo 3.8.0">
-  <style>
-    #ajax_test
-    {
-      font-size: 36px;
-      font-align: center;
-      color: red;
-      background-color: purple;
-    }
-  </style>
-</head>
-<h1 id="ajax_test">jQuery的load太好用了！！！</h1>
+        <a id="more"></a>
+<h2 id="题意求01矩阵第二大1矩阵的面积"><a href="#题意求01矩阵第二大1矩阵的面积" class="headerlink" title="题意求01矩阵第二大1矩阵的面积"></a>题意求01矩阵第二大1矩阵的面积</h2><p>真实被教育，求二大的题一般都很贱，求一大的值完全就是板子题，随便上网找找就行我这说说二大的要点。<br>首先错误的地方就是单调栈进去的都是当前最优的结果，所以我们会有一个hack的数据<br>1 4<br>1 1 1 1<br>答案显然是3但是我们会得到0…因为我们记录的都是当前最优最大的面积的矩形….<br>解决方法多加入一些长减一或者宽减一之类的矩形<br>然后就是寻找的时候好多bug,复杂的实现我就不说了,简易的实现就是把第一大面积第二大面积算出来然后再单调栈遍历一遍这个地方因为我们的复杂度大约n^2 1e6多点常数无所谓然后就是看看不重复的矩形的最大的面积是否会有多于一个等于最大值的有就直接输出最大值否则输出二大值即可.<br>矩形判重直接用左上角右下角坐标或者是i*m+j之类的判别<br>代码<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> st[<span class="number">1005</span>],a[<span class="number">1005</span>][<span class="number">1005</span>],h[<span class="number">1005</span>][<span class="number">1005</span>],l[<span class="number">1005</span>],r[<span class="number">1005</span>],p,q;</span><br><span class="line"><span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt; s;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="keyword">long</span> <span class="keyword">long</span>,<span class="built_in">map</span>&lt;<span class="keyword">long</span> <span class="keyword">long</span>,<span class="keyword">long</span> <span class="keyword">long</span>&gt;&gt; bk;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">char</span> x;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;x;</span><br><span class="line">        a[i][j]=x-<span class="string">'0'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">    <span class="keyword">if</span>(a[j][i]==<span class="number">1</span>)</span><br><span class="line">    h[j][i]=h[j<span class="number">-1</span>][i]+<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            l[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            l[j]=<span class="number">0</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=m;j;j--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            r[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            r[j]=m+<span class="number">1</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            s.insert((r[j]-l[j]<span class="number">-1</span>)*h[i][j]);</span><br><span class="line">            s.insert((r[j]-l[j]<span class="number">-2</span>)*h[i][j]);</span><br><span class="line">            s.insert((r[j]-l[j]<span class="number">-1</span>)*(h[i][j]<span class="number">-1</span>));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">auto</span> it=s.end();</span><br><span class="line">    <span class="keyword">int</span> m1=*(--it);</span><br><span class="line">    <span class="keyword">int</span> m2=*(--it);</span><br><span class="line">    <span class="keyword">int</span> num__ = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            l[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            l[j]=<span class="number">0</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line">        p=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=m;j;j--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">while</span>(p&amp;&amp;h[i][st[p]]&gt;=h[i][j])</span><br><span class="line">            p--;</span><br><span class="line">            <span class="keyword">if</span>(p)</span><br><span class="line">            r[j]=st[p];</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            r[j]=m+<span class="number">1</span>;</span><br><span class="line">            st[++p]=j;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=m;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">int</span> now=(r[j]-l[j]<span class="number">-1</span>)*h[i][j];</span><br><span class="line">            <span class="keyword">if</span>(now==m1&amp;&amp;(!bk[(i-h[i][j])*m+(l[j]+<span class="number">1</span>)][(i<span class="number">-1</span>)*m+(r[j]<span class="number">-1</span>)]))</span><br><span class="line">            &#123;</span><br><span class="line">                num__++;</span><br><span class="line">                bk[(i-h[i][j])*m+(l[j]+<span class="number">1</span>)][(i<span class="number">-1</span>)*m+(r[j]<span class="number">-1</span>)]=<span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(num__&gt;<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="built_in">printf</span>(<span class="string">"%d"</span>,m1),<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,m2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -550,14 +542,14 @@
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="https://i.loli.net/2019/02/16/5c6778e69c9a0.png" alt="baccano 微信支付"/>
+        <img id="wechat_qr" src="https://i.loli.net/2019/02/16/5c6778e69c9a0.png" alt="baccano 微信支付">
         <p>微信支付</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="https://i.loli.net/2019/02/16/5c677916a8306.png" alt="baccano 支付宝"/>
+        <img id="alipay_qr" src="https://i.loli.net/2019/02/16/5c677916a8306.png" alt="baccano 支付宝">
         <p>支付宝</p>
       </div>
     
@@ -574,6 +566,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/牛客/" rel="tag"><i class="fa fa-tag"></i> 牛客</a>
+          
+        </div>
+      
 
       
       
@@ -583,8 +581,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/uncategorized420/" rel="next" title="P1103 书本整理">
-                <i class="fa fa-chevron-left"></i> P1103 书本整理
+              <a href="/uncategorized45/" rel="next" title="P2072 宗教问题">
+                <i class="fa fa-chevron-left"></i> P2072 宗教问题
               </a>
             
           </div>
@@ -592,10 +590,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/uncategorizedajax11/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -617,14 +611,14 @@
       
 <div style="text-align:center;color: black;font-size:36px;">
 ------ 本文结束 ------</div>
-<br/>
+<br>
 <div style="border: 1px solid black">
 <div style="margin-left:10px">
 <span style="font-weight:blod">版权声明</span>
-<img src="https://i.loli.net/2019/02/13/5c64075a050df.png" >
-<br/>
-<p style="font-size: 24px;line-height: 30px"><a href="http://baccano.fun" style="color:#258FC6">Baccano</a> by <a href="http://baccano.fun" style="color:#258FC6">baccano</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">Creative Commons BY-NC-ND 4.0 International License</a>.<br/>
-由<a href="http://baccano.fun" style="color:#258FC6">baccano</a>创作并维护的<a href="http://baccano.fun" style="color:#258FC6">Baccano</a>博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。<br/>
+<img src="https://i.loli.net/2019/02/13/5c64075a050df.png">
+<br>
+<p style="font-size: 24px;line-height: 30px"><a href="http://baccano.fun" style="color:#258FC6">Baccano</a> by <a href="http://baccano.fun" style="color:#258FC6">baccano</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">Creative Commons BY-NC-ND 4.0 International License</a>.<br>
+由<a href="http://baccano.fun" style="color:#258FC6">baccano</a>创作并维护的<a href="http://baccano.fun" style="color:#258FC6">Baccano</a>博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。<br>
 本文首发于<a href="http://baccano.fun" style="color:#258FC6">baccano</a> 博客（ <a href="http://baccano.fun" style="color:#258FC6">http://baccano.fun</a> ），版权所有，侵权必究。</p>
 </div>
 </div>
@@ -632,12 +626,12 @@
 
     
   </div>
-  <div >
+  <div>
     
       
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <title>小游戏</title>
     <style>
@@ -681,7 +675,7 @@
     
       <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <title>简易发声器</title>
     <style>
@@ -760,7 +754,7 @@
     <h1 class="piano_start">那么现在开始吧</h1>
     <ul class="piano">
       <li class="piano" id="pone">1</li>
-      <li class="piano" id="ptwo" >2</li>
+      <li class="piano" id="ptwo">2</li>
       <li class="piano" id="pthree">3</li>
       <li class="piano" id="pfour">4</li>
       <li class="piano" id="pfive">5</li>
@@ -825,11 +819,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image"
-                src="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"
-                alt="baccano"/>
+              <img class="site-author-image" itemprop="image" src="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif" alt="baccano">
             
               <p class="site-author-name" itemprop="name">baccano</p>
               <p class="site-description motion-element" itemprop="description">一个蒟蒻的小家</p>
@@ -842,7 +834,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">55</span>
+                    <span class="site-state-item-count">53</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -977,9 +969,9 @@
             </div>
           
           <body>
-            <font face='Arial' color='white' ><h3>来一首舒缓的音乐怎么样？</h3></font>
+            <font face="Arial" color="white"><h3>来一首舒缓的音乐怎么样？</h3></font>
           <div id="music163player">
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
             </iframe>
           </div>
           <body>
@@ -988,7 +980,7 @@
           
           
 
-        </div>
+        </body></body></div>
       </div>
 
       
@@ -1002,7 +994,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ajax_test"><span class="nav-number">1.</span> <span class="nav-text">jQuery的load太好用了！！！</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题意求01矩阵第二大1矩阵的面积"><span class="nav-number">1.</span> <span class="nav-text">题意求01矩阵第二大1矩阵的面积</span></a></li></ol></div>
             
 
           </div>
@@ -1106,7 +1098,7 @@
     
     
   
-  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
 
