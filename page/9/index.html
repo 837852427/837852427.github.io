@@ -582,6 +582,175 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized42/"/>
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baccano"/>
+      <meta itemprop="description" content="一个蒟蒻的小家"/>
+      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"/>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Baccano"/>
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/uncategorized42/" class="post-title-link" itemprop="url">洛谷P1977 出租车拼车</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-14 16:35:28" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-18 23:43:45" itemprop="dateModified" datetime="2019-07-18T23:43:45+08:00">2019-07-18</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/uncategorized42/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized42/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<p>方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> f[<span class="number">105</span>][<span class="number">105</span>],w1[<span class="number">105</span>],w2[<span class="number">105</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a,b,c,d;</span><br><span class="line">    <span class="built_in">memset</span>(f,<span class="number">0x3f</span>,<span class="keyword">sizeof</span>(f));</span><br><span class="line">    f[<span class="number">0</span>][<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d%d"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=b;i++)</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;w1[i],&amp;w2[i]);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=b;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=a;j++)</span><br><span class="line">    &#123;</span><br><span class="line">        f[i][j]=f[i<span class="number">-1</span>][j];</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>;k&lt;=min(j,w2[i]);k++)</span><br><span class="line">        f[i][j]=min(f[i][j],f[i<span class="number">-1</span>][j-k]+c+k*w1[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(f[b][a]&gt;<span class="number">100000</span>)</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"impossible"</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,f[b][a]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized400/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1076,182 +1245,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorizednim/"/>
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="baccano"/>
-      <meta itemprop="description" content="一个蒟蒻的小家"/>
-      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"/>
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baccano"/>
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/uncategorizednim/" class="post-title-link" itemprop="url">nim</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-06-05 20:13:07 / 修改时间：20:18:15" itemprop="dateCreated datePublished" datetime="2019-06-05T20:13:07+08:00">2019-06-05</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/uncategorizednim/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorizednim/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><head><meta name="generator" content="Hexo 3.8.0"><br>  <meta charset="utf-8"><br>  <style><br>  body<br>  {<br>    background-image: url(“<a href="https://s2.ax1x.com/2019/06/05/VUtZkt.jpg&quot;)">https://s2.ax1x.com/2019/06/05/VUtZkt.jpg&quot;)</a>;<br>  }<br>  h1.title<br>  {<br>    font-size: 180px;<br>    text-align: center;<br>    color: blue;<br>  }<br>  p.startmenu<br>  {<br>    font-size: 120px;<br>    text-align: center;<br>    color: red;<br>  }<br>  p.startmenu_<br>  {<br>    font-size: 120px;<br>    text-align: center;<br>    color: red;<br>  }<br>  p.startmenu:hover<br>  {<br>    color:orange;<br>  }<br>  p.startmenu_:hover<br>  {<br>    color:orange;<br>  }<br>  h1.startinfo_<br>  {<br>    font-size: 60px;<br>    color: blue;<br>  }<br>  h1.heng<br>  {<br>    width: 85%;<br>    height: 5%;<br>    margin: auto;<br>    position: absolute;<br>    top: 80%;<br>    left: 5%;<br>    background-color: brown;<br>    border-style: outset;<br>  }<br>  h1.round<br>  {<br>    position: absolute;<br>    top: 1%;<br>    right: 5%;<br>    color:orange;<br>    font-size: 60px;<br>  }<br>  p.ticks<br>  {<br>    position: absolute;<br>    top: 15%;<br>    right: 5%;<br>    color: #a600ff;<br>    font-size: 80px;<br>  }</p>
-<p>  #one<br>  {<br>    background-color: red;<br>    border-style: ridge;<br>    width: 10%;<br>    position:absolute;<br>    left:10%;<br>  }</p>
-<p>  #two<br>  {<br>    background-color: red;<br>    width: 10%;<br>    border-style: ridge;<br>    position:absolute;<br>    left:25%;<br>  }</p>
-<p>  #three<br>  {<br>    background-color: red;<br>    width: 10%;<br>    border-style: ridge;<br>    position:absolute;<br>    left:40%;<br>  }</p>
-<p>  #four<br>  {<br>    background-color: red;<br>    width: 10%;<br>    border-style: ridge;<br>    position:absolute;<br>    left:55%;<br>  }</p>
-<p>  #five<br>  {<br>    background-color: red;<br>    width: 10%;<br>    border-style: ridge;<br>    position:absolute;<br>    left:70%;<br>  }</p>
-<p>  #one_<br>  {<br>    color: white;<br>    font-size: 80px;<br>    position: absolute;<br>    left: 10%;<br>    top: 82%;<br>  }</p>
-<p>  #two_<br>  {<br>    color: white;<br>    font-size: 80px;<br>    position: absolute;<br>    left: 25%;<br>    top: 82%;<br>  }</p>
-<p>  #three_<br>  {<br>    color: white;<br>    font-size: 80px;<br>    position: absolute;<br>    left: 40%;<br>    top: 82%;<br>  }</p>
-<p>  #four_<br>  {<br>    color: white;<br>    font-size: 80px;<br>    position: absolute;<br>    left: 55%;<br>    top: 82%;<br>  }</p>
-<p>  #five_<br>  {<br>    color: white;<br>    font-size: 80px;<br>    position: absolute;<br>    left: 70%;<br>    top: 82%;<br>  }</p>
-<p>  #one:hover<br>  {<br>    background-color: cyan;<br>  }</p>
-<p>  #two:hover<br>  {<br>    background-color: cyan;<br>  }</p>
-<p>  #three:hover<br>  {<br>    background-color: cyan;<br>  }</p>
-<p>  #four:hover<br>  {<br>    background-color: cyan;<br>  }</p>
-<p>  #five:hover<br>  {<br>    background-color: cyan;<br>  }</p>
-<p>  #atfo<br>  {<br>    text-align: center;<br>    font-size: 60px;<br>    color: blue;<br>  }</p>
-<p>  #end_<br>  {<br>    font-size: 120px;<br>    text-align: center;<br>    color: red;<br>  }</p>
-<p>  #end_:hover<br>  {<br>    color: orange;<br>  }<br>  h1.chaofeng<br>  {<br>    text-align: center;<br>    font-size: 60px;<br>    color: purple;<br>  }</p>
-<p>  </style><br></head></p>
-<p><body><br>  <audio src="bgm.ogg" autoplay="true" loop="-1" controls></audio><br>  <div class="menu"><br>    <h1 class="title">博弈小游戏</h1><br>    <p class="startmenu" id="start">开始</p><br>    <p class="startmenu_" id="author">制作详情</p><br>  </div><br>  <div class="authorinfo"><br>    <p class="startinfo_" id="atfo">NIM博弈经典小游戏,尝试着去击败电脑吧!!!!</p><br>    <p class="startmenu" id="back">返回</p><br>  </div><br>  <div class="startinfo"><br>    <h1 class="startinfo_">游戏的规则相当的简单，现在桌上有5堆硬币，每一个回合当前的玩家需要任选一堆拿走至少一个硬<br>      币，不能当前回合一个不拿，谁拿走最后一个硬币谁就获胜，现在请你选择你的先后手顺序。<br>      </h1><br>    <h1 class="chaofeng">试着挑战我精心准备的AI吧！！！</h1><br>    <p class="startmenu" id="xianshou">先手</p><br>    <p class="startmenu" id="houshou">后手</p><br>  </div><br>  <div class="game"><br>    <h1 class="heng"></h1><br>    <h1 class="round">回合</h1><br>    <p class="ticks"></p><br>    <p class="heap" id="one"></p><br>    <p class="heap" id="two"></p><br>    <p class="heap" id="three"></p><br>    <p class="heap" id="four"></p><br>    <p class="heap" id="five"></p><br>    <p class="num" id="one_"></p><br>    <p class="num" id="two_"></p><br>    <p class="num" id="three_"></p><br>    <p class="num" id="four_"></p><br>    <p class="num" id="five_"></p><br>  </div><br>  <div class="end"><br>    <h1 class="end3" id="end_">重新来过?</h1><br>  </div><br>  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script><br>  <script src="/js/src/js.js"></script><br><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/assets/hibiki.model.json"},"display":{"position":"left","width":100,"height":300},"mobile":{"show":false},"log":false,"tagMode":false});</script></body><br></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1302,7 +1295,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-count">54</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
