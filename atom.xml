@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-03-01T06:16:53.515Z</updated>
+  <updated>2019-07-22T13:45:09.942Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -17,23 +17,244 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedajax1/"/>
-    <id>http://www.baccano.fun/uncategorizedajax1/</id>
-    <published>2019-03-01T03:18:00.720Z</published>
-    <updated>2019-03-01T06:16:53.515Z</updated>
+    <title>POJ1061 青蛙的约会(拓展欧几里得)</title>
+    <link href="http://www.baccano.fun/uncategorized46/"/>
+    <id>http://www.baccano.fun/uncategorized46/</id>
+    <published>2019-07-22T13:17:46.554Z</published>
+    <updated>2019-07-22T13:45:09.942Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/07/22/eiReL8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019牛客2 Second Large Rectangle</title>
+    <link href="http://www.baccano.fun/uncategorized44/"/>
+    <id>http://www.baccano.fun/uncategorized44/</id>
+    <published>2019-07-20T11:35:28.000Z</published>
+    <updated>2019-07-20T12:22:31.711Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;题意求01矩阵第二大1矩阵的面积&quot;&gt;&lt;a href=&quot;#题意求01矩阵第二大1矩阵的面积&quot; class=&quot;headerlink&quot; title=&quot;题意求01矩阵第二大1矩阵的面积&quot;&gt;&lt;/a&gt;题意求01矩阵第二大1矩阵的面积&lt;/h2
+      
+    
+    </summary>
+    
+    
+      <category term="牛客" scheme="http://www.baccano.fun/tags/%E7%89%9B%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P2072 宗教问题</title>
+    <link href="http://www.baccano.fun/uncategorized45/"/>
+    <id>http://www.baccano.fun/uncategorized45/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:28.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P1103 书本整理</title>
+    <link href="http://www.baccano.fun/uncategorized43/"/>
+    <id>http://www.baccano.fun/uncategorized43/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:27.459Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;技巧比较强，如果正着想删除几本书那实在是太难了，我是白给了。倒着想留下几本书的话，我们可以判断当前书在序列中是留下的第几本，那么很容易想到每一本都有可能由前面的任意序列组合而成，最后再枚举第三个剩下的条件然后即可解决&lt;/p&gt;
+&lt;figur
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized400/"/>
+    <id>http://www.baccano.fun/uncategorized400/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:10:29.632Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-14T08:45:08.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>洛谷P1977 出租车拼车</title>
+    <link href="http://www.baccano.fun/uncategorized42/"/>
+    <id>http://www.baccano.fun/uncategorized42/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T15:43:45.414Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>洛谷P1970花匠</title>
+    <link href="http://www.baccano.fun/uncategorized41/"/>
+    <id>http://www.baccano.fun/uncategorized41/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:12:35.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JOIOJI</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9539/"/>
+    <id>http://www.baccano.fun/算法39/</id>
+    <published>2019-07-12T16:00:00.000Z</published>
+    <updated>2019-07-13T11:55:22.133Z</updated>
+    
+    <summary type="html">
+    
+      骚气操作值得学习
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="前缀和" scheme="http://www.baccano.fun/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nim23</title>
+    <link href="http://www.baccano.fun/uncategorizednim23/"/>
+    <id>http://www.baccano.fun/uncategorizednim23/</id>
+    <published>2019-06-06T14:13:21.000Z</published>
+    <updated>2019-06-06T14:15:15.845Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
+  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;博弈小游戏&lt;/title&gt;
+    &lt;sty
+      
+    
+    </summary>
+    
+    
+      <category term="game" scheme="http://www.baccano.fun/tags/game/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>nim</title>
+    <link href="http://www.baccano.fun/uncategorizednim/"/>
+    <id>http://www.baccano.fun/uncategorizednim/</id>
+    <published>2019-06-05T12:13:07.000Z</published>
+    <updated>2019-06-05T12:18:15.181Z</updated>
     
     <summary type="html">
     
       
       
         &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
   &lt;style&gt;
-    #ajax_test
-    {
-      font-size: 36px;
-      font-align: center;
-      col
+  body
+  {
+    background-image: url(&quot;https://s2.ax1x.
       
     
     </summary>
@@ -42,71 +263,182 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedjs/"/>
-    <id>http://www.baccano.fun/uncategorizedjs/</id>
-    <published>2019-02-22T09:39:14.949Z</published>
-    <updated>2019-02-22T15:49:45.667Z</updated>
+    <title>论如何补一道南昌网络赛的题补一上午</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9538/"/>
+    <id>http://www.baccano.fun/算法38/</id>
+    <published>2019-04-22T07:45:02.000Z</published>
+    <updated>2019-04-22T09:11:22.079Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
-  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;Javasc
-      
+      论如何补一道南昌网络赛的题补一上午
     
     </summary>
     
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构" scheme="http://www.baccano.fun/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedcss3%20animation/"/>
-    <id>http://www.baccano.fun/uncategorizedcss3 animation/</id>
-    <published>2019-02-20T07:31:00.354Z</published>
-    <updated>2019-02-20T07:30:34.031Z</updated>
+    <title>PAT 1013 Battle Over Cities (25 分)</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9537/"/>
+    <id>http://www.baccano.fun/算法37/</id>
+    <published>2019-04-01T07:48:26.000Z</published>
+    <updated>2019-04-01T08:00:26.708Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
-  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;CSS3动画
-      
+      PAT 1013 Battle Over Cities (25 分)
     
     </summary>
     
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="图论" scheme="http://www.baccano.fun/tags/%E5%9B%BE%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://www.baccano.fun/uncategorizedcss3/"/>
-    <id>http://www.baccano.fun/uncategorizedcss3/</id>
-    <published>2019-02-20T05:22:51.936Z</published>
-    <updated>2019-02-20T05:46:02.875Z</updated>
+    <title>博弈论基础入门</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9536/"/>
+    <id>http://www.baccano.fun/算法36/</id>
+    <published>2019-03-26T13:12:14.000Z</published>
+    <updated>2019-03-26T13:34:32.410Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;
-  &lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;css3过渡
-      
+      博弈论基础入门
     
     </summary>
     
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="博弈论" scheme="http://www.baccano.fun/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>EXKMP模板小结</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9535/"/>
+    <id>http://www.baccano.fun/算法35/</id>
+    <published>2019-03-15T10:52:48.000Z</published>
+    <updated>2019-03-15T11:10:28.235Z</updated>
+    
+    <summary type="html">
+    
+      EXKMP模板小结
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="KMP" scheme="http://www.baccano.fun/tags/KMP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树形DP(4) 最小覆盖集点与边的分别的做法</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9534/"/>
+    <id>http://www.baccano.fun/算法34/</id>
+    <published>2019-03-15T01:09:39.000Z</published>
+    <updated>2019-03-15T01:33:57.733Z</updated>
+    
+    <summary type="html">
+    
+      树形DP(4) 最小覆盖集点与边的分别的做法
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树形DP(3)求树的重心</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9533/"/>
+    <id>http://www.baccano.fun/算法33/</id>
+    <published>2019-03-15T00:59:43.000Z</published>
+    <updated>2019-03-15T01:07:34.172Z</updated>
+    
+    <summary type="html">
+    
+      树形DP(3)求树的重心
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>线段树区间合并板子</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9532/"/>
+    <id>http://www.baccano.fun/算法32/</id>
+    <published>2019-03-12T15:02:50.000Z</published>
+    <updated>2019-03-12T15:20:32.713Z</updated>
+    
+    <summary type="html">
+    
+      线段树区间合并板子
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="线段树" scheme="http://www.baccano.fun/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哈理工训练赛20190310(组队赛1)</title>
+    <link href="http://www.baccano.fun/%E9%A2%98%E8%A7%A331/"/>
+    <id>http://www.baccano.fun/题解31/</id>
+    <published>2019-03-12T08:05:22.000Z</published>
+    <updated>2019-03-12T14:03:35.228Z</updated>
+    
+    <summary type="html">
+    
+      哈理工训练赛20190310(组队赛1)
+    
+    </summary>
+    
+      <category term="题解" scheme="http://www.baccano.fun/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区间dp(1) P2858 [USACO06FEB]奶牛零食Treats for the Cows</title>
+    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9530/"/>
+    <id>http://www.baccano.fun/算法30/</id>
+    <published>2019-03-09T16:21:40.000Z</published>
+    <updated>2019-03-10T11:08:58.141Z</updated>
+    
+    <summary type="html">
+    
+      P2858 [USACO06FEB]奶牛零食Treats for the Cows
+    
+    </summary>
+    
+      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   

@@ -1,0 +1,231 @@
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <style>
+  body
+  {
+    background-image: url("https://s2.ax1x.com/2019/06/05/VUtZkt.jpg");
+  }
+  h1.title
+  {
+    font-size: 180px;
+    text-align: center;
+    color: blue;
+  }
+  p.startmenu
+  {
+    font-size: 120px;
+    text-align: center;
+    color: red;
+  }
+  p.startmenu_
+  {
+    font-size: 120px;
+    text-align: center;
+    color: red;
+  }
+  p.startmenu:hover
+  {
+    color:orange;
+  }
+  p.startmenu_:hover
+  {
+    color:orange;
+  }
+  h1.startinfo_
+  {
+    font-size: 60px;
+    color: blue;
+  }
+  h1.heng
+  {
+    width: 85%;
+    height: 5%;
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    background-color: brown;
+    border-style: outset;
+  }
+  h1.round
+  {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    color:orange;
+    font-size: 60px;
+  }
+  p.ticks
+  {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    color: #a600ff;
+    font-size: 80px;
+  }
+  #one
+  {
+    background-color: red;
+    border-style: ridge;
+    width: 10%;
+    position:absolute;
+    left:10%;
+  }
+  #two
+  {
+    background-color: red;
+    width: 10%;
+    border-style: ridge;
+    position:absolute;
+    left:25%;
+  }
+  #three
+  {
+    background-color: red;
+    width: 10%;
+    border-style: ridge;
+    position:absolute;
+    left:40%;
+  }
+  #four
+  {
+    background-color: red;
+    width: 10%;
+    border-style: ridge;
+    position:absolute;
+    left:55%;
+  }
+  #five
+  {
+    background-color: red;
+    width: 10%;
+    border-style: ridge;
+    position:absolute;
+    left:70%;
+  }
+  #one_
+  {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 10%;
+    top: 82%;
+  }
+  #two_
+  {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 25%;
+    top: 82%;
+  }
+  #three_
+  {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 40%;
+    top: 82%;
+  }
+  #four_
+  {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 55%;
+    top: 82%;
+  }
+  #five_
+  {
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 70%;
+    top: 82%;
+  }
+  #one:hover
+  {
+    background-color: cyan;
+  }
+  #two:hover
+  {
+    background-color: cyan;
+  }
+  #three:hover
+  {
+    background-color: cyan;
+  }
+  #four:hover
+  {
+    background-color: cyan;
+  }
+  #five:hover
+  {
+    background-color: cyan;
+  }
+  #atfo
+  {
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+  }
+  #end_
+  {
+    font-size: 120px;
+    text-align: center;
+    color: red;
+  }
+  #end_:hover
+  {
+    color: orange;
+  }
+  h1.chaofeng
+  {
+    text-align: center;
+    font-size: 60px;
+    color: purple;
+  }
+
+<p>  </style><p></p>
+</head>
+<body>
+  <audio src="bgm.ogg" autoplay="true" loop="-1" controls></audio>
+  <div class="menu">
+    <h1 class="title">博弈小游戏</h1>
+    <p class="startmenu" id="start">开始</p>
+    <p class="startmenu_" id="author">制作详情</p>
+  </div>
+  <div class="authorinfo">
+    <p class="startinfo_" id="atfo">NIM博弈经典小游戏,尝试着去击败电脑吧!!!!</p>
+    <p class="startmenu" id="back">返回</p>
+  </div>
+  <div class="startinfo">
+    <h1 class="startinfo_">游戏的规则相当的简单，现在桌上有5堆硬币，每一个回合当前的玩家需要任选一堆拿走至少一个硬
+      币，不能当前回合一个不拿，谁拿走最后一个硬币谁就获胜，现在请你选择你的先后手顺序。
+      </h1>
+    <h1 class="chaofeng">试着挑战我精心准备的AI吧！！！</h1>
+    <p class="startmenu" id="xianshou">先手</p>
+    <p class="startmenu" id="houshou">后手</p>
+  </div>
+  <div class="game">
+    <h1 class="heng"></h1>
+    <h1 class="round">回合</h1>
+    <p class="ticks"></p>
+    <p class="heap" id="one"></p>
+    <p class="heap" id="two"></p>
+    <p class="heap" id="three"></p>
+    <p class="heap" id="four"></p>
+    <p class="heap" id="five"></p>
+    <p class="num" id="one_"></p>
+    <p class="num" id="two_"></p>
+    <p class="num" id="three_"></p>
+    <p class="num" id="four_"></p>
+    <p class="num" id="five_"></p>
+  </div>
+  <div class="end">
+    <h1 class="end3" id="end_">重新来过?</h1>
+  </div>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
+  <script src="/js/src/js.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/assets/hibiki.model.json"},"display":{"position":"left","width":100,"height":300},"mobile":{"show":false},"log":false,"tagMode":false});</script></body>
+
