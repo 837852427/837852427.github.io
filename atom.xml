@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-07-23T17:39:42.111Z</updated>
+  <updated>2019-07-24T13:13:20.203Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>莫比乌斯反演证明</title>
+    <link href="http://www.baccano.fun/uncategorized48/"/>
+    <id>http://www.baccano.fun/uncategorized48/</id>
+    <published>2019-07-24T13:00:21.262Z</published>
+    <updated>2019-07-24T13:13:20.203Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/07/24/eVyUdU.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>POJ-1845 Sumdiv (基础数论综合)</title>
@@ -131,6 +154,26 @@
   </entry>
   
   <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized400/"/>
+    <id>http://www.baccano.fun/uncategorized400/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:10:29.632Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>洛谷P1970花匠</title>
     <link href="http://www.baccano.fun/uncategorized41/"/>
     <id>http://www.baccano.fun/uncategorized41/</id>
@@ -155,10 +198,10 @@
   
   <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized400/"/>
-    <id>http://www.baccano.fun/uncategorized400/</id>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:10:29.632Z</updated>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
@@ -193,26 +236,6 @@
     
     
       <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -422,26 +445,6 @@
     
     
       <category term="线段树" scheme="http://www.baccano.fun/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>哈理工训练赛20190310(组队赛1)</title>
-    <link href="http://www.baccano.fun/%E9%A2%98%E8%A7%A331/"/>
-    <id>http://www.baccano.fun/题解31/</id>
-    <published>2019-03-12T08:05:22.000Z</published>
-    <updated>2019-03-12T14:03:35.228Z</updated>
-    
-    <summary type="html">
-    
-      哈理工训练赛20190310(组队赛1)
-    
-    </summary>
-    
-      <category term="题解" scheme="http://www.baccano.fun/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
     
   </entry>
   
