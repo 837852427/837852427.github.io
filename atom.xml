@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-07-24T13:13:20.203Z</updated>
+  <updated>2019-07-29T15:42:51.807Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,97 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HDU 1455 Sticks</title>
+    <link href="http://www.baccano.fun/uncategorized52/"/>
+    <id>http://www.baccano.fun/uncategorized52/</id>
+    <published>2019-07-29T15:16:16.014Z</published>
+    <updated>2019-07-29T15:42:51.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;过于经典的深搜题目，而且难度还不算低…..&lt;br&gt;思路上需要知道多少的长度可以构成合法的长度需要从[最大的长度,所有的长度之和]之间并且这个长度能够使所有长度之和的一个约数&lt;br&gt;所以我们这么枚举即可从小到大。然后到了关键的地方怎么dfs
+      
+    
+    </summary>
+    
+    
+      <category term="DFS" scheme="http://www.baccano.fun/tags/DFS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HDU 1176 免费馅饼</title>
+    <link href="http://www.baccano.fun/uncategorized51/"/>
+    <id>http://www.baccano.fun/uncategorized51/</id>
+    <published>2019-07-29T15:09:24.435Z</published>
+    <updated>2019-07-29T15:16:09.935Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很好的DP题，本质上是数字三角形的变形从5第一层到4 5 6第二层这样可以把可到达的位置分层然后套用数字三角形即可  &lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P1017 进制转换</title>
+    <link href="http://www.baccano.fun/uncategorized50/"/>
+    <id>http://www.baccano.fun/uncategorized50/</id>
+    <published>2019-07-26T14:09:50.523Z</published>
+    <updated>2019-07-26T14:11:32.487Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;负进制转换结论题，如果出现负数的余数那么设n m r为转换数进制和余数 那么 r-=m,n+=m就行了其他都一样  &lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
+      
+    
+    </summary>
+    
+    
+      <category term="结论" scheme="http://www.baccano.fun/tags/%E7%BB%93%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>矩阵快速幂模板</title>
+    <link href="http://www.baccano.fun/uncategorized49/"/>
+    <id>http://www.baccano.fun/uncategorized49/</id>
+    <published>2019-07-26T14:08:29.627Z</published>
+    <updated>2019-07-26T14:33:19.304Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;解决大斐波那契数问题，我线代没学所以不是很理解这玩意，只好先记住以下板子了  &lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span clas
+      
+    
+    </summary>
+    
+    
+      <category term="线性代数" scheme="http://www.baccano.fun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>莫比乌斯反演证明</title>
@@ -155,10 +246,10 @@
   
   <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized400/"/>
-    <id>http://www.baccano.fun/uncategorized400/</id>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:10:29.632Z</updated>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
@@ -174,34 +265,11 @@
   </entry>
   
   <entry>
-    <title>洛谷P1970花匠</title>
-    <link href="http://www.baccano.fun/uncategorized41/"/>
-    <id>http://www.baccano.fun/uncategorized41/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:12:35.303Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
+    <link href="http://www.baccano.fun/uncategorized400/"/>
+    <id>http://www.baccano.fun/uncategorized400/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
+    <updated>2019-07-18T09:10:29.632Z</updated>
     
     <summary type="html">
     
@@ -230,6 +298,29 @@
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;/p&gt;
 &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>洛谷P1970花匠</title>
+    <link href="http://www.baccano.fun/uncategorized41/"/>
+    <id>http://www.baccano.fun/uncategorized41/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:12:35.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;
       
     
     </summary>
@@ -365,86 +456,6 @@
     
     
       <category term="博弈论" scheme="http://www.baccano.fun/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>EXKMP模板小结</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9535/"/>
-    <id>http://www.baccano.fun/算法35/</id>
-    <published>2019-03-15T10:52:48.000Z</published>
-    <updated>2019-03-15T11:10:28.235Z</updated>
-    
-    <summary type="html">
-    
-      EXKMP模板小结
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="KMP" scheme="http://www.baccano.fun/tags/KMP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树形DP(4) 最小覆盖集点与边的分别的做法</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9534/"/>
-    <id>http://www.baccano.fun/算法34/</id>
-    <published>2019-03-15T01:09:39.000Z</published>
-    <updated>2019-03-15T01:33:57.733Z</updated>
-    
-    <summary type="html">
-    
-      树形DP(4) 最小覆盖集点与边的分别的做法
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>树形DP(3)求树的重心</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9533/"/>
-    <id>http://www.baccano.fun/算法33/</id>
-    <published>2019-03-15T00:59:43.000Z</published>
-    <updated>2019-03-15T01:07:34.172Z</updated>
-    
-    <summary type="html">
-    
-      树形DP(3)求树的重心
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>线段树区间合并板子</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9532/"/>
-    <id>http://www.baccano.fun/算法32/</id>
-    <published>2019-03-12T15:02:50.000Z</published>
-    <updated>2019-03-12T15:20:32.713Z</updated>
-    
-    <summary type="html">
-    
-      线段树区间合并板子
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="线段树" scheme="http://www.baccano.fun/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
     
   </entry>
   
