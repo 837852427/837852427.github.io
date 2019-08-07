@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-07-31T04:25:35.661Z</updated>
+  <updated>2019-08-07T08:19:06.307Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>from CRT to EXCRT</title>
+    <link href="http://www.baccano.fun/uncategorized55/"/>
+    <id>http://www.baccano.fun/uncategorized55/</id>
+    <published>2019-08-07T07:13:46.803Z</published>
+    <updated>2019-08-07T08:19:06.307Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;https://imgchr.com/i/eIFPJO&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://imgchr.com/i/eIFpo6&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://i
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>....</title>
@@ -264,25 +286,42 @@
   </entry>
   
   <entry>
-    <title>洛谷P1977 出租车拼车</title>
-    <link href="http://www.baccano.fun/uncategorized42/"/>
-    <id>http://www.baccano.fun/uncategorized42/</id>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T15:43:45.414Z</updated>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
       
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
       
     
     </summary>
     
     
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+  </entry>
+  
+  <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized400/"/>
+    <id>http://www.baccano.fun/uncategorized400/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:10:29.632Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
     
   </entry>
   
@@ -310,42 +349,25 @@
   </entry>
   
   <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized400/"/>
-    <id>http://www.baccano.fun/uncategorized400/</id>
+    <title>洛谷P1977 出租车拼车</title>
+    <link href="http://www.baccano.fun/uncategorized42/"/>
+    <id>http://www.baccano.fun/uncategorized42/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:10:29.632Z</updated>
+    <updated>2019-07-18T15:43:45.414Z</updated>
     
     <summary type="html">
     
       
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+&lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
       
     
     </summary>
     
     
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
@@ -435,26 +457,6 @@
     
     
       <category term="数据结构" scheme="http://www.baccano.fun/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PAT 1013 Battle Over Cities (25 分)</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9537/"/>
-    <id>http://www.baccano.fun/算法37/</id>
-    <published>2019-04-01T07:48:26.000Z</published>
-    <updated>2019-04-01T08:00:26.708Z</updated>
-    
-    <summary type="html">
-    
-      PAT 1013 Battle Over Cities (25 分)
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="图论" scheme="http://www.baccano.fun/tags/%E5%9B%BE%E8%AE%BA/"/>
     
   </entry>
   
