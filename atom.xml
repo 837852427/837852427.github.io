@@ -240,29 +240,6 @@
   </entry>
   
   <entry>
-    <title>P2072 宗教问题</title>
-    <link href="http://www.baccano.fun/uncategorized45/"/>
-    <id>http://www.baccano.fun/uncategorized45/</id>
-    <published>2019-07-15T08:35:28.000Z</published>
-    <updated>2019-07-20T12:15:28.054Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
     <title>P1103 书本整理</title>
     <link href="http://www.baccano.fun/uncategorized43/"/>
     <id>http://www.baccano.fun/uncategorized43/</id>
@@ -276,6 +253,29 @@
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;技巧比较强，如果正着想删除几本书那实在是太难了，我是白给了。倒着想留下几本书的话，我们可以判断当前书在序列中是留下的第几本，那么很容易想到每一本都有可能由前面的任意序列组合而成，最后再枚举第三个剩下的条件然后即可解决&lt;/p&gt;
 &lt;figur
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P2072 宗教问题</title>
+    <link href="http://www.baccano.fun/uncategorized45/"/>
+    <id>http://www.baccano.fun/uncategorized45/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:28.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
       
     
     </summary>
@@ -310,10 +310,10 @@
   
   <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized400/"/>
-    <id>http://www.baccano.fun/uncategorized400/</id>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:10:29.632Z</updated>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
@@ -353,10 +353,10 @@
   
   <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
+    <link href="http://www.baccano.fun/uncategorized400/"/>
+    <id>http://www.baccano.fun/uncategorized400/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
+    <updated>2019-07-18T09:10:29.632Z</updated>
     
     <summary type="html">
     

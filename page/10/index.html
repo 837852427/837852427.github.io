@@ -753,7 +753,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized42/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized40/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="baccano">
@@ -773,7 +773,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/uncategorized42/" class="post-title-link" itemprop="url">洛谷P1977 出租车拼车</a>
+                <a href="/uncategorized40/" class="post-title-link" itemprop="url">二分图基础初步探究</a>
               
             
           </h1>
@@ -798,24 +798,12 @@
                 
               
 
-              <time title="创建时间：2019-07-14 16:35:28" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
+              <time title="创建时间：2019-07-14 16:35:28 / 修改时间：16:45:08" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-18 23:43:45" itemprop="dateModified" datetime="2019-07-18T23:43:45+08:00">2019-07-18</time>
               
             
           </span>
@@ -833,179 +821,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/uncategorized42/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized42/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <a id="more"></a>
-<p>方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> f[<span class="number">105</span>][<span class="number">105</span>],w1[<span class="number">105</span>],w2[<span class="number">105</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a,b,c,d;</span><br><span class="line">    <span class="built_in">memset</span>(f,<span class="number">0x3f</span>,<span class="keyword">sizeof</span>(f));</span><br><span class="line">    f[<span class="number">0</span>][<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d%d"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=b;i++)</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;w1[i],&amp;w2[i]);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=b;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=a;j++)</span><br><span class="line">    &#123;</span><br><span class="line">        f[i][j]=f[i<span class="number">-1</span>][j];</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>;k&lt;=min(j,w2[i]);k++)</span><br><span class="line">        f[i][j]=min(f[i][j],f[i<span class="number">-1</span>][j-k]+c+k*w1[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(f[b][a]&gt;<span class="number">100000</span>)</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"impossible"</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,f[b][a]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized400/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="baccano">
-      <meta itemprop="description" content="一个蒟蒻的小家">
-      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baccano">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/uncategorized400/" class="post-title-link" itemprop="url">二分图基础初步探究</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-14 16:35:28" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-18 17:10:29" itemprop="dateModified" datetime="2019-07-18T17:10:29+08:00">2019-07-18</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/uncategorized400/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized400/" itemprop="commentCount"></span>
+                <a href="/uncategorized40/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized40/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1213,6 +1030,177 @@
             <a id="more"></a>
 <p>简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> f[<span class="number">100005</span>][<span class="number">3</span>],a[<span class="number">100005</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a[i]);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    f[i][<span class="number">0</span>]=f[i][<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(a[i]&lt;a[i<span class="number">-1</span>])</span><br><span class="line">        f[i][<span class="number">0</span>]=f[i<span class="number">-1</span>][<span class="number">1</span>]+<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        f[i][<span class="number">0</span>]=f[i<span class="number">-1</span>][<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">if</span>(a[i]&gt;a[i<span class="number">-1</span>])</span><br><span class="line">        f[i][<span class="number">1</span>]=f[i<span class="number">-1</span>][<span class="number">0</span>]+<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        f[i][<span class="number">1</span>]=f[i<span class="number">-1</span>][<span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,max(f[n][<span class="number">0</span>],f[n][<span class="number">1</span>]));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized42/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baccano">
+      <meta itemprop="description" content="一个蒟蒻的小家">
+      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Baccano">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/uncategorized42/" class="post-title-link" itemprop="url">洛谷P1977 出租车拼车</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-14 16:35:28" itemprop="dateCreated datePublished" datetime="2019-07-14T16:35:28+08:00">2019-07-14</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-18 23:43:45" itemprop="dateModified" datetime="2019-07-18T23:43:45+08:00">2019-07-18</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/uncategorized42/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized42/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<p>方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> f[<span class="number">105</span>][<span class="number">105</span>],w1[<span class="number">105</span>],w2[<span class="number">105</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a,b,c,d;</span><br><span class="line">    <span class="built_in">memset</span>(f,<span class="number">0x3f</span>,<span class="keyword">sizeof</span>(f));</span><br><span class="line">    f[<span class="number">0</span>][<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d%d"</span>,&amp;a,&amp;b,&amp;c,&amp;d);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=b;i++)</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;w1[i],&amp;w2[i]);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=b;i++)</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=a;j++)</span><br><span class="line">    &#123;</span><br><span class="line">        f[i][j]=f[i<span class="number">-1</span>][j];</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>;k&lt;=min(j,w2[i]);k++)</span><br><span class="line">        f[i][j]=min(f[i][j],f[i<span class="number">-1</span>][j-k]+c+k*w1[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(f[b][a]&gt;<span class="number">100000</span>)</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"impossible"</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,f[b][a]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
           
