@@ -199,7 +199,7 @@
     <link href="http://www.baccano.fun/uncategorized46/"/>
     <id>http://www.baccano.fun/uncategorized46/</id>
     <published>2019-07-22T13:17:46.554Z</published>
-    <updated>2019-07-22T13:45:09.942Z</updated>
+    <updated>2019-08-09T08:54:07.081Z</updated>
     
     <summary type="html">
     
@@ -207,7 +207,7 @@
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/07/22/eiReL8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+&lt;h1 id=&quot;19-08-09-更新注意一下如果a的值小于0的话需要两边同时乘以-1这样保证两边都是正数顺
       
     
     </summary>
@@ -240,29 +240,6 @@
   </entry>
   
   <entry>
-    <title>P2072 宗教问题</title>
-    <link href="http://www.baccano.fun/uncategorized45/"/>
-    <id>http://www.baccano.fun/uncategorized45/</id>
-    <published>2019-07-15T08:35:28.000Z</published>
-    <updated>2019-07-20T12:15:28.054Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
     <title>P1103 书本整理</title>
     <link href="http://www.baccano.fun/uncategorized43/"/>
     <id>http://www.baccano.fun/uncategorized43/</id>
@@ -276,6 +253,29 @@
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;技巧比较强，如果正着想删除几本书那实在是太难了，我是白给了。倒着想留下几本书的话，我们可以判断当前书在序列中是留下的第几本，那么很容易想到每一本都有可能由前面的任意序列组合而成，最后再枚举第三个剩下的条件然后即可解决&lt;/p&gt;
 &lt;figur
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P2072 宗教问题</title>
+    <link href="http://www.baccano.fun/uncategorized45/"/>
+    <id>http://www.baccano.fun/uncategorized45/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:28.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
       
     
     </summary>
@@ -309,6 +309,26 @@
   </entry>
   
   <entry>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-14T08:45:08.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>洛谷P1970花匠</title>
     <link href="http://www.baccano.fun/uncategorized41/"/>
     <id>http://www.baccano.fun/uncategorized41/</id>
@@ -328,26 +348,6 @@
     
     
       <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
     
   </entry>
   
