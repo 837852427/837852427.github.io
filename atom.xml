@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-07T08:27:35.873Z</updated>
+  <updated>2019-08-10T15:10:16.992Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>P3952 时间复杂度</title>
+    <link href="http://www.baccano.fun/uncategorized57/"/>
+    <id>http://www.baccano.fun/uncategorized57/</id>
+    <published>2019-08-10T14:52:26.310Z</published>
+    <updated>2019-08-10T15:10:16.992Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;#语法错误判断&lt;br&gt;F 与 E之间只需要加一个变量看一看是不是最终等于0即可,F ++ E –,然后就是判断变量是否被重复使用.在传统的NOIP2017的数据中没有这样的&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp
+      
+    
+    </summary>
+    
+    
+      <category term="模拟" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%8B%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>from CRT to EXCRT</title>
@@ -286,9 +309,32 @@
   </entry>
   
   <entry>
+    <title>洛谷P1970花匠</title>
+    <link href="http://www.baccano.fun/uncategorized41/"/>
+    <id>http://www.baccano.fun/uncategorized41/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:12:35.303Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized400/"/>
-    <id>http://www.baccano.fun/uncategorized400/</id>
+    <link href="http://www.baccano.fun/uncategorized56/"/>
+    <id>http://www.baccano.fun/uncategorized56/</id>
     <published>2019-07-14T08:35:28.000Z</published>
     <updated>2019-07-18T09:10:29.632Z</updated>
     
@@ -345,29 +391,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>洛谷P1970花匠</title>
-    <link href="http://www.baccano.fun/uncategorized41/"/>
-    <id>http://www.baccano.fun/uncategorized41/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:12:35.303Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
@@ -437,26 +460,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>论如何补一道南昌网络赛的题补一上午</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9538/"/>
-    <id>http://www.baccano.fun/算法38/</id>
-    <published>2019-04-22T07:45:02.000Z</published>
-    <updated>2019-04-22T09:11:22.079Z</updated>
-    
-    <summary type="html">
-    
-      论如何补一道南昌网络赛的题补一上午
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="数据结构" scheme="http://www.baccano.fun/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
