@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-11T13:10:49.037Z</updated>
+  <updated>2019-08-11T16:00:25.653Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.baccano.fun/uncategorized58/"/>
     <id>http://www.baccano.fun/uncategorized58/</id>
     <published>2019-08-11T13:04:03.458Z</published>
-    <updated>2019-08-11T13:10:49.037Z</updated>
+    <updated>2019-08-11T16:00:25.653Z</updated>
     
     <summary type="html">
     
@@ -286,6 +286,29 @@
   </entry>
   
   <entry>
+    <title>P2072 宗教问题</title>
+    <link href="http://www.baccano.fun/uncategorized45/"/>
+    <id>http://www.baccano.fun/uncategorized45/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:28.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>P1103 书本整理</title>
     <link href="http://www.baccano.fun/uncategorized43/"/>
     <id>http://www.baccano.fun/uncategorized43/</id>
@@ -309,19 +332,19 @@
   </entry>
   
   <entry>
-    <title>P2072 宗教问题</title>
-    <link href="http://www.baccano.fun/uncategorized45/"/>
-    <id>http://www.baccano.fun/uncategorized45/</id>
-    <published>2019-07-15T08:35:28.000Z</published>
-    <updated>2019-07-20T12:15:28.054Z</updated>
+    <title>洛谷P1970花匠</title>
+    <link href="http://www.baccano.fun/uncategorized41/"/>
+    <id>http://www.baccano.fun/uncategorized41/</id>
+    <published>2019-07-14T08:35:28.000Z</published>
+    <updated>2019-07-18T09:12:35.303Z</updated>
     
     <summary type="html">
     
       
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
+&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;
       
     
     </summary>
@@ -365,29 +388,6 @@
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;/p&gt;
 &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>洛谷P1970花匠</title>
-    <link href="http://www.baccano.fun/uncategorized41/"/>
-    <id>http://www.baccano.fun/uncategorized41/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:12:35.303Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;
       
     
     </summary>
