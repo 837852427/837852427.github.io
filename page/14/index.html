@@ -15,7 +15,7 @@
 
 
 <html class="theme-next mist use-motion" lang="zh-CN">
-<head><meta name="generator" content="Hexo 3.8.0">
+<head>
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -103,27 +103,25 @@
 
 
 
-  <meta name="description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值">
-<meta name="keywords" content="dp">
-<meta property="og:type" content="article">
-<meta property="og:title" content="背包变形:过程型背包">
-<meta property="og:url" content="http://www.baccano.fun/算法9/index.html">
+  <meta name="description" content="一个蒟蒻的小家">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Baccano">
+<meta property="og:url" content="http://www.baccano.fun/page/14/index.html">
 <meta property="og:site_name" content="Baccano">
-<meta property="og:description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值">
+<meta property="og:description" content="一个蒟蒻的小家">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-17T08:27:16.087Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="背包变形:过程型背包">
-<meta name="twitter:description" content="过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值">
+<meta name="twitter:title" content="Baccano">
+<meta name="twitter:description" content="一个蒟蒻的小家">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Baccano" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="Baccano" type="application/atom+xml"/>
 
 
 
 
-  <link rel="canonical" href="http://www.baccano.fun/算法9/">
+  <link rel="canonical" href="http://www.baccano.fun/page/14/"/>
 
 
 
@@ -133,7 +131,7 @@
   };
 </script>
 
-  <title>背包变形:过程型背包 | Baccano</title>
+  <title>Baccano</title>
   
 
 
@@ -174,17 +172,18 @@
 
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left 
+  page-home">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta">
     
@@ -229,7 +228,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>首页</a>
 
   </li>
         
@@ -246,7 +245,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br/>关于</a>
 
   </li>
         
@@ -263,7 +262,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>标签</a>
 
   </li>
         
@@ -280,7 +279,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br/>分类</a>
 
   </li>
         
@@ -297,7 +296,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>归档</a>
 
   </li>
         
@@ -314,7 +313,7 @@
 
     
 
-    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
+    <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br/>日程表</a>
 
   </li>
         
@@ -331,7 +330,7 @@
 
     
 
-    <a href="/friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-address-book"></i> <br>friends</a>
+    <a href="/friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-address-book"></i> <br/>friends</a>
 
   </li>
 
@@ -342,7 +341,7 @@
             <a href="javascript:;" class="popup-trigger">
           
             
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br/>搜索</a>
         </li>
       
     </ul>
@@ -365,7 +364,9 @@
       <i class="fa fa-times-circle"></i>
     </span>
     <div class="local-search-input-wrapper">
-      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
     </div>
   </div>
   <div id="local-search-result"></div>
@@ -395,9 +396,9 @@
           
           <div id="content" class="content">
             
-
-  <div id="posts" class="posts-expand">
+  <section id="posts" class="posts-expand">
     
+      
 
   
 
@@ -407,21 +408,21 @@
 
   
 
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/算法9/">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorizedcss3/"/>
 
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="baccano">
-      <meta itemprop="description" content="一个蒟蒻的小家">
-      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baccano"/>
+      <meta itemprop="description" content="一个蒟蒻的小家"/>
+      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"/>
     </span>
 
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baccano">
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Baccano"/>
     </span>
 
     
@@ -429,8 +430,10 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">背包变形:过程型背包
-
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/uncategorizedcss3/" class="post-title-link" itemprop="url">未命名</a>
               
             
           </h1>
@@ -455,7 +458,7 @@
                 
               
 
-              <time title="创建时间：2019-02-17 15:35:40 / 修改时间：16:27:16" itemprop="dateCreated datePublished" datetime="2019-02-17T15:35:40+08:00">2019-02-17</time>
+              <time title="创建时间：2019-02-20 13:22:51 / 修改时间：13:46:02" itemprop="dateCreated datePublished" datetime="2019-02-20T13:22:51+08:00">2019-02-20</time>
             
 
             
@@ -465,24 +468,6 @@
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -496,8 +481,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/算法9/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/算法9/" itemprop="commentCount"></span>
+                <a href="/uncategorizedcss3/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorizedcss3/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -506,13 +491,6 @@
           
           
 
-          
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon">
-            <i class="fa fa-eye"></i>
-             阅读次数： 
-            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
-            </span>
           
 
           
@@ -532,13 +510,69 @@
       
 
       
-        <p>过程型背包简单的感觉就是我要记录下是否回到这种情况，也就是说要记录一个最大到达的可能值或者是一个最小到达的可能值  </p>
-<a id="more"></a>
-<p>#例1 P1877 [HAOI2012]音量调节</p>
-<h2 id="胡乱分析"><a href="#胡乱分析" class="headerlink" title="胡乱分析"></a>胡乱分析</h2><p>上来bfs得60分。。。<br>dp的思路就是我看看我能最终到达的最大音量是多少，每一步都有两种可能性，也就是我要加音量或者我要减当前的音量所以我们思路就是:<br>for i-&gt;[1,n] (这里表示我们总共弹奏的歌曲数)<br>  for j-&gt;[0,maxn] (这里表示我们j从0枚举到最大值)<br>    if dp[i-1][j]<br>      dp[i][j+num[i]]=dp[i][j-num[i]]=1 (这里表示我们如果上一个音量是合法的那么我们把他所能表示出来的音量也标记为合法的)</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> num[<span class="number">6666</span>],dp[<span class="number">6666</span>][<span class="number">6666</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  ios::sync_with_stdio(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cin</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="built_in">cout</span>.tie(<span class="number">0</span>);</span><br><span class="line">  <span class="keyword">int</span> n,begin,maxn;</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;begin&gt;&gt;maxn;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="built_in">cin</span>&gt;&gt;num[i];</span><br><span class="line">  dp[<span class="number">0</span>][begin]=<span class="number">1</span>;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;=maxn;j++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="keyword">if</span>(dp[i<span class="number">-1</span>][j])</span><br><span class="line">    dp[i][j+num[i]]=dp[i][j-num[i]]=<span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span>(<span class="keyword">int</span> i=maxn;i&gt;=<span class="number">0</span>;i--)</span><br><span class="line">  <span class="keyword">if</span>(dp[n][i])</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">cout</span>&lt;&lt;i,<span class="number">0</span>;</span><br><span class="line">  <span class="built_in">cout</span>&lt;&lt;<span class="number">-1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        
+          
+            <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <title>css3过渡测试</title>
+    <style>
+      div.one
+      {
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        transition: width 2s;
+      }
+      div.one:hover
+      {
+        width: 200px;
+      }
+      div.two
+      {
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        transition: all 2s;
+      }
+      div.two:hover
+      {
+        background-color: yellow;
+        transform: rotate(270deg) translate(100px,100px);
+      }
+      div.three
+      {
+        width: 400px;
+        height: 400px;
+        background-color: black;
+        transition: all 3s;
+      }
+      div.three:hover
+      {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        transform: rotateY(360deg);
+      }
+    </style>
+  </head>
+  <body>
+    <h1><b>下面演示几种过渡效果，你只需要把鼠标放上即可</b></h1>
+    <div class="one">
+    </div>
+    <p>这是第一种效果</p>
+    <div class="two">
+    </div>
+    <p>这是第二种效果</p>
+    <div class="three">
+    </div>
+    <p>这是第三种效果</p>
+  <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/assets/hibiki.model.json"},"display":{"position":"left","width":100,"height":300},"mobile":{"show":false},"log":false,"tagMode":false});</script></body>
+</html>
 
-<h1 id="例2-待补充"><a href="#例2-待补充" class="headerlink" title="例2 待补充"></a>例2 待补充</h1>
+          
+        
       
     </div>
 
@@ -554,74 +588,19 @@
       
     
     
-      <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>就算是一分钱，也是对作者极大的支持</div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById(&quot;QR&quot;); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>打赏</span>
-  </button>
-  <div id="QR" style="display: none;">
-
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="https://i.loli.net/2019/02/16/5c6778e69c9a0.png" alt="baccano 微信支付">
-        <p>微信支付</p>
-      </div>
-    
-
-    
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="https://i.loli.net/2019/02/16/5c677916a8306.png" alt="baccano 支付宝">
-        <p>支付宝</p>
-      </div>
-    
-
-    
-
-  </div>
-</div>
-
-      </div>
-    
 
     
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/dp/" rel="tag"><i class="fa fa-tag"></i> dp</a>
-          
-        </div>
+
+      
+
       
 
       
       
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/算法8/" rel="next" title="完全背包变形(1) 取数问题">
-                <i class="fa fa-chevron-left"></i> 完全背包变形(1) 取数问题
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/前端10/" rel="prev" title="html学习(1)">
-                html学习(1) <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -631,189 +610,18 @@
   </article>
 
 
-  </div>
-  <div>
     
-      
-<div style="text-align:center;color: black;font-size:36px;">
------- 本文结束 ------</div>
-<br>
-<div style="border: 1px solid black">
-<div style="margin-left:10px">
-<span style="font-weight:blod">版权声明</span>
-<img src="https://i.loli.net/2019/02/13/5c64075a050df.png">
-<br>
-<p style="font-size: 24px;line-height: 30px"><a href="http://baccano.fun" style="color:#258FC6">Baccano</a> by <a href="http://baccano.fun" style="color:#258FC6">baccano</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">Creative Commons BY-NC-ND 4.0 International License</a>.<br>
-由<a href="http://baccano.fun" style="color:#258FC6">baccano</a>创作并维护的<a href="http://baccano.fun" style="color:#258FC6">Baccano</a>博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。<br>
-本文首发于<a href="http://baccano.fun" style="color:#258FC6">baccano</a> 博客（ <a href="http://baccano.fun" style="color:#258FC6">http://baccano.fun</a> ），版权所有，侵权必究。</p>
-</div>
-</div>
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/13/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span>
+  </nav>
 
 
-    
-  </div>
-  <div>
-    
-      
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="utf-8">
-    <title>小游戏</title>
-    <style>
-      #img1
-      {
-        width: 1600px;
-        height: 800px;
-        -webkit-width: 30%;
-        -webkit-height: 30%;
-        border-style: outset;
-        border-color: orange;
-      }
-      body
-      {
-        border-style: groove;
-        border-width: medium;
-        border: orange;
-      }
-      #text1
-      {
-        text-align: center;
-        -webkit-text-align: center;
-      }
-      #one
-      {
-        margin: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="border">
-    <h1 id="text1">---小游戏:要不要来选择一下自己可能的老婆？---</h1>
-    <button type="button" id="one">开始</button>
-    <script src="/js/src/game.js">
-    </script>
-    </div>
-  </body>
-</html>
-
-    
-    
-      <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="utf-8">
-    <title>简易发声器</title>
-    <style>
-      li.piano
-      {
-        display: inline-block;
-        width: 90px;
-        height: 400px;
-        position: relative;
-        border-style: outset;
-        border-width: thick;
-      }
-      #pone
-      {
-        left:10px;
-        top:0px;
-        background-color: white;
-      }
-      #ptwo
-      {
-        left:10px;
-        top:0px;
-        background-color: yellow;
-      }
-      #pthree
-      {
-        left:10px;
-        top:0px;
-        background-color: green;
-      }
-      #pfour
-      {
-        left:10px;
-        top:0px;
-        background-color: blue;
-      }
-      #pfive
-      {
-        left:10px;
-        top:0px;
-        background-color: orange;
-      }
-      #psix
-      {
-        left:10px;
-        top:0px;
-        background-color: red;
-      }
-      #pseven
-      {
-        left:10px;
-        top:0px;
-        background-color: black;
-      }
-      h1.piano
-      {
-        text-align: center;
-      }
-      p.piano
-      {
-        text-align: center;
-      }
-      h1.piano_start
-      {
-        background-color: purple;
-        color: white;
-        width:50%;
-        text-align: center;
-        margin: 0px auto;
-      }
-    </style>
-  </head>
-  <body>
-    <h1 class="piano">---简易的七键钢琴插件---</h1>
-    <p class="piano">可以使用鼠标点击琴键也可以使用主键盘1-7或者小键盘的1-7来操作</p>
-    <h1 class="piano_start">那么现在开始吧</h1>
-    <ul class="piano">
-      <li class="piano" id="pone">1</li>
-      <li class="piano" id="ptwo">2</li>
-      <li class="piano" id="pthree">3</li>
-      <li class="piano" id="pfour">4</li>
-      <li class="piano" id="pfive">5</li>
-      <li class="piano" id="psix">6</li>
-      <li class="piano" id="pseven">7</li>
-    </ul>
-    <audio id="sound1" src="/audio/b0.mp3"></audio>
-    <audio id="sound2" src="/audio/b1.mp3"></audio>
-    <audio id="sound3" src="/audio/b2.mp3"></audio>
-    <audio id="sound4" src="/audio/b3.mp3"></audio>
-    <audio id="sound5" src="/audio/b4.mp3"></audio>
-    <audio id="sound6" src="/audio/b5.mp3"></audio>
-    <audio id="sound7" src="/audio/b6.mp3"></audio>
-    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="/js/src/piano.js"></script>
-  </body>
-</html>
-
-    
-  </div>
-  <div>
-  </div>
 
           </div>
           
-
-  
-    <div class="comments" id="comments">
-    </div>
-
-  
-
-
 
         </div>
         
@@ -833,21 +641,14 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif" alt="baccano">
+              <img class="site-author-image" itemprop="image"
+                src="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif"
+                alt="baccano"/>
             
               <p class="site-author-name" itemprop="name">baccano</p>
               <p class="site-description motion-element" itemprop="description">一个蒟蒻的小家</p>
@@ -1003,9 +804,9 @@
             </div>
           
           <body>
-            <font face="Arial" color="white"><h3>来一首舒缓的音乐怎么样？</h3></font>
+            <font face='Arial' color='white' ><h3>来一首舒缓的音乐怎么样？</h3></font>
           <div id="music163player">
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=404610&auto=1&height=66">
             </iframe>
           </div>
           <body>
@@ -1014,26 +815,9 @@
           
           
 
-        </body></body></div>
+        </div>
       </div>
 
-      
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#胡乱分析"><span class="nav-number">1.</span> <span class="nav-text">胡乱分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码"><span class="nav-number">2.</span> <span class="nav-text">代码</span></a></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#例2-待补充"><span class="nav-number"></span> <span class="nav-text">例2 待补充</span></a></li></div>
-            
-
-          </div>
-        </div>
-      <!--/noindex-->
       
 
       
@@ -1132,7 +916,7 @@
     
     
   
-  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
 
@@ -1196,10 +980,6 @@
 
 
   
-  <script src="/js/src/scrollspy.js?v=7.0.0"></script>
-<script src="/js/src/post-details.js?v=7.0.0"></script>
-
-
 
   
 
@@ -1239,8 +1019,6 @@
 
 
 
-
-  
 
 
   

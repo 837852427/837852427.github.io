@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-12T11:21:48.328Z</updated>
+  <updated>2019-08-12T12:08:21.004Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -17,19 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Sigma Function LightOJ -1336</title>
-    <link href="http://www.baccano.fun/uncategorized59/"/>
-    <id>http://www.baccano.fun/uncategorized59/</id>
-    <published>2019-08-12T11:10:37.829Z</published>
-    <updated>2019-08-12T11:21:48.328Z</updated>
+    <title>Leading and Trailing LightOJ - 1282</title>
+    <link href="http://www.baccano.fun/uncategorized60/"/>
+    <id>http://www.baccano.fun/uncategorized60/</id>
+    <published>2019-08-12T11:58:15.697Z</published>
+    <updated>2019-08-12T12:08:21.004Z</updated>
     
     <summary type="html">
     
       
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;#题意求1-n内约束和为偶数的个数&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/08/12/mSqeyT.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
+&lt;h1 id=&quot;求前导3位数与后导3位数&quot;&gt;&lt;a href=&quot;#求前导3位数与后导3位数&quot; class=&quot;headerlink&quot; title=&quot;求前导3位数与后导3位数&quot;&gt;&lt;/a&gt;求前导3位数与后导3位数&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;ht
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sigma Function LightOJ -1336</title>
+    <link href="http://www.baccano.fun/uncategorized59/"/>
+    <id>http://www.baccano.fun/uncategorized59/</id>
+    <published>2019-08-12T11:10:37.829Z</published>
+    <updated>2019-08-12T11:58:09.960Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;题意求1-n内约束和为偶数的个数&quot;&gt;&lt;a href=&quot;#题意求1-n内约束和为偶数的个数&quot; class=&quot;headerlink&quot; title=&quot;题意求1-n内约束和为偶数的个数&quot;&gt;&lt;/a&gt;题意求1-n内约束和为偶数的个数&lt;/h1
       
     
     </summary>
@@ -309,29 +330,6 @@
   </entry>
   
   <entry>
-    <title>P1103 书本整理</title>
-    <link href="http://www.baccano.fun/uncategorized43/"/>
-    <id>http://www.baccano.fun/uncategorized43/</id>
-    <published>2019-07-15T08:35:28.000Z</published>
-    <updated>2019-07-20T12:15:27.459Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;技巧比较强，如果正着想删除几本书那实在是太难了，我是白给了。倒着想留下几本书的话，我们可以判断当前书在序列中是留下的第几本，那么很容易想到每一本都有可能由前面的任意序列组合而成，最后再枚举第三个剩下的条件然后即可解决&lt;/p&gt;
-&lt;figur
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
     <title>P2072 宗教问题</title>
     <link href="http://www.baccano.fun/uncategorized45/"/>
     <id>http://www.baccano.fun/uncategorized45/</id>
@@ -355,11 +353,34 @@
   </entry>
   
   <entry>
+    <title>P1103 书本整理</title>
+    <link href="http://www.baccano.fun/uncategorized43/"/>
+    <id>http://www.baccano.fun/uncategorized43/</id>
+    <published>2019-07-15T08:35:28.000Z</published>
+    <updated>2019-07-20T12:15:27.459Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;技巧比较强，如果正着想删除几本书那实在是太难了，我是白给了。倒着想留下几本书的话，我们可以判断当前书在序列中是留下的第几本，那么很容易想到每一本都有可能由前面的任意序列组合而成，最后再枚举第三个剩下的条件然后即可解决&lt;/p&gt;
+&lt;figur
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized56/"/>
-    <id>http://www.baccano.fun/uncategorized56/</id>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:10:29.632Z</updated>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
@@ -376,10 +397,10 @@
   
   <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
+    <link href="http://www.baccano.fun/uncategorized56/"/>
+    <id>http://www.baccano.fun/uncategorized56/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
+    <updated>2019-07-18T09:10:29.632Z</updated>
     
     <summary type="html">
     
@@ -437,26 +458,6 @@
     
     
       <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JOIOJI</title>
-    <link href="http://www.baccano.fun/%E7%AE%97%E6%B3%9539/"/>
-    <id>http://www.baccano.fun/算法39/</id>
-    <published>2019-07-12T16:00:00.000Z</published>
-    <updated>2019-07-13T11:55:22.133Z</updated>
-    
-    <summary type="html">
-    
-      骚气操作值得学习
-    
-    </summary>
-    
-      <category term="算法" scheme="http://www.baccano.fun/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="前缀和" scheme="http://www.baccano.fun/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
     
   </entry>
   
