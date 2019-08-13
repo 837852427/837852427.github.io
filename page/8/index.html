@@ -411,6 +411,177 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized61/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="baccano">
+      <meta itemprop="description" content="一个蒟蒻的小家">
+      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Baccano">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/uncategorized61/" class="post-title-link" itemprop="url">NOI2014 起床困难综合症</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-12 23:47:43" itemprop="dateCreated datePublished" datetime="2019-08-12T23:47:43+08:00">2019-08-12</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-13 10:22:54" itemprop="dateModified" datetime="2019-08-13T10:22:54+08:00">2019-08-13</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/uncategorized61/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized61/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <a id="more"></a>
+<p>从高位开始模拟这一位数也就是说先试这一位是0如果能通过测试,那么直接答案加上这个否则验证1,如果1通过测试还得验证当前加上1是否会超出m的范围其他的就是1&lt;&lt;30最多,还因为1&lt;&lt;31成了符号位而90分</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> ll;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="built_in">string</span> s;</span><br><span class="line">	ll nm;</span><br><span class="line">&#125;a[<span class="number">200005</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	ll n,m,now=<span class="number">0</span>,ans=<span class="number">0</span>;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%lld%lld"</span>,&amp;n,&amp;m);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;a[i].s&gt;&gt;a[i].nm;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">30</span>;i&gt;=<span class="number">0</span>;i--)</span><br><span class="line">	&#123;</span><br><span class="line">		ll re=<span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(a[j].s==<span class="string">"AND"</span>)</span><br><span class="line">			re&amp;=((a[j].nm&gt;&gt;i)&amp;<span class="number">1</span>);</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span>(a[j].s==<span class="string">"OR"</span>)</span><br><span class="line">			re|=((a[j].nm&gt;&gt;i)&amp;<span class="number">1</span>);</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			re^=((a[j].nm&gt;&gt;i)&amp;<span class="number">1</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(re==<span class="number">1</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			ans+=(<span class="number">1</span>&lt;&lt;i);</span><br><span class="line">			<span class="keyword">continue</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		re=<span class="number">1</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(a[j].s==<span class="string">"AND"</span>)</span><br><span class="line">			re&amp;=((a[j].nm&gt;&gt;i)&amp;<span class="number">1</span>);</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span>(a[j].s==<span class="string">"OR"</span>)</span><br><span class="line">			re|=((a[j].nm&gt;&gt;i)&amp;<span class="number">1</span>);</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			re^=((a[j].nm&gt;&gt;i)&amp;<span class="number">1</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(re==<span class="number">1</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(now+(<span class="number">1</span>&lt;&lt;i)&lt;=m)</span><br><span class="line">			ans+=(<span class="number">1</span>&lt;&lt;i),now+=(<span class="number">1</span>&lt;&lt;i);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%lld"</span>,(<span class="keyword">long</span> <span class="keyword">long</span>)ans);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized60/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -1050,165 +1221,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.baccano.fun/uncategorized54/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="baccano">
-      <meta itemprop="description" content="一个蒟蒻的小家">
-      <meta itemprop="image" content="https://i.loli.net/2019/02/12/5c62e5ffbb34d.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baccano">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/uncategorized54/" class="post-title-link" itemprop="url">from CRT to EXCRT</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-08-07 15:13:46 / 修改时间：16:27:35" itemprop="dateCreated datePublished" datetime="2019-08-07T15:13:46+08:00">2019-08-07</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/uncategorized54/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/uncategorized54/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <a id="more"></a>
-<p><img src="https://s2.ax1x.com/2019/08/07/eIFPJO.md.png" alt=""><br><img src="https://s2.ax1x.com/2019/08/07/eIFpo6.png" alt=""><br><img src="https://s2.ax1x.com/2019/08/07/eIFCFK.png" alt=""><br><img src="https://s2.ax1x.com/2019/08/07/eIFSdx.md.png" alt=""></p>
-<h1 id="模板洛谷P4777"><a href="#模板洛谷P4777" class="headerlink" title="模板洛谷P4777"></a>模板洛谷P4777</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> __int128 ll;</span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> a[<span class="number">100005</span>],b[<span class="number">100005</span>];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">gcd</span><span class="params">(ll a,ll b,ll&amp; x,ll&amp; y,ll&amp; d)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(!b)</span><br><span class="line">	x=<span class="number">1</span>,y=<span class="number">0</span>,d=a;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	gcd(b,a%b,y,x,d),y-=a/b*x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">long</span> <span class="keyword">long</span> t;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;t;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=t;i++)</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;a[i]&gt;&gt;b[i];</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;t;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		ll A=a[i],B=a[i+<span class="number">1</span>],C=(b[i+<span class="number">1</span>]-b[i]),x,y,d=__gcd(A,B);</span><br><span class="line">		<span class="keyword">if</span>(C%d)</span><br><span class="line">		<span class="keyword">return</span> <span class="built_in">cout</span>&lt;&lt;<span class="string">"-1"</span>,<span class="number">0</span>;</span><br><span class="line">		A/=d,B/=d,C/=d;</span><br><span class="line">		gcd(a[i],a[i+<span class="number">1</span>],x,y,d);</span><br><span class="line">		x=(x*C%B+B)%B;</span><br><span class="line">		a[i+<span class="number">1</span>]=a[i]/d*a[i+<span class="number">1</span>];</span><br><span class="line">		b[i+<span class="number">1</span>]=(a[i]*x%a[i+<span class="number">1</span>]+b[i])%a[i+<span class="number">1</span>];</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;b[t];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1257,7 +1269,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">66</span>
+                    <span class="site-state-item-count">68</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1347,7 +1359,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">25</span>
+                      
+                    
+                    <span class="site-state-item-count">26</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

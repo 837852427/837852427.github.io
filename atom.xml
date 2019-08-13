@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-12T12:08:21.004Z</updated>
+  <updated>2019-08-13T02:22:54.067Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NOI2014 起床困难综合症</title>
+    <link href="http://www.baccano.fun/uncategorized61/"/>
+    <id>http://www.baccano.fun/uncategorized61/</id>
+    <published>2019-08-12T15:47:43.828Z</published>
+    <updated>2019-08-13T02:22:54.067Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;从高位开始模拟这一位数也就是说先试这一位是0如果能通过测试,那么直接答案加上这个否则验证1,如果1通过测试还得验证当前加上1是否会超出m的范围其他的就是1&amp;lt;&amp;lt;30最多,还因为1&amp;lt;&amp;lt;31成了符号位而90分&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="思维构造" scheme="http://www.baccano.fun/tags/%E6%80%9D%E7%BB%B4%E6%9E%84%E9%80%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Leading and Trailing LightOJ - 1282</title>
@@ -103,6 +126,29 @@
     
     
       <category term="模拟" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%8B%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NOI2014 动物园</title>
+    <link href="http://www.baccano.fun/uncategorized55/"/>
+    <id>http://www.baccano.fun/uncategorized55/</id>
+    <published>2019-08-09T13:20:14.110Z</published>
+    <updated>2019-08-13T02:23:07.386Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;超级好的题，需要自己动一下脑子才不超时.&lt;br&gt;我们首先算出包含自己本身的并且有重复的num1[]来然后第二波kmp的时候进行进一步的失配指针偏移   &lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="KMP" scheme="http://www.baccano.fun/tags/KMP/"/>
     
   </entry>
   
@@ -377,26 +423,6 @@
   
   <entry>
     <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
     <link href="http://www.baccano.fun/uncategorized56/"/>
     <id>http://www.baccano.fun/uncategorized56/</id>
     <published>2019-07-14T08:35:28.000Z</published>
@@ -416,48 +442,22 @@
   </entry>
   
   <entry>
-    <title>洛谷P1977 出租车拼车</title>
-    <link href="http://www.baccano.fun/uncategorized42/"/>
-    <id>http://www.baccano.fun/uncategorized42/</id>
+    <title>二分图基础初步探究</title>
+    <link href="http://www.baccano.fun/uncategorized40/"/>
+    <id>http://www.baccano.fun/uncategorized40/</id>
     <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T15:43:45.414Z</updated>
+    <updated>2019-07-14T08:45:08.479Z</updated>
     
     <summary type="html">
     
       
       
         &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;方程基本推对了就是转移的时候有点迷，实际上还要用f[i][j]=f[i-1][j]这样取min的时候才不会出错,然后就是就算越界也没事有点像背包&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
       
     
     </summary>
     
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>洛谷P1970花匠</title>
-    <link href="http://www.baccano.fun/uncategorized41/"/>
-    <id>http://www.baccano.fun/uncategorized41/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:12:35.303Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;简约的一道dp小品好题，推着推着发现是一个交错的0,1数列，接着脑子就开始发晕不知道怎么能做的又快又好，看了题解之后发现每次只需要如果有大小变化就交错更新即可否则按照原样&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
