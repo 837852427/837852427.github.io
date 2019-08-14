@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-13T02:22:54.067Z</updated>
+  <updated>2019-08-14T08:11:58.069Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>康拓展开</title>
+    <link href="http://www.baccano.fun/uncategorized63/"/>
+    <id>http://www.baccano.fun/uncategorized63/</id>
+    <published>2019-08-14T07:47:31.160Z</published>
+    <updated>2019-08-14T08:11:58.069Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;解释一下这个A[i]为啥子能用树状数组求出来，加入树状数组里面所有的值，这些值能求出当前的前面的数.&lt;br&gt;然后枚举的时候因为是全排列所以我们可以知道后面比这个数小的数一定就是sum(a[i])-1个，然后我们把这个a[i]位置的1删掉即
+      
+    
+    </summary>
+    
+    
+      <category term="模板" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高斯消元</title>
+    <link href="http://www.baccano.fun/uncategorized62/"/>
+    <id>http://www.baccano.fun/uncategorized62/</id>
+    <published>2019-08-14T04:20:20.617Z</published>
+    <updated>2019-08-14T04:21:40.802Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;直接上模板吧，我也不是很会这个东西目前  &lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>NOI2014 起床困难综合症</title>
@@ -418,46 +463,6 @@
     
     
       <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized56/"/>
-    <id>http://www.baccano.fun/uncategorized56/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-18T09:10:29.632Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>二分图基础初步探究</title>
-    <link href="http://www.baccano.fun/uncategorized40/"/>
-    <id>http://www.baccano.fun/uncategorized40/</id>
-    <published>2019-07-14T08:35:28.000Z</published>
-    <updated>2019-07-14T08:45:08.479Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;二分图判定很好说就是没有奇边环即可&lt;br&gt;然后就是匈牙利算法了匈牙利算法求的是最大匹配集根据一个定理这也
-      
-    
-    </summary>
-    
     
   </entry>
   
