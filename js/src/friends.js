@@ -199,6 +199,25 @@ $('img.im4').hover(function()
     );
   }
 );
+$('img.im5').hover(function()
+{
+  $('img.im5').css
+  (
+    {
+      'transform':'rotateY(360deg)'
+    }
+  );
+},
+  function()
+  {
+    $('img.im5').css
+    (
+      {
+        'transform':'rotateY(-360deg)'
+      }
+    );
+  }
+);
 $('h3').css
 (
   {
