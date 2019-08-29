@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-15T12:24:19.099Z</updated>
+  <updated>2019-08-22T09:02:51.663Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>平面最近点对</title>
+    <link href="http://www.baccano.fun/uncategorized65/"/>
+    <id>http://www.baccano.fun/uncategorized65/</id>
+    <published>2019-08-22T08:54:08.463Z</published>
+    <updated>2019-08-22T09:02:51.663Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;分治本身的大部分内容还是比较好想的，就是中线划分的左右区间可能出现跨线最小值的操作，所以说我们需要枚举另一个点集.也就是距离中线的距离小于d的点，因为这些才是有可能在更新答案的点集，然后我们再把他们按照y排序枚举看一下如果y差值都大于d那
+      
+    
+    </summary>
+    
+    
+      <category term="分治" scheme="http://www.baccano.fun/tags/%E5%88%86%E6%B2%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>二次剩余</title>
@@ -439,29 +461,6 @@
     
     
       <category term="牛客" scheme="http://www.baccano.fun/tags/%E7%89%9B%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>P2072 宗教问题</title>
-    <link href="http://www.baccano.fun/uncategorized45/"/>
-    <id>http://www.baccano.fun/uncategorized45/</id>
-    <published>2019-07-15T08:35:28.000Z</published>
-    <updated>2019-07-20T12:15:28.054Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;很奇怪的dp，我是没有见过这种的之前，尤其是第二维倒着推，实际上就是把每种可能的分块情况枚举一遍,最后再输出答案,秒题&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
-      
-    
-    </summary>
-    
-    
-      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
     
   </entry>
   
