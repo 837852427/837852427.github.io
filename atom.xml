@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-08-22T09:02:51.663Z</updated>
+  <updated>2019-10-09T13:03:26.377Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,117 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>可能是最后一场CF题解</title>
+    <link href="http://www.baccano.fun/uncategorized70/"/>
+    <id>http://www.baccano.fun/uncategorized70/</id>
+    <published>2019-10-09T12:39:05.957Z</published>
+    <updated>2019-10-09T13:03:26.377Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;A-Minimum-Integer-签到&quot;&gt;&lt;a href=&quot;#A-Minimum-Integer-签到&quot; class=&quot;headerlink&quot; title=&quot;A - Minimum Integer(签到)&quot;&gt;&lt;/a&gt;A - Minimum Integer(签到)
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CF1221D Make The Fence Great Again</title>
+    <link href="http://www.baccano.fun/uncategorized69/"/>
+    <id>http://www.baccano.fun/uncategorized69/</id>
+    <published>2019-09-21T06:01:15.751Z</published>
+    <updated>2019-09-21T06:04:38.993Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;题意&quot;&gt;&lt;a href=&quot;#题意&quot; class=&quot;headerlink&quot; title=&quot;题意&quot;&gt;&lt;/a&gt;题意&lt;/h1&gt;&lt;p&gt;题目大意是要让一连串连续的数字左右相邻两个两两不同，如果相同可以改高度，改的高度代价输入已知  &lt;/p&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>倍增LCA</title>
+    <link href="http://www.baccano.fun/uncategorized68/"/>
+    <id>http://www.baccano.fun/uncategorized68/</id>
+    <published>2019-09-06T14:38:48.358Z</published>
+    <updated>2019-09-06T14:40:02.143Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;一个一个网上跳&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+      <category term="模板" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2018南京网络赛补题</title>
+    <link href="http://www.baccano.fun/uncategorized67/"/>
+    <id>http://www.baccano.fun/uncategorized67/</id>
+    <published>2019-09-06T14:23:32.687Z</published>
+    <updated>2019-09-06T14:30:18.499Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;A-The-beautiful-values-of-the-palace&quot;&gt;&lt;a href=&quot;#A-The-beautiful-values-of-the-palace&quot; class=&quot;headerlink&quot; title=&quot;A.
+      
+    
+    </summary>
+    
+    
+      <category term="网络赛" scheme="http://www.baccano.fun/tags/%E7%BD%91%E7%BB%9C%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2016大连网络赛补题</title>
+    <link href="http://www.baccano.fun/uncategorized66/"/>
+    <id>http://www.baccano.fun/uncategorized66/</id>
+    <published>2019-09-06T14:07:09.530Z</published>
+    <updated>2019-09-06T14:22:50.870Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;#B Different GCD Subarray Query&lt;br&gt;现在已经口头AC了,我们就是区间不同颜色个数的升级版.我还需要处理一下…&lt;/p&gt;
+&lt;p&gt;#F     Football Games&lt;br&gt;获得的分是一定的,然后判断一下
+      
+    
+    </summary>
+    
+    
+      <category term="网络赛" scheme="http://www.baccano.fun/tags/%E7%BD%91%E7%BB%9C%E8%B5%9B/"/>
+    
+  </entry>
   
   <entry>
     <title>平面最近点对</title>
@@ -347,120 +458,6 @@
     
     
       <category term="结论" scheme="http://www.baccano.fun/tags/%E7%BB%93%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>矩阵快速幂模板</title>
-    <link href="http://www.baccano.fun/uncategorized49/"/>
-    <id>http://www.baccano.fun/uncategorized49/</id>
-    <published>2019-07-26T14:08:29.627Z</published>
-    <updated>2019-07-26T14:33:19.304Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;解决大斐波那契数问题，我线代没学所以不是很理解这玩意，只好先记住以下板子了  &lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span clas
-      
-    
-    </summary>
-    
-    
-      <category term="线性代数" scheme="http://www.baccano.fun/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>莫比乌斯反演证明</title>
-    <link href="http://www.baccano.fun/uncategorized48/"/>
-    <id>http://www.baccano.fun/uncategorized48/</id>
-    <published>2019-07-24T13:00:21.262Z</published>
-    <updated>2019-07-24T13:13:20.203Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/07/24/eVyUdU.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>POJ-1845 Sumdiv (基础数论综合)</title>
-    <link href="http://www.baccano.fun/uncategorized47/"/>
-    <id>http://www.baccano.fun/uncategorized47/</id>
-    <published>2019-07-23T17:38:12.062Z</published>
-    <updated>2019-07-23T17:39:42.111Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/07/24/eA0jne.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
-      
-    
-    </summary>
-    
-    
-      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>POJ1061 青蛙的约会(拓展欧几里得)</title>
-    <link href="http://www.baccano.fun/uncategorized46/"/>
-    <id>http://www.baccano.fun/uncategorized46/</id>
-    <published>2019-07-22T13:17:46.554Z</published>
-    <updated>2019-08-09T08:54:07.081Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/07/22/eiReL8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;19-08-09-更新注意一下如果a的值小于0的话需要两边同时乘以-1这样保证两边都是正数顺
-      
-    
-    </summary>
-    
-    
-      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019牛客2 Second Large Rectangle</title>
-    <link href="http://www.baccano.fun/uncategorized44/"/>
-    <id>http://www.baccano.fun/uncategorized44/</id>
-    <published>2019-07-20T11:35:28.000Z</published>
-    <updated>2019-07-20T12:22:31.711Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;题意求01矩阵第二大1矩阵的面积&quot;&gt;&lt;a href=&quot;#题意求01矩阵第二大1矩阵的面积&quot; class=&quot;headerlink&quot; title=&quot;题意求01矩阵第二大1矩阵的面积&quot;&gt;&lt;/a&gt;题意求01矩阵第二大1矩阵的面积&lt;/h2
-      
-    
-    </summary>
-    
-    
-      <category term="牛客" scheme="http://www.baccano.fun/tags/%E7%89%9B%E5%AE%A2/"/>
     
   </entry>
   
