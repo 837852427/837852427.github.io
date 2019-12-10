@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-10-09T13:03:26.377Z</updated>
+  <updated>2019-12-09T17:24:38.236Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>梦想熟练掌握平衡树</title>
+    <link href="http://www.baccano.fun/uncategorized71/"/>
+    <id>http://www.baccano.fun/uncategorized71/</id>
+    <published>2019-12-09T14:20:42.000Z</published>
+    <updated>2019-12-09T17:24:38.236Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;现在菜的不行不行的，也就会个fhq-treap板子，但是还是希望能够熟练掌握平衡树&quot;&gt;&lt;a href=&quot;#现在菜的不行不行的，也就会个fhq-treap板子，但是还是希望能够熟练掌握平衡树&quot; class=&quot;headerlink&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="平衡树" scheme="http://www.baccano.fun/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>可能是最后一场CF题解</title>
@@ -435,29 +457,6 @@
     
     
       <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>P1017 进制转换</title>
-    <link href="http://www.baccano.fun/uncategorized50/"/>
-    <id>http://www.baccano.fun/uncategorized50/</id>
-    <published>2019-07-26T14:09:50.523Z</published>
-    <updated>2019-07-26T14:11:32.487Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;负进制转换结论题，如果出现负数的余数那么设n m r为转换数进制和余数 那么 r-=m,n+=m就行了其他都一样  &lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutt
-      
-    
-    </summary>
-    
-    
-      <category term="结论" scheme="http://www.baccano.fun/tags/%E7%BB%93%E8%AE%BA/"/>
     
   </entry>
   
