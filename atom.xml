@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-12-18T16:36:06.383Z</updated>
+  <updated>2019-12-20T10:32:33.086Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>梦想熟练掌握莫比乌斯反演</title>
+    <link href="http://www.baccano.fun/uncategorized74/"/>
+    <id>http://www.baccano.fun/uncategorized74/</id>
+    <published>2019-12-19T12:14:42.000Z</published>
+    <updated>2019-12-20T10:32:33.086Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CQOI2007-余数求和&quot;&gt;&lt;a href=&quot;#CQOI2007-余数求和&quot; class=&quot;headerlink&quot; title=&quot;[CQOI2007]余数求和&quot;&gt;&lt;/a&gt;[CQOI2007]余数求和&lt;/h1&gt;&lt;p&gt;纯数论分块板子题不谈~不过要注意右边界不要大于n
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>codeforces23C Oranges and Apples</title>
+    <link href="http://www.baccano.fun/uncategorized73/"/>
+    <id>http://www.baccano.fun/uncategorized73/</id>
+    <published>2019-12-18T16:36:42.000Z</published>
+    <updated>2019-12-19T12:16:20.080Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目大意&quot;&gt;&lt;a href=&quot;#题目大意&quot; class=&quot;headerlink&quot; title=&quot;题目大意&quot;&gt;&lt;/a&gt;题目大意&lt;/h1&gt;&lt;p&gt;题意是给定2*N-1个篮子里面分别含有ai个苹果bi个橘子问能否选择出N个篮子使得所有篮子里面的苹果个数大于等于总苹果个数的
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
   
   <entry>
     <title>山师2019停训赛补题</title>
@@ -416,47 +458,6 @@
     
     
       <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>....</title>
-    <link href="http://www.baccano.fun/uncategorized53/"/>
-    <id>http://www.baccano.fun/uncategorized53/</id>
-    <published>2019-07-31T04:24:58.498Z</published>
-    <updated>2019-07-31T04:25:35.661Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>HDU 1455 Sticks</title>
-    <link href="http://www.baccano.fun/uncategorized52/"/>
-    <id>http://www.baccano.fun/uncategorized52/</id>
-    <published>2019-07-29T15:16:16.014Z</published>
-    <updated>2019-07-29T15:42:51.807Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;过于经典的深搜题目，而且难度还不算低…..&lt;br&gt;思路上需要知道多少的长度可以构成合法的长度需要从[最大的长度,所有的长度之和]之间并且这个长度能够使所有长度之和的一个约数&lt;br&gt;所以我们这么枚举即可从小到大。然后到了关键的地方怎么dfs
-      
-    
-    </summary>
-    
-    
-      <category term="DFS" scheme="http://www.baccano.fun/tags/DFS/"/>
     
   </entry>
   
