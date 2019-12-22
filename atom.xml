@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-12-20T10:32:33.086Z</updated>
+  <updated>2019-12-22T17:10:01.832Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CF1265D(构造)</title>
+    <link href="http://www.baccano.fun/uncategorized75/"/>
+    <id>http://www.baccano.fun/uncategorized75/</id>
+    <published>2019-12-22T09:49:42.000Z</published>
+    <updated>2019-12-22T17:10:01.832Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;题意给你a,b,c,d四个数a+b+c+d&amp;lt;=1e5表示有a个0 b个1 c个2 d个3请问能否恰好用这a+b+c+d个数构成一个数列使得数列的每一项满足|xi-xi+1|=1 (1=&amp;lt;i&amp;lt;n)&lt;br&gt;不是很好想也不是很好做，实际上我们可以直接构造枚举一下
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
   
   <entry>
     <title>梦想熟练掌握莫比乌斯反演</title>
@@ -436,28 +457,6 @@
     
     
       <category term="KMP" scheme="http://www.baccano.fun/tags/KMP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>from CRT to EXCRT</title>
-    <link href="http://www.baccano.fun/uncategorized54/"/>
-    <id>http://www.baccano.fun/uncategorized54/</id>
-    <published>2019-08-07T07:13:46.803Z</published>
-    <updated>2019-08-07T08:27:35.873Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/08/07/eIFPJO.md.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/08/07/eIFpo6.png&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
