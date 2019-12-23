@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-12-22T17:10:01.832Z</updated>
+  <updated>2019-12-23T13:17:47.693Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CF1278C</title>
+    <link href="http://www.baccano.fun/uncategorized77/"/>
+    <id>http://www.baccano.fun/uncategorized77/</id>
+    <published>2019-12-23T13:14:35.000Z</published>
+    <updated>2019-12-23T13:17:47.693Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;题目大意为给你一个2xN的数列问你从中间开始向左边或者向右边每次移动一个单位吃果酱，最少移动多少次可以吃的使得1号果酱的个数等于2号果酱的个数&lt;br&gt;首先记录最初的果酱的差值1-2为dif，然后我们发现如果往左边吃一号果酱，那么dif++，吃二号果酱dif–往右边同理。那么
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CF1269C CF1269D</title>
+    <link href="http://www.baccano.fun/uncategorized76/"/>
+    <id>http://www.baccano.fun/uncategorized76/</id>
+    <published>2019-12-23T13:07:14.000Z</published>
+    <updated>2019-12-23T13:13:22.412Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;CF1269C&lt;br&gt;题意是给你一个n长度的字符串和k，且满足a[i]=a[i+k]对于答案的字符串且得保证答案的字符串在数学上大于等于原来的字符串且最小&lt;br&gt;这里直接先按照要求更改如果满足条件那么无需继续更改直接输出否则的话我们进行一波遍历，从k~1遍历如果能找到第一个
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
   
   <entry>
     <title>CF1265D(构造)</title>
@@ -411,52 +453,6 @@
     
     
       <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>P3952 时间复杂度</title>
-    <link href="http://www.baccano.fun/uncategorized57/"/>
-    <id>http://www.baccano.fun/uncategorized57/</id>
-    <published>2019-08-10T14:52:26.310Z</published>
-    <updated>2019-08-10T15:10:16.992Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;#语法错误判断&lt;br&gt;F 与 E之间只需要加一个变量看一看是不是最终等于0即可,F ++ E –,然后就是判断变量是否被重复使用.在传统的NOIP2017的数据中没有这样的&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp
-      
-    
-    </summary>
-    
-    
-      <category term="模拟" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%8B%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NOI2014 动物园</title>
-    <link href="http://www.baccano.fun/uncategorized55/"/>
-    <id>http://www.baccano.fun/uncategorized55/</id>
-    <published>2019-08-09T13:20:14.110Z</published>
-    <updated>2019-08-13T02:23:07.386Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;超级好的题，需要自己动一下脑子才不超时.&lt;br&gt;我们首先算出包含自己本身的并且有重复的num1[]来然后第二波kmp的时候进行进一步的失配指针偏移   &lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="KMP" scheme="http://www.baccano.fun/tags/KMP/"/>
     
   </entry>
   
