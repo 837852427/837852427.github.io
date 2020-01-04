@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2019-12-24T04:53:54.103Z</updated>
+  <updated>2020-01-04T09:39:17.002Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C Guard the empire(2019西南民族大学新生赛)</title>
+    <link href="http://www.baccano.fun/uncategorized82/"/>
+    <id>http://www.baccano.fun/uncategorized82/</id>
+    <published>2020-01-04T09:31:15.000Z</published>
+    <updated>2020-01-04T09:39:17.002Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://ac.nowcoder.com/acm/contest/3570/C&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;题目链接&lt;/a&gt;&lt;br&gt;这题我也是服了，我比赛的时候都没发现可以放在实数点上，以为圆心只能在x为整数的点上
+      
+    
+    </summary>
+    
+    
+      <category term="计算几何" scheme="http://www.baccano.fun/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>K - Last Defence Gym - 100548K (2014 Xi&#39;an site)</title>
+    <link href="http://www.baccano.fun/uncategorized81/"/>
+    <id>http://www.baccano.fun/uncategorized81/</id>
+    <published>2020-01-03T07:16:48.000Z</published>
+    <updated>2020-01-03T07:23:12.310Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;题目给定两个数S0,S1问|Si-Si-1|中有多少不同的数&lt;br&gt;区域赛铜牌题，思维难度是真的有。首先我们要了解辗转相减后的结果是a%b也就是说a-b=c b-c=d…这样减下去的结果就是a%b&lt;br&gt;然后其中有的个数是floor(a/b)+(a%b==0)&lt;br&gt;这样我
+      
+    
+    </summary>
+    
+    
+      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NBUT-1667 Hkhv Loves Sequences</title>
+    <link href="http://www.baccano.fun/uncategorized80/"/>
+    <id>http://www.baccano.fun/uncategorized80/</id>
+    <published>2020-01-03T05:48:54.000Z</published>
+    <updated>2020-01-03T05:54:59.573Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;题目大意是给定1e5个的数列问你只能改一个数，使得他变成任意的数。之后数列中最长升序列的长度是多少?&lt;br&gt;我上来觉得是dp，但是没有想清楚后来又尺取，发现要更改的数可能是小于前一个或者大于前一个情况较多于是看了看题解发现确实是dp不过没想到处理两次&lt;br&gt;做法是正着处理当
+      
+    
+    </summary>
+    
+    
+      <category term="DP" scheme="http://www.baccano.fun/tags/DP/"/>
+    
+  </entry>
   
   <entry>
     <title>关于STL嵌套结构体的探索</title>
@@ -383,74 +446,6 @@
     
     
       <category term="模板" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%9D%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高斯消元</title>
-    <link href="http://www.baccano.fun/uncategorized62/"/>
-    <id>http://www.baccano.fun/uncategorized62/</id>
-    <published>2019-08-14T04:20:20.617Z</published>
-    <updated>2019-08-14T04:21:40.802Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;直接上模板吧，我也不是很会这个东西目前  &lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NOI2014 起床困难综合症</title>
-    <link href="http://www.baccano.fun/uncategorized61/"/>
-    <id>http://www.baccano.fun/uncategorized61/</id>
-    <published>2019-08-12T15:47:43.828Z</published>
-    <updated>2019-08-13T02:22:54.067Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;从高位开始模拟这一位数也就是说先试这一位是0如果能通过测试,那么直接答案加上这个否则验证1,如果1通过测试还得验证当前加上1是否会超出m的范围其他的就是1&amp;lt;&amp;lt;30最多,还因为1&amp;lt;&amp;lt;31成了符号位而90分&lt;/p&gt;
-&lt;
-      
-    
-    </summary>
-    
-    
-      <category term="思维构造" scheme="http://www.baccano.fun/tags/%E6%80%9D%E7%BB%B4%E6%9E%84%E9%80%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Leading and Trailing LightOJ - 1282</title>
-    <link href="http://www.baccano.fun/uncategorized60/"/>
-    <id>http://www.baccano.fun/uncategorized60/</id>
-    <published>2019-08-12T11:58:15.697Z</published>
-    <updated>2019-08-12T12:08:21.004Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;求前导3位数与后导3位数&quot;&gt;&lt;a href=&quot;#求前导3位数与后导3位数&quot; class=&quot;headerlink&quot; title=&quot;求前导3位数与后导3位数&quot;&gt;&lt;/a&gt;求前导3位数与后导3位数&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;ht
-      
-    
-    </summary>
-    
-    
-      <category term="数论" scheme="http://www.baccano.fun/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
