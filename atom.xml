@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2020-01-13T16:34:24.692Z</updated>
+  <updated>2020-01-17T04:08:37.799Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CF 1288C Two Arrays</title>
+    <link href="http://www.baccano.fun/uncategorized89/"/>
+    <id>http://www.baccano.fun/uncategorized89/</id>
+    <published>2020-01-17T04:07:07.000Z</published>
+    <updated>2020-01-17T04:08:37.799Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;N个数里面抽2M个数可以重复有多少种抽法&lt;br&gt;(n+m-1,n)这个东西可以背过&lt;br&gt;原先不重复就是(n,m)  &lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cl
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CF1285D Dr. Evil Underscores</title>
+    <link href="http://www.baccano.fun/uncategorized88/"/>
+    <id>http://www.baccano.fun/uncategorized88/</id>
+    <published>2020-01-17T03:49:52.000Z</published>
+    <updated>2020-01-17T04:06:57.201Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;题目大意是给你一个数列长度为N 1e5 然后让你找到任意一个X使得所有的数异或他之后最大的数最小&lt;br&gt;3&lt;br&gt;1 2 3&lt;br&gt;2&lt;br&gt;X=3&lt;br&gt;实际上这个有个规律就是如果当前位数都是1或者都是0那么分组两边再寻找，因为这样可以避免这一位出现，之后如果01都存在那
+      
+    
+    </summary>
+    
+    
+      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
+    
+  </entry>
   
   <entry>
     <title>CodeForces 976E(贪心)</title>
@@ -397,51 +440,6 @@
     
     
       <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CF1221D Make The Fence Great Again</title>
-    <link href="http://www.baccano.fun/uncategorized69/"/>
-    <id>http://www.baccano.fun/uncategorized69/</id>
-    <published>2019-09-21T06:01:15.751Z</published>
-    <updated>2019-09-21T06:04:38.993Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;题意&quot;&gt;&lt;a href=&quot;#题意&quot; class=&quot;headerlink&quot; title=&quot;题意&quot;&gt;&lt;/a&gt;题意&lt;/h1&gt;&lt;p&gt;题目大意是要让一连串连续的数字左右相邻两个两两不同，如果相同可以改高度，改的高度代价输入已知  &lt;/p&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>倍增LCA</title>
-    <link href="http://www.baccano.fun/uncategorized68/"/>
-    <id>http://www.baccano.fun/uncategorized68/</id>
-    <published>2019-09-06T14:38:48.358Z</published>
-    <updated>2019-09-06T14:40:02.143Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;一个一个网上跳&lt;/p&gt;
-&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class
-      
-    
-    </summary>
-    
-    
-      <category term="模板" scheme="http://www.baccano.fun/tags/%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
