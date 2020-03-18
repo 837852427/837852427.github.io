@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.baccano.fun/"/>
-  <updated>2020-01-17T04:08:37.799Z</updated>
+  <updated>2020-03-17T15:53:37.054Z</updated>
   <id>http://www.baccano.fun/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PAM</title>
+    <link href="http://www.baccano.fun/uncategorized1/"/>
+    <id>http://www.baccano.fun/uncategorized1/</id>
+    <published>2020-03-17T15:51:44.000Z</published>
+    <updated>2020-03-17T15:53:37.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Luogu 3649&lt;/p&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span
+      
+    
+    </summary>
+    
+    
+      <category term="字符串" scheme="http://www.baccano.fun/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些三分的模板见解</title>
+    <link href="http://www.baccano.fun/uncategorized90/"/>
+    <id>http://www.baccano.fun/uncategorized90/</id>
+    <published>2020-03-06T15:14:54.000Z</published>
+    <updated>2020-03-06T15:19:21.668Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;三分的话就是二分多了一点变化，首先要保证三分的东西是具有凸函数性质的，就像二分的东西具有单调性一样.&lt;br&gt;然后就是整数和浮点了，这里的话板子上是有一些区别的，浮点的话用eps去比，整数缩两边的边界&lt;br&gt;浮点板子  &lt;/p&gt;
+&lt;figure class=&quot;highligh
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="http://www.baccano.fun/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>CF 1288C Two Arrays</title>
@@ -397,49 +441,6 @@
     
     
       <category term="补题" scheme="http://www.baccano.fun/tags/%E8%A1%A5%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>梦想熟练掌握平衡树</title>
-    <link href="http://www.baccano.fun/uncategorized71/"/>
-    <id>http://www.baccano.fun/uncategorized71/</id>
-    <published>2019-12-09T14:20:42.000Z</published>
-    <updated>2019-12-10T15:44:31.649Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;现在菜的不行不行的，也就会个fhq-treap板子，但是还是希望能够熟练掌握平衡树&quot;&gt;&lt;a href=&quot;#现在菜的不行不行的，也就会个fhq-treap板子，但是还是希望能够熟练掌握平衡树&quot; class=&quot;headerlink&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="平衡树" scheme="http://www.baccano.fun/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>可能是最后一场CF题解</title>
-    <link href="http://www.baccano.fun/uncategorized70/"/>
-    <id>http://www.baccano.fun/uncategorized70/</id>
-    <published>2019-10-09T12:39:05.957Z</published>
-    <updated>2019-10-09T13:03:26.377Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;A-Minimum-Integer-签到&quot;&gt;&lt;a href=&quot;#A-Minimum-Integer-签到&quot; class=&quot;headerlink&quot; title=&quot;A - Minimum Integer(签到)&quot;&gt;&lt;/a&gt;A - Minimum Integer(签到)
-      
-    
-    </summary>
-    
-    
-      <category term="CF" scheme="http://www.baccano.fun/tags/CF/"/>
     
   </entry>
   
